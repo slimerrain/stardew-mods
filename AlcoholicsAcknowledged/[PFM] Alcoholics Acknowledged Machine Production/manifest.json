@@ -11,6 +11,6 @@
             "IsRequired": true
         }
     ],
-	"ContentPackFor": { "UniqueID": "DIGUS.ProducerFrameworkMod" },
-	"UpdateKeys": [""]
+    "ContentPackFor": { "UniqueID": "DIGUS.ProducerFrameworkMod" },
+    "UpdateKeys": [""]
 }
