@@ -1,0 +1,16 @@
+﻿{
+    "Name": "[PFM] Mod Name Machine Production",
+    "Author": "slimerrain",
+    "Version": "1.0.0",
+    "Description": "Enables productions for mod.",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.<modname>pfm",
+    "Dependencies": [
+        {
+            "UniqueID": "slimerrain.<modname>",
+            "IsRequired": true
+        }
+    ],
+	"ContentPackFor": { "UniqueID": "DIGUS.ProducerFrameworkMod" },
+	"UpdateKeys": [""]
+}

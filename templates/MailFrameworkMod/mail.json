@@ -1,0 +1,12 @@
+[
+	{
+		"Id": "<modname>.<name>recipe",
+		"Title": " Recipe",
+		"Text": "Farmer @!^message^-sender",
+		"Recipe": "",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"RecipeKnown": ["Keg"]
+	}
+]

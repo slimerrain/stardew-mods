@@ -1,0 +1,17 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Corn"],
+                    "Value": "whiskey_item, vodka_item",
+                    "Delimiter": ","
+                }
+            ]
+        }
+    ]
+}
