@@ -1,0 +1,46 @@
+{
+    "Name": "Barley", 
+    "Description": "One of the most nutritional and widely cultivated grains.",
+    "Edibility": 46, 
+    "Price": 25,
+    "IsColored": false, 
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love":[ "Harvey"],
+        "Like": ["Emily", "Evelyn", "Sandy", "Leah"],
+        "Neutral": null,
+        "Dislike": ["Abigail", "Kent", "Clint", "Dwarf", "Marnie", "Pam", "Vincent", "Jas"],
+        "Hate": ["Shane", "Sebastian"]
+    },
+	"ContextTags": ["color_brown, season_spring, grain_item"],
+
+    "NameLocalization":
+    {
+        "es": "Cebada",
+        "ko": "보리",
+        "de": "Gerste",
+        "fr": "Orge",
+        "hu": "Árpa",
+        "it": "Orzo",
+        "ja": "オオムギ",
+        "pt": "Cevada",
+        "ru": "ячмень",
+        "tr": "Arpa",
+        "zh": "大麦"
+    },
+    "DescriptionLocalization":
+    {
+        "es": "",
+        "ko": "",
+        "de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",
+        "zh": ""
+    }
+}

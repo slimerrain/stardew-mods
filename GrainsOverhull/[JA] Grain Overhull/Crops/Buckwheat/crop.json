@@ -1,0 +1,48 @@
+{
+    "Name": "Buckwheat",
+    "Price": 24,
+    "Product": "Buckwheat",
+    "SeedName": "Buckwheat Seeds",
+    "SeedDescription": "Plant these in spring or summer. Takes 5 days to mature. Harvest with the scythe.",
+    "Type": "Flower",
+    "SeedSellPrice": 6,
+    "CropType": "Normal",
+    "Seasons": ["spring", "summer"],
+    "Phases": [1, 2, 1, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": true,
+    "TrellisCrop": false,
+    "Colors": null,
+    "SeedPurchasePrice": 12,
+    "SeedPurchaseFrom": "SeedShop",
+    "SeedPurchaseRequirements": null,
+
+    "SeedNameLocalization":
+    {
+        "es": "",
+        "ko": "",
+        "de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",
+        "zh": ""
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "",
+        "ko": "",
+        "de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",
+        "zh": ""
+    }
+}

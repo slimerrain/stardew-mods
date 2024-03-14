@@ -1,0 +1,47 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Wheat"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Wheat Flour"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Unmilled Rice"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Rice"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Amaranth"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Corn"],
+                    "Value": "grain_item",
+                    "Delimiter": ","
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Rye", 
+    "Description": "A hardy, nutritious grain used for baking and brewing.",
+    "Edibility": 40, 
+    "Price": 40,
+    "IsColored": false, 
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": ["", ""],
+        "Neutral": null,
+        "Dislike": [""],
+        "Hate": [""]
+    },
+	"ContextTags": ["color_green, season_summer, season_fall, grain_item"],
+
+    "NameLocalization":
+    {
+        "es": "",
+        "ko": "",
+        "de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",
+        "zh": ""
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", 
+        "ko": "",
+        "de": "",
+        "fr": "",
+        "hu": "",
+        "it": "", 
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",
+        "zh": ""
+    }
+}

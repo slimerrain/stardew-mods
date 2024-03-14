@@ -1,0 +1,17 @@
+{
+    "Name": "[JA] Alcoholics Acknowledged Crops and Machine Goods",
+    "Author": "slimerrain",
+    "Description": "Crops, Craftables, and Artisan Goods relating to alcohol.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.alcoholicsacknowledgedja",
+    "ContentPackFor": {"UniqueID": "spacechase0.JsonAssets"},
+	"Dependencies": [
+        {
+            "UniqueID": "slimerrain.grainsoverhullja",
+            "IsRequired": true
+        }
+	],
+    "UpdateKeys": [ "" ]
+ }
+ 
