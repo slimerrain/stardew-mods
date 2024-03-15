@@ -8,8 +8,20 @@
                 // ========== VANILLA ITEMS ==========
                 {
                     "Operation": "Append",
+                    "Target": [ "Entries", "Ancient Fruit"],
+                    "Value": "brandy_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
                     "Target": [ "Entries", "Apple"],
                     "Value": "cider_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Blueberry"],
+                    "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
@@ -20,8 +32,38 @@
                 },
                 {
                     "Operation": "Append",
+                    "Target": [ "Entries", "Cactus Fruit"],
+                    "Value": "brandy_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Cranberries"],
+                    "Value": "brandy_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
                     "Target": [ "Entries", "Corn"],
                     "Value": "whiskey_item, vodka_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Ginger"],
+                    "Value": "fire_cider_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Hot Pepper"],
+                    "Value": "fire_cider_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Melon"],
+                    "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
@@ -32,8 +74,26 @@
                 },
                 {
                     "Operation": "Append",
+                    "Target": [ "Entries", "Radish"],
+                    "Value": "fire_cider_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
                     "Target": [ "Entries", "Sugar"],
                     "Value": "rum_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Starfruit"],
+                    "Value": "cider_item",
+                    "Delimiter": ","
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Salmonberry"],
+                    "Value": "cider_item",
                     "Delimiter": ","
                 },
                 {
@@ -64,7 +124,7 @@
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Buckwheat"],
+                    "Target": [ "Entries", "Buckwheat Seeds"],
                     "Value": "whiskey_item",
                     "Delimiter": ","
                 },

@@ -1,5 +1,5 @@
 {
-    "Name": "Cider",
+    "Name": "Hard Cider",
     "Description": "Drink in moderation.",
     "Category": "ArtisanGoods",
     "Edibility": 54,
@@ -47,6 +47,5 @@
         "ru": "Пейте умеренно.",
         "tr": "Ölçülü olarak iç.",
         "zh": "适量饮酒。"
-    },
-    "DisableWithMod": "NoFogBob.DurinsRestJsonAssets"
+    }
 }
