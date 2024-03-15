@@ -47,5 +47,6 @@
         "ru": "Пейте умеренно.",
         "tr": "Ölçülü olarak iç.",
         "zh": "适量饮酒。"
-    }
+    },
+    "DisableWithMod": "NoFogBob.DurinsRestJsonAssets"
 }
