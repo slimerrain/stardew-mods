@@ -1,0 +1,19 @@
+{
+    "Harvests": [
+        {
+            "CropName": "Parsnip", //the crop to add more items to when harvesting
+            "HarvestRules": [
+                //Start of block for each extra item spawned by this crop. You can have as many of these as you want
+                {
+                    "ItemName": "Sea Cucumber", //The name of the item to spawn
+                    //the below are all optional and can be left out
+                    "ExtraYieldItemType": "Object", //Defaults to Object. Scroll down for more available types
+                    "minHarvest": 1, //Defaults to 1. Minimum number of items to be spawned. Use negative numbers to decrease the chance of the item spawning at all
+                    "maxHarvest": 1, //Defaults to 1. Maximum number of items to be spawned. maxHarvestIncreasePerFarmingLevel is added to this
+                    "maxHarvestIncreasePerFarmingLevel": 0, //A decimal number. I suggest keeping this low. A value of 1 means an extra 10 crops per harvest at max level
+                    "disableWithMods": [ "mod1.example", "mod2.example" ] //this rule will be ignored if any of the listed mods' unique IDs are installed
+                }, //End of block for each extra item spawned by this crop. 
+            ]
+        }, //End of block for each crop
+    ]
+}
