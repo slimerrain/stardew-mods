@@ -10,6 +10,7 @@ adds various new grains plus machine functionality and recipes
 adds various tea herbs and common ingredients as well as machines and recipes
     - requires grain overhull
     - requires JsonAssets, ContentPatcher, MainFrameworkMod
+    - will add different tea bushes and use others'? when 1.6 comes out. (Osmanthus tea bush...)
 
 - Alcoholics Acknowledged
 adds various types of alcohols and machines for processing
