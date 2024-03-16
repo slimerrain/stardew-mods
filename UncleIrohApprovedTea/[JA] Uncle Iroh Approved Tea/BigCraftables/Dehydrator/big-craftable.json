@@ -4,8 +4,7 @@
     "Price": 2500,
     "ProvidesLight": false,
     "ReserveExtraIndexCount": 1,
-
-    "CanPurchase": false,
+    
     "Recipe": {
         "ResultCount": 1, 
         "Ingredients": [
@@ -19,6 +18,7 @@
             }
         ]
     },
+
     "CanPurchase": true,
     "PurchaseFrom": "Robin",
     "PurchasePrice": 8000,
