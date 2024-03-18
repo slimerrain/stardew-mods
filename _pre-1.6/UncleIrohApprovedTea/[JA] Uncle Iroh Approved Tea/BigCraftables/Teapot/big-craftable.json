@@ -20,10 +20,10 @@
                 "Object": 388, 
                 "Count": 10
             }
-        ]
-    },
-    "CanPurchase": true,
-    "PurchaseFrom": "Robin",
-    "PurchasePrice": 8000,
-    "PurchaseRequirements": null
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 8000,
+        "PurchaseRequirements": null
+    }
 }

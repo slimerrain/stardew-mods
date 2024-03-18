@@ -1,6 +1,6 @@
 {
     "Name": "Dehydrator",
-    "Description": "Used for dehydrating herbs and tea ingredients.",
+    "Description": "Used for dehydrating herbs, flowers, and crops.",
     "Price": 2500,
     "ProvidesLight": false,
     "ReserveExtraIndexCount": 1,
@@ -16,11 +16,10 @@
                 "Object": 388, 
                 "Count": 10
             }
-        ]
-    },
-
-    "CanPurchase": true,
-    "PurchaseFrom": "Robin",
-    "PurchasePrice": 8000,
-    "PurchaseRequirements": null
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 8000,
+        "PurchaseRequirements": null
+    }
 }

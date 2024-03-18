@@ -20,34 +20,5 @@
     },
     "SeedPurchaseRequirements": null, 
     "SeedPurchaseFrom": "Pierre",
-    "SeedPurchasePrice": 315,
-
-    "SeedNameLocalization":
-    {
-        "es": "",
-        "ko": "",
-        "de": "",
-        "fr": "",
-        "hu": "",
-        "it": "",
-        "ja": "",
-        "pt": "",
-        "ru": "",
-        "tr": "",
-        "zh": ""
-    },
-    "SeedDescriptionLocalization":
-    {
-        "es": "",
-        "ko": "",
-        "de": "",
-        "fr": "",
-        "hu": "",
-        "it": "",
-        "ja": "",
-        "pt": "",
-        "ru": "",
-        "tr": "",
-        "zh": ""
-    }
+    "SeedPurchasePrice": 315
 }
