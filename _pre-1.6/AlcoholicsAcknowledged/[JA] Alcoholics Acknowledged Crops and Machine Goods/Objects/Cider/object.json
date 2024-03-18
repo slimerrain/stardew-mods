@@ -1,5 +1,5 @@
 {
-    "Name": "Hard Cider",
+    "Name": "Cider",
     "Description": "Drink in moderation.",
     "Category": "ArtisanGoods",
     "Edibility": 54,
@@ -19,6 +19,7 @@
     "PurchaseFrom": "ResortBar", 
     "PurchasePrice": 2500,
 	"ContextTags": ["alcohol_item, color_pink"],
+    "DisableWithMod": "",
 
     "NameLocalization":
     {
