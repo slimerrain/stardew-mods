@@ -1,7 +1,8 @@
 {
-    "Format": "1.29.0",
+    "Format": "1.30.0",
     "Changes": [
         {
+            // ============== VANILLA ITEMS ==============
             "Action": "EditData",
             "Target": "Data/ObjectContextTags",
             "TextOperations": [
@@ -42,6 +43,68 @@
                     "Delimiter": ","
                 }
             ]
+        },
+
+        // ============== GRAINS OVERHULL CROPS ==============
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}_Barley": {
+                    "Seasons": [ "spring"],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "{{ModId}}_Barley",
+                    "CropType": "Normal",
+                    "HarvestWithScythe": true,
+                    "SeedPurchasePrice": 10,
+                    "SeedPurchaseFrom": "SeedShop",
+
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+
+        // ============== GRAINS OVERHULL ITEMS ==============
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Barley": {
+                    "Name": "{{ModId}}_Barley", 
+                    "Displayname": "Barley",
+                    "Description": "Plant these in spring. Takes 4 days to mature. Harvest with the scythe.",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 20,
+
+                    "Texture": "Mods/{{ModId}}/assets/Objects",
+                    "SpriteIndex": 0
+                }, 
+                "271": {
+                    "Name": "Unmilled Rice",
+                    "DisplayName": "Brown Rice"
+                }
+            }
+        },
+
+        // add item + crop images
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Crops, Mods/{{ModId}}/Objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
+        },
+
+        // ============== GRAINS OVERHULL GIFT TASTE ==============
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Operation": "Append",
+                "Target": ["Entries", "Universal_Love"],
+                "Value": "{{ModId}}_Pufferchick",
+                "Delimiter": " "
+            }
         }
     ]
 }
