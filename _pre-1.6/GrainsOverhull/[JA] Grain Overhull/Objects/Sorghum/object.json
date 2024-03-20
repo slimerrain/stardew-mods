@@ -1,6 +1,7 @@
 {
     "Name": "Sorghum", 
     "Description": "A versatile, nutritional grain with a variety of uses.",
+    "Category": "Vegetable",
     "Edibility": 40, 
     "Price": 40,
     "IsColored": false, 

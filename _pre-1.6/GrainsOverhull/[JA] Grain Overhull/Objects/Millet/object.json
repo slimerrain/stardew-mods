@@ -1,6 +1,7 @@
 {
     "Name": "Millet", 
     "Description": "An ancient nutritional grain commonly used for cooking.",
+    "Category": "Vegetable",
     "Edibility": 40, 
     "Price": 35,
     "IsColored": false, 

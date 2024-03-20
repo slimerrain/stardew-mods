@@ -1,7 +1,7 @@
 {
     "Name": "Orange Peel", 
     "Description": "",
-    "Category": "Trash",
+    "Category": "Cooking",
     "Edibility": 12, 
     "Price": 50,
     "IsColored": false, 

@@ -1,6 +1,7 @@
 {
     "Name": "Rye", 
     "Description": "A hardy, nutritious grain used for baking and brewing.",
+    "Category": "Vegetable",
     "Edibility": 40, 
     "Price": 40,
     "IsColored": false, 

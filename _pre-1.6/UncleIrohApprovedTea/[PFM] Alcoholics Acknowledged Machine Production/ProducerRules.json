@@ -61,6 +61,22 @@
 		"Sounds": [ "Ship" ],
         "WarningsLogLevel": "Warn"
     },
+    { 
+        "ProducerName": "Dehydrator",
+        "InputIdentifier": "Sugarcane",
+        "InputStack": 1,
+        "InputPriceBased": true,
+		"OutputPriceIncrement": 75,
+		"OutputPriceMultiplier": 2,
+		"OutputStack": 2,
+        "MinutesUntilReady": 360,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "Rock Sugar",
+        "OutputName": "Rock Sugar",
+        "PlacingAnimationColorName": "White",
+		"Sounds": [ "Ship" ],
+        "WarningsLogLevel": "Warn"
+    },
 
     // teapot
     { 

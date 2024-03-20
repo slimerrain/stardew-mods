@@ -1,6 +1,7 @@
 {
     "Name": "Barley", 
     "Description": "One of the most nutritional and widely cultivated grains.",
+    "Category": "Vegetable",
     "Edibility": 46, 
     "Price": 25,
     "IsColored": false, 

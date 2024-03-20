@@ -1,6 +1,7 @@
 {
     "Name": "Oat", 
     "Description": "A nutritious grain with lots of fiber and a variety of uses.",
+    "Category": "Vegetable",
     "Edibility": 40, 
     "Price": 35,
     "IsColored": false, 

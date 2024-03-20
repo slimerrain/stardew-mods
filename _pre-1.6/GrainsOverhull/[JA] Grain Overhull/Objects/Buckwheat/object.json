@@ -1,6 +1,7 @@
 {
     "Name": "Buckwheat", 
     "Description": "One of the most widely cultivated grains. Great for cooking!",
+    "Category": "Flower",
     "Edibility": 34, 
     "Price": 30,
     "IsColored": false, 
