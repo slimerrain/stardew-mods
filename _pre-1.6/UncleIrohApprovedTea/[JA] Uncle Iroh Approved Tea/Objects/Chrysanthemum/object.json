@@ -1,6 +1,7 @@
 {
     "Name": "Chrysanthemum", 
     "Description": "",
+    "Category": "Flower",
     "Edibility": 9, 
     "Price": 20,
     "IsColored": false, 

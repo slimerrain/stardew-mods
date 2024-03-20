@@ -1,6 +1,7 @@
 {
     "Name": "Dried Orange Peel", 
     "Description": "",
+    "Category": "ArtisanGoods",
     "Edibility": 9, 
     "Price": 75,
     "IsColored": false, 

@@ -1,6 +1,7 @@
 {
     "Name": "Cassia Seeds", 
     "Description": "Hard, dark seeds typically used for teas.",
+    "Category": "Seeds",
     "Edibility": 5, 
     "Price": 12,
     "IsColored": false, 

@@ -1,6 +1,7 @@
 {
     "Name": "Sugarcane", 
     "Description": "",
+    "Category": "Vegetable",
     "Edibility": 6, 
     "Price": 150,
     "IsColored": false, 

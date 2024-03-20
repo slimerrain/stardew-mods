@@ -1,6 +1,7 @@
 {
     "Name": "Lily", 
     "Description": "",
+    "Category": "Flower",
     "Edibility": 4, 
     "Price": 40,
     "IsColored": false, 

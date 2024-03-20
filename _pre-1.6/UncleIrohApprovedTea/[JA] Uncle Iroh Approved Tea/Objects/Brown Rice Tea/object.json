@@ -1,7 +1,7 @@
 {
     "Name": "Brown Rice Tea",
     "Description": "Steep for at least 10 minutes, then pour over ice.", 
-    "Category": "Cooking",
+    "Category": "ArtisanGoods",
     "Edibility": 75, 
     "EdibleIsDrink": true,
     "EdibleBuffs":

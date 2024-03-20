@@ -1,6 +1,7 @@
 {
     "Name": "Dried Lotus Seeds", 
     "Description": "",
+    "Category": "ArtisanGoods",
     "Edibility": 9, 
     "Price": 150,
     "IsColored": false, 

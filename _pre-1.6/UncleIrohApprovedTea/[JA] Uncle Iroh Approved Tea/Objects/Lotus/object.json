@@ -1,6 +1,7 @@
 {
     "Name": "Lotus", 
     "Description": "",
+    "Category": "Flower",
     "Edibility": 7, 
     "Price": 80,
     "IsColored": false, 

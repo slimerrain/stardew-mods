@@ -1,6 +1,7 @@
 {
     "Name": "Rock Sugar", 
     "Description": "",
+    "Category": "Cooking",
     "Edibility": 22, 
     "Price": 75,
     "IsColored": false, 

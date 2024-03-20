@@ -1,6 +1,7 @@
 {
     "Name": "Cassia Flower", 
     "Description": "A hanging flower with many small seeds growing in it.",
+    "Category": "Flower",
     "Edibility": 5, 
     "Price": 60,
     "IsColored": false, 

@@ -1,7 +1,7 @@
 {
     "Name": "Chrysanthemum Tea",
     "Description": "", 
-    "Category": "Cooking",
+    "Category": "ArtisanGoods",
     "Edibility": 25, 
     "EdibleIsDrink": true,
     "EdibleBuffs":

@@ -1,6 +1,7 @@
 {
     "Name": "Dried Strawberries", 
     "Description": "",
+    "Category": "ArtisanGoods",
     "Edibility": 9, 
     "Price": 500,
     "IsColored": false, 

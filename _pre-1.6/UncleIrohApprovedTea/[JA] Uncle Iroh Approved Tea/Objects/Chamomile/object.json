@@ -1,6 +1,7 @@
 {
     "Name": "Chamomile", 
     "Description": "",
+    "Category": "ArtisanGoods",
     "Edibility": 5, 
     "Price": 20,
     "IsColored": false, 

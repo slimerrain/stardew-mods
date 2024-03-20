@@ -1,7 +1,7 @@
 {
     "Name": "Chamomile Tea",
     "Description": "A relaxing tea made from steeping chamomile flowers in water.", 
-    "Category": "Cooking",
+    "Category": "ArtisanGoods",
     "Edibility": 95, 
     "EdibleIsDrink": true,
     "Price": 20, 

@@ -1,6 +1,7 @@
 {
     "Name": "Goji Berry", 
     "Description": "",
+    "Category": "Fruit",
     "Edibility": 9, 
     "Price": 80,
     "IsColored": false, 

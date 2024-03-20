@@ -1,6 +1,7 @@
 {
     "Name": "Lavender", 
     "Description": "",
+    "Category": "Flower",
     "Edibility": -1, 
     "Price": 120,
     "IsColored": false, 

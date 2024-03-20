@@ -1,7 +1,7 @@
 {
-    "Name": "Chrysanthemum Tea",
+    "Name": "Lavender Tea",
     "Description": "", 
-    "Category": "Cooking",
+    "Category": "ArtisanGoods",
     "Edibility": 15, 
     "EdibleIsDrink": true,
     "EdibleBuffs":

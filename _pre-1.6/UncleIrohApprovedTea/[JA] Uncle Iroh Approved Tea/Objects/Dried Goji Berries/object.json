@@ -1,6 +1,7 @@
 {
     "Name": "Dried Goji Berries", 
     "Description": "",
+    "Category": "ArtisanGoods",
     "Edibility": 9, 
     "Price": 400,
     "IsColored": false, 

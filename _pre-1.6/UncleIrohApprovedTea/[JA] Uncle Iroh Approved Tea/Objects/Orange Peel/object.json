@@ -1,6 +1,7 @@
 {
     "Name": "Orange Peel", 
     "Description": "",
+    "Category": "Trash",
     "Edibility": 12, 
     "Price": 50,
     "IsColored": false, 
