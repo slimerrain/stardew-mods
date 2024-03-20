@@ -34,5 +34,28 @@
         "Neutral": null, 
         "Dislike": [""],
         "Hate": [""]
+    },
+
+    "Recipe": 
+    {
+        "ResultCount": 3, 
+        "Ingredients": [
+            {
+                "Object": "Cassia Tea", 
+                "Count": 1
+            },
+            {
+                "Object": "Chrysanthemum Tea", 
+                "Count": 1
+            },
+            {
+                "Object": "Dried Goji Berries", 
+                "Count": 1
+            }
+        ],
+        "CanPurchase": true, 
+        "PurchaseFrom": "SandyHouse",
+        "PurchasePrice": 800, 
+        "PurchaseRequirements": null
     }
 }

@@ -27,21 +27,6 @@
     "PurchaseRequirements": null,
 	"ContextTags": ["color_brown, tea_item"],
 
-    "Recipe": 
-    {
-        "ResultCount": 3, 
-        "Ingredients": [
-            {
-                "Object": "Brown Rice", 
-                "Count": 1
-            }
-        ],
-        "CanPurchase": true, 
-        "PurchaseFrom": "SandyHouse",
-        "PurchasePrice": 800, 
-        "PurchaseRequirements": null
-    },
-
     "GiftTastes": 
     {
         "Love":[ ""],
