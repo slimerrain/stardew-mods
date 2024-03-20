@@ -1,14 +1,16 @@
 [
     {
         "ProducerName": "Dehydrator",
-        "AlternativeFrameProducing": true,
-        "AlternativeFrameWhenReady": true,
-        "DisableBouncingAnimationWhileWorking": true
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [1]
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [1]
+        }
     },
     {
         "ProducerName": "Teapot",
-        "AlternativeFrameProducing": false,
-        "AlternativeFrameWhenReady": false,
         "DisableBouncingAnimationWhileWorking": true,
         "ProducingAnimation": {
             "RelativeFrameIndex": [1, 2, 3],
