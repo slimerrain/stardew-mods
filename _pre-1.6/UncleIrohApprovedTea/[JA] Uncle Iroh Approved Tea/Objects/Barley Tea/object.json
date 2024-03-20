@@ -7,25 +7,25 @@
     "EdibleBuffs":
     {
         "Farming": 0,
-        "Fishing": 0,
+        "Fishing": 1,
         "Mining": 0,
         "Luck": 0,
         "Foraging": 0,
         "MaxStamina": 20,
         "MagnetRadius": 0,
-        "Speed": 1,
+        "Speed": 0,
         "Defense": 0,
         "Attack": 0,
         "Duration": 180
     },
-    "Price": 25, 
+    "Price": 7, 
     "IsColored": false, 
 
     "CanPurchase": true, 
     "PurchaseFrom": "SandyHouse",
     "PurchasePrice": 200,
     "PurchaseRequirements": null,
-	"ContextTags": ["color_yellow"],
+	"ContextTags": ["color_yellow, tea_item"],
 
     "Recipe": 
     {

@@ -1,0 +1,53 @@
+{
+    "Name": "Brown Rice Tea",
+    "Description": "Steep for at least 10 minutes, then pour over ice.", 
+    "Category": "Cooking",
+    "Edibility": 75, 
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180
+    },
+    "Price": 10, 
+    "IsColored": false, 
+
+    "CanPurchase": true, 
+    "PurchaseFrom": "SandyHouse",
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+	"ContextTags": ["color_brown, tea_item"],
+
+    "Recipe": 
+    {
+        "ResultCount": 3, 
+        "Ingredients": [
+            {
+                "Object": "Brown Rice", 
+                "Count": 1
+            }
+        ],
+        "CanPurchase": true, 
+        "PurchaseFrom": "SandyHouse",
+        "PurchasePrice": 800, 
+        "PurchaseRequirements": null
+    },
+
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null, 
+        "Dislike": [""],
+        "Hate": [""]
+    }
+}

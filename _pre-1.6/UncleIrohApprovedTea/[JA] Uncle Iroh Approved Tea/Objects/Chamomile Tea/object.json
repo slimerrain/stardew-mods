@@ -1,0 +1,24 @@
+{
+    "Name": "Chamomile Tea",
+    "Description": "A relaxing tea made from steeping chamomile flowers in water.", 
+    "Category": "Cooking",
+    "Edibility": 95, 
+    "EdibleIsDrink": true,
+    "Price": 20, 
+    "IsColored": false, 
+
+    "CanPurchase": true, 
+    "PurchaseFrom": "SandyHouse",
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+	"ContextTags": ["color_yellow, tea_item"],
+
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null, 
+        "Dislike": [""],
+        "Hate": [""]
+    }
+}

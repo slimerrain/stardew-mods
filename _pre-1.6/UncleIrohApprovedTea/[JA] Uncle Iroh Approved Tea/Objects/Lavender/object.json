@@ -1,0 +1,17 @@
+{
+    "Name": "Lavender", 
+    "Description": "",
+    "Edibility": -1, 
+    "Price": 120,
+    "IsColored": false, 
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null,
+        "Dislike": [""],
+        "Hate": [""]
+    },
+	"ContextTags": ["color_purple, flower_item"]
+}
