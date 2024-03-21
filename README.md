@@ -19,3 +19,4 @@ adds various types of alcohols and machines for processing
 
 ## Credits and Use  
 Feel free to use any of the assets with credits to slimerrain.
+Not allowed for use in any AI art.

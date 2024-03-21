@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] Alcoholics Acknowledged",
+    "Author": "slimerrain",
+    "Description": "Content patches relating to grains.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.alcoholicsacknowledgedcp",
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+    "Dependencies": [
+        {
+            "UniqueID": "slimerrain.alcoholicsacknowledgedja",
+            "IsRequired": true
+        }
+    ],
+    "UpdateKeys": [ "" ]
+ }
+ 

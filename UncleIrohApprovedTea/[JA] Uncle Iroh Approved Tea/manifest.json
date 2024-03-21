@@ -1,0 +1,17 @@
+{
+    "Name": "[JA] Uncle Iroh Approved Tea",
+    "Author": "slimerrain",
+    "Description": "Crops, Craftables, and Artisan Goods relating to tea.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.uncleirohapprovedteaja",
+    "ContentPackFor": {"UniqueID": "spacechase0.JsonAssets"},
+	"Dependencies": [
+        {
+            "UniqueID": "slimerrain.grainsoverhullja",
+            "IsRequired": true
+        }
+	],
+    "UpdateKeys": [ "" ]
+ }
+ 

@@ -1,0 +1,11 @@
+[
+	{
+		"Id": "uncleirohsteashop.healthblendtearecipe",
+		"Title": "Health Blend Tea Recipe",
+		"Text": "Farmer @!^While travelling with my nephew, this town seemed like it could use a lot more tea! Allow me to share one of my favorite drinks to refresh myself in the summer.^-a passerby",
+		"Recipe": "Health Blend Tea",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false
+	}
+]

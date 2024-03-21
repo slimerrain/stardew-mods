@@ -1,0 +1,32 @@
+{
+    "Name": "Cassia Seeds", 
+    "Description": "Hard, dark seeds typically used for teas.",
+    "Category": "Seeds",
+    "Edibility": 5, 
+    "Price": 12,
+    "IsColored": false, 
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null,
+        "Dislike": [""],
+        "Hate": [""]
+    },
+	"ContextTags": ["color_dark_brown, seed_item"],
+
+    "Recipe": 
+    {
+        "ResultCount": 5, 
+        "Ingredients": [
+            {
+                "Object": "Cassia Flower", 
+                "Count": 1
+            }
+        ],
+        "CanPurchase": true, 
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 200, 
+        "PurchaseRequirements": null
+    }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "ProducerName": "Distiller",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"NoInputStartMode": "Placement"
+	}
+]

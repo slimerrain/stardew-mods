@@ -1,0 +1,20 @@
+{
+    "Name": "Goji Berry", 
+    "Product": "Goji Berry",
+    "SeedName": "Goji Berry Seeds", 
+    "SeedDescription": "Plant these in the spring or summer. Takes 11 days to mature, and continues to produce goji berries after first harvest.",
+    "Type": "Flower",
+    "CropType": "Normal", 
+    "Seasons": ["spring", "summer"],
+    "Phases": [1, 2, 3, 3, 2],
+    "RegrowthPhase": 4,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1
+    },
+    "SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 80
+}

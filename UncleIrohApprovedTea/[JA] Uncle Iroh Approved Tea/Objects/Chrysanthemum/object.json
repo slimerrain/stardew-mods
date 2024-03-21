@@ -1,0 +1,18 @@
+{
+    "Name": "Chrysanthemum", 
+    "Description": "",
+    "Category": "Flower",
+    "Edibility": 9, 
+    "Price": 20,
+    "IsColored": false, 
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null,
+        "Dislike": [""],
+        "Hate": [""]
+    },
+	"ContextTags": ["color_yellow, flower_item"]
+}

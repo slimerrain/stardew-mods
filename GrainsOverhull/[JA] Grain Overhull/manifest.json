@@ -1,0 +1,10 @@
+{
+    "Name": "[JA] Grains Overhull",
+    "Author": "slimerrain",
+    "Description": "Adds more grains to the valley.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "slimerrain.grainsoverhullja",
+    "ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" },
+    "UpdateKeys": [""]
+}

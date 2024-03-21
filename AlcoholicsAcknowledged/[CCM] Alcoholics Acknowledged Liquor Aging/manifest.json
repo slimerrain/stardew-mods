@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[CCM] Alcoholics Acknowledged Liquor Aging",
+	"Author": "slimerrain",
+	"Version": "1.0.0",
+	"Description": "Adds configuration of alcoholics acknowledged cask data to Custom Cask Mod.",
+	"UniqueID": "slimerrain.alcoholicsacknowledgedccm",
+	"MinimumApiVersion": "2.11.2",
+	"Dependencies": [
+        {
+            "UniqueID": "slimerrain.alcoholicsacknowledgedpfm",
+            "IsRequired": true
+        }
+	],
+	"ContentPackFor": { "UniqueID": "DIGUS.CustomCaskMod" },
+	"UpdateKeys": [""]
+}
