@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Big Craftable Tilesheet",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/assets/BigCraftables",
+            "FromFile": "assets/BigCraftables/BigCraftables.png"
+        },
+        {
+            "LogName": "BigCraftables Data",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Teapot": {
+                    "Name": "{{ModId}}_Teapot",
+                    "DisplayName": "Teapot",
+                    "Description": "A cute little pot for brewing tea.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/{{ModId}}/assets/BigCraftables",
+                    "SpriteIndex": 0,
+                    "ContextTags": ["teapot", "tea_maker"],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Crafting Data",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_Teapot_Recipe":  "330, 1, 390, 5/Field/{{ModId}}_Teapot/true/null/Teapot"
+            }
+        }
+    ]
+}

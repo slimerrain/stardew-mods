@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Objects.json"
+        },
+        {
+            "LogName": "Crops",
+            "Action": "Include",
+            "FromFile": "Data/Crops.json"
+        }
+    ]
+}

@@ -42,6 +42,14 @@
                     "Delimiter": ","
                 }
             ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Entries": 
+            {
+                "271": "Unmilled Rice/30/1/Basic -75/Brown Rice/Rice in its rawest form. Run this through a mill to increase the value."
+            }
         }
     ]
 }

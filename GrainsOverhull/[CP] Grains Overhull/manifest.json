@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Grains Overhull",
+    "Author": "slimerrain",
+    "Description": "Content patches relating to grains.",
+    "Version": "1.0.1",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.grainsoverhullcp",
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+    "UpdateKeys": [ "" ]
+ }
+ 

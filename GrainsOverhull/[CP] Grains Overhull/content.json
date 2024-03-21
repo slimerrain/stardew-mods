@@ -1,0 +1,14 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        { // Includes
+            "Action": "Include",
+            "FromFile": "data/ObjectContent.json"
+        },
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "Data/Shops.json"
+        }
+    ]
+}

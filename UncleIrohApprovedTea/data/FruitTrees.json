@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Fruit Tree Tilesheet",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/assets/FruitTrees",
+            "FromFile": "assets/FruitTrees/FruitTrees.png"
+        },
+        {
+            "LogName": "Load Sapling Tilesheet",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/assets/Saplings",
+            "FromFile": "assets/FruitTrees/Saplings.png"
+        },
+        {
+            "Entries":
+            {
+                "{{ModId}}_": {
+                    "Name": "Lemurkat_Heirloom_Cherry_Tree",
+                    "DisplayName": "{{i18n:object.HeirloomCherrySapling_Name}}",
+                    "Description": "{{i18n:object.HeirloomCherrySapling_Description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 850,
+                    "Texture": "Mods\\Lemurkat.EastScarp\\esobjects",
+                    "SpriteIndex": 7,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": null,
+                    "CustomFields": null
+                  },
+            }
+        }
+    ]
+}
