@@ -174,20 +174,5 @@
         "PlacingAnimationColorName": "White",
 		"Sounds": [ "Ship" ],
         "WarningsLogLevel": "Warn"
-    },
-
-    // mill
-    { 
-        "ProducerName": "Mill",
-        "InputIdentifier": "Cassia Flower",
-        "InputStack": 1,
-        "MinutesUntilReady": 30,
-        "SubtractTimeOfDay": true,
-        "OutputIdentifier": "Cassia Seeds",
-        "OutputName": "Cassia Seeds",
-		"OutputStack": 5,
-        "PlacingAnimationColorName": "White",
-		"Sounds": [ "Ship" ],
-        "WarningsLogLevel": "Warn"
     }
 ]
