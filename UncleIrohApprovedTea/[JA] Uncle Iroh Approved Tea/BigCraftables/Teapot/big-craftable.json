@@ -1,0 +1,29 @@
+{
+    "Name": "Teapot",
+    "Description": "A cute little pot for brewing tea.",
+    "Price": 1000,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 3,
+
+    "CanPurchase": true,
+    "PurchaseFrom": "Robin",
+    "PurchasePrice": 5000,
+    "PurchaseRequirements": null,
+    "Recipe": {
+        "ResultCount": 1, 
+        "Ingredients": [
+            {
+                "Object": 330, 
+                "Count": 5
+            },
+            {
+                "Object": 388, 
+                "Count": 10
+            }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 8000,
+        "PurchaseRequirements": null
+    }
+}

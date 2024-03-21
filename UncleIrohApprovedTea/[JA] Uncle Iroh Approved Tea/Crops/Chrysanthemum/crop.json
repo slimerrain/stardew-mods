@@ -1,0 +1,20 @@
+{
+    "Name": "Chrysanthemum", 
+    "Product": "Chrysanthemum",
+    "SeedName": "Chrysanthemum Seeds", 
+    "SeedDescription": "Plant these in the spring, summer, or fall. Takes 8 days to produce chrysanthemums.",
+    "Type": "Flower",
+    "CropType": "Normal", 
+    "Seasons": ["spring", "summer"],
+    "Phases": [1, 2, 3, 2],
+    "RegrowthPhase": -1,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1
+    },
+    "SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 65
+}

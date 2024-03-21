@@ -1,0 +1,25 @@
+{
+    "Name": "Dehydrator",
+    "Description": "Used for dehydrating herbs, flowers, and crops.",
+    "Price": 2500,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 1,
+    
+    "Recipe": {
+        "ResultCount": 1, 
+        "Ingredients": [
+            {
+                "Object": 330, 
+                "Count": 5
+            },
+            {
+                "Object": 388, 
+                "Count": 10
+            }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 8000,
+        "PurchaseRequirements": null
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Name": "Orange Peel", 
+    "Description": "",
+    "Category": "Cooking",
+    "Edibility": 12, 
+    "Price": 50,
+    "IsColored": false, 
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love":[ ""],
+        "Like": [""],
+        "Neutral": null,
+        "Dislike": [""],
+        "Hate": [""]
+    },
+	"ContextTags": ["color_brown, peel_item"]
+}

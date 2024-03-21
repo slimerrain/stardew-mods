@@ -1,0 +1,17 @@
+{
+    "Harvests": [
+        {
+            "CropName": "Buckwheat",
+            "HarvestRules": [
+                {
+                    "ItemName": "Buckwheat Seeds", 
+                    "ExtraYieldItemType": "Object", 
+                    "minHarvest": 1, 
+                    "maxHarvest": 3, 
+                    "maxHarvestIncreasePerFarmingLevel": 0
+                }
+            ]
+        }
+    ]
+  }
+  

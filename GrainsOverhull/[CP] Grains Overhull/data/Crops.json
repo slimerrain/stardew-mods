@@ -3,7 +3,7 @@
         {
             "LogName": "Load Crops Tilesheet",
             "Action": "Load",
-            "Target": "Mods/{{ModId}}/assets/Crops",
+            "Target": "{{ModId}}/Crops",
             "FromFile": "assets/Crops/Crops.png"
         },
         {
@@ -26,7 +26,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 0,
                     "CustomFields": {}
                 },
@@ -46,7 +46,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 1,
                     "CustomFields": {}
                 },
@@ -66,7 +66,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 2,
                     "CustomFields": {}
                 },
@@ -86,7 +86,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 3,
                     "CustomFields": {}
                 },
@@ -106,7 +106,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 4,
                     "CustomFields": {}
                 },
@@ -126,7 +126,7 @@
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],
-                    "Texture": "Mods/{{ModId}}/assets/Crops",
+                    "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 5,
                     "CustomFields": {}
                 }

@@ -1,0 +1,26 @@
+{
+    "Name": "Distiller",
+    "Description": "A way to process crops into liquor.",
+    "CanPurchase": true,
+    "PurchaseFrom": "ResortBar",
+    "PurchasePrice": 8000,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+            "Ingredients": [
+            {
+                "Object": 709,
+                "Count": 1
+            },
+            {
+                "Object": 334,
+                "Count": 5
+            },
+            {
+                "Object": 390,
+                "Count": 50
+            }
+        ]
+    }
+  }

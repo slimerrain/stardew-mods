@@ -1,7 +1,7 @@
 {
     "Name": "[CP] Grains Overhull",
     "Author": "slimerrain",
-    "Description": "Content patches relating to grains.",
+    "Description": "Content patches relating to grains. Adds more grains to the valley.",
     "Version": "1.0.1",
     "MinimumApiVersion": "3.0.0",
     "UniqueID": "slimerrain.grainsoverhullcp",
