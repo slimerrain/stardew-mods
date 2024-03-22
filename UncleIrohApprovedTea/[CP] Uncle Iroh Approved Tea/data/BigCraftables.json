@@ -43,6 +43,9 @@
                 "(BC){{ModId}}_Teapot": {
                     "Default_Tea": {
                         "Id": "Default_Tea",
+                        "HasInput": false,
+                        "HasOutput": false,
+                        "InteractMethod": null,
                         "Triggers": [
                             {
                                 "Id": "ItemPlacedInMachine_Chamomile",
