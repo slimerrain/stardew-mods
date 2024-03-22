@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Crops Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Crops",
+            "FromFile": "assets/Crops/Crops.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/Crops",
+            "Entries": {
+                "{{ModId}}_Barley_Seeds": { 
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "{{ModId}}_Barley",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Scythe",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "{{ModId}}/Crops",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                }
+            }
+        }
+    ]
+}

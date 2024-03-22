@@ -1,0 +1,15 @@
+[
+    {
+        "ProducerName": "Teapot",
+        "ProducerQualifiedItemId": "slimerrain.uncleirohapprovedteacp_Teapot",
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [1, 2, 3],
+            "FrameInterval": 8
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [1, 2, 3],
+            "FrameInterval": 10
+        }
+    }
+]

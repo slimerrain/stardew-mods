@@ -1,0 +1,402 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Crop Harvests Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/CropHarvests",
+            "FromFile": "assets/Objects/CropHarvests.png"
+        },
+        {
+            "LogName": "Load Drinks Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Drinks",
+            "FromFile": "assets/Objects/Drinks.png"
+        },
+        {
+            "LogName": "Load Ingredients Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Ingredients",
+            "FromFile": "assets/Objects/Ingredients.png"
+        },
+        {
+            "LogName": "Load Tree Harvests Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/TreeHarvests",
+            "FromFile": "assets/Objects/TreeHarvests.png"
+        },
+        {
+            "LogName": "Load Seeds Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Seeds",
+            "FromFile": "assets/Crops/Seeds.png"
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Chamomile": {
+                    "Name": "{{ModId}}_Chamomile",
+                    "DisplayName": "Chamomile",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "0",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Chamomile_Seeds": {
+                    "Name": "{{ModId}}_Chamomile_Seeds",
+                    "DisplayName": "Chamomile Seeds",
+                    "Description": "Plant these in the spring or summer. Takes 7 days to produce a chamomile flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "0",
+                    "Edibility": -300
+                },
+
+                "{{ModId}}_Chrysanthemum": {
+                    "Name": "{{ModId}}_Chrysanthemum",
+                    "DisplayName": "Chrysanthemum",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "1",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Chrysanthemum_Seeds": {
+                    "Name": "{{ModId}}_Chrysanthemum_Seeds",
+                    "DisplayName": "Chrysanthemum Seeds",
+                    "Description": "Plant these in the spring, summer, or fall. Takes 8 days to produce chrysanthemums.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "1",
+                    "Edibility": -300
+                },
+                
+                "{{ModId}}_Goji_Berry": {
+                    "Name": "{{ModId}}_Goji_Berry",
+                    "DisplayName": "Goji Berry",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "2",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Goji_Berry_Seeds": {
+                    "Name": "{{ModId}}_Goji_Berry_Seeds",
+                    "DisplayName": "Goji Berry Seeds",
+                    "Description": "Plant these in the spring or summer. Takes 11 days to mature, and continues to produce goji berries after first harvest.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "2",
+                    "Edibility": -300
+                },
+                
+                "{{ModId}}_Lavender": {
+                    "Name": "{{ModId}}_Lavender",
+                    "DisplayName": "Lavender",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "3",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lavender_Seeds": {
+                    "Name": "{{ModId}}_Lavender_Seeds",
+                    "DisplayName": "Lavender Seeds",
+                    "Description": "Plant these in the spring. Takes 5 days to produce lavender flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "3",
+                    "Edibility": -300
+                },
+                
+                "{{ModId}}_Lily": {
+                    "Name": "{{ModId}}_Lily",
+                    "DisplayName": "Lily",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "4",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lily_Bulb": {
+                    "Name": "{{ModId}}_Lily_Bulb",
+                    "DisplayName": "Lily Bulb",
+                    "Description": "Plant these in the spring. Takes 7 days to produce lily flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "4",
+                    "Edibility": -300
+                },
+                
+                "{{ModId}}_Lotus": {
+                    "Name": "{{ModId}}_Lotus",
+                    "DisplayName": "Lotus",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "5",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lotus_Seeds": {
+                    "Name": "{{ModId}}_Lotus_Seeds",
+                    "DisplayName": "Lotus Seeds",
+                    "Description": "Plant these in spring, summer, or fall. Takes 6 days to mature. Grows faster if planted near a body of water. Regrows. Harvest with the scythe.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "5",
+                    "Edibility": -300
+                },
+                
+                "{{ModId}}_Sugarcane": {
+                    "Name": "{{ModId}}_Sugarcane",
+                    "DisplayName": "Sugarcane",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "6",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Sugarcane_Seeds": {
+                    "Name": "{{ModId}}_Sugarcane_Seeds",
+                    "DisplayName": "Sugarcane Seeds",
+                    "Description": "Plant these in the fall. Takes 8 days to mature. Grows faster if planted near a body of water. Regrows. Harvest with the scythe.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "6",
+                    "Edibility": -300
+                },
+
+                "{{ModId}}_Barley_Tea": {
+                    "Name": "{{ModId}}_Barley_Tea",
+                    "DisplayName": "Barley Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "0",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Brown_Rice_Tea": {
+                    "Name": "{{ModId}}_Brown_Rice_Tea",
+                    "DisplayName": "Brown rice Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "1",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Cassia_Tea": {
+                    "Name": "{{ModId}}_Cassia_Tea",
+                    "DisplayName": "Cassia Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "2",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Chamomile_Tea": {
+                    "Name": "{{ModId}}_Chamomile_Tea",
+                    "DisplayName": "Chamomile Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "3",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Chrysanthemum_Tea": {
+                    "Name": "{{ModId}}_Chrysanthemum_Tea",
+                    "DisplayName": "Chrysanthemum Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "4",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Health_Blend_Tea": {
+                    "Name": "{{ModId}}_Health_Blend_Tea",
+                    "DisplayName": "Health Blend Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "5",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Lavender_Tea": {
+                    "Name": "{{ModId}}_Lavender_Tea",
+                    "DisplayName": "Lavender Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "6",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+                "{{ModId}}_Jasmine_Tea": {
+                    "Name": "{{ModId}}_Jasmine_Tea",
+                    "DisplayName": "Jasmine Tea",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Drinks",
+                    "SpriteIndex": "7",
+                    "Edibility": 1,
+                    "ContextTags": [ "drink_item, tea_item" ]
+                },
+
+                "{{ModId}}_Cassia_Seeds": {
+                    "Name": "{{ModId}}_Cassia_Seeds",
+                    "DisplayName": "Cassia Seeds",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "0",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Dried_Goji_Berries": {
+                    "Name": "{{ModId}}_Dried_Goji_Berries",
+                    "DisplayName": "Dried Goji Berries",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "1",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Dried_Lotus_Seeds": {
+                    "Name": "{{ModId}}_Dried_Lotus_Seeds",
+                    "DisplayName": "Dried Lotus Seeds",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "2",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Dried_Orange_Peel": {
+                    "Name": "{{ModId}}_Dried_Orange_Peel",
+                    "DisplayName": "Dried Orange Peel",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "3",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Dried_Strawberries": {
+                    "Name": "{{ModId}}_Dried_Strawberries",
+                    "DisplayName": "Dried Strawberries",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "4",
+                    "Edibility": 1,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lily_Bulb_2": {
+                    "Name": "{{ModId}}_Lily_Bulb_2",
+                    "DisplayName": "Lily Bulb",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "5",
+                    "Edibility": 1,
+                    "ContextTags": [ "" ]
+                },
+                "{{ModId}}_Orange_Peel": {
+                    "Name": "{{ModId}}_Orange_Peel",
+                    "DisplayName": "Orange Peel",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "6",
+                    "Edibility": 1,
+                    "ContextTags": [ "" ]
+                },
+                "{{ModId}}_Rock_Sugar": {
+                    "Name": "{{ModId}}_Rock_Sugar",
+                    "DisplayName": "Rock Sugar",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "7",
+                    "Edibility": 1,
+                    "ContextTags": [ "" ]
+                }
+            }
+        }
+    ]
+}

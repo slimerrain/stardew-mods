@@ -1,0 +1,16 @@
+﻿{
+    "Name": "[PFM] Uncle Iroh Approved Tea Machine Production",
+    "Author": "slimerrain",
+    "Version": "1.0.1",
+    "Description": "Enables productions for Uncle Iroh Approved Tea.",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "slimerrain.uncleirohapprovedteapfm",
+    "Dependencies": [
+        {
+            "UniqueID": "slimerrain.uncleirohapprovedteacp",
+            "IsRequired": true
+        }
+    ],
+    "ContentPackFor": { "UniqueID": "DIGUS.ProducerFrameworkMod" },
+    "UpdateKeys": [""]
+}

@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Fruit Tree Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/FruitTrees",
+            "FromFile": "assets/FruitTrees/Trees.png"
+        },
+        {
+            "LogName": "Load Sapling Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Saplings",
+            "FromFile": "assets/FruitTrees/Saplings.png"
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Cassia_Flower": {
+                    "Name": "{{ModId}}_Cassia_Flower",
+                    "DisplayName": "Cassia Flower",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/TreeHarvests",
+                    "SpriteIndex": "0",
+                    "Edibility": 46,
+                    "ContextTags": ["season_summer"]
+                },
+                "{{ModId}}_Cassia_Sapling": {
+                    "Name": "{{ModId}}_Cassia_Sapling",
+                    "DisplayName": "Cassia Sapling",
+                    "Description": "",
+                    "Price": 1,
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/Saplings",
+                    "SpriteIndex": "0",
+                    "Edibility": 46,
+                    "ContextTags": ["season_summer"]
+                }
+            }
+        },
+        {
+            "LogName": "Fruit Tree Data",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModId}}_Cassia_Flower_Tree": {
+                    "DisplayName": "Cassia Flower Tree",
+                    "Seasons": [ "Summer" ],
+                    "Fruit": [
+                      {
+                        "Season": null,
+                        "Chance": 1.0,
+                        "Condition": null,
+                        "Id": "Default",
+                        "ItemId": "{{ModId}}_Cassia_Flower",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack",
+                        "ModData": null,
+                        "PerItemCondition": null
+                      }
+                    ],
+                    "Texture": "{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 0,
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

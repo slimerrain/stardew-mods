@@ -164,13 +164,12 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/ObjectInformation",
+            "Target": "Data/Objects",
             "Entries": 
             {
                 "271": // Unmilled Rice
                 {
-                    // Display Name
-                    0: "Brown Rice"
+                    "DisplayName": "Brown Rice"
                 }
             }
         },

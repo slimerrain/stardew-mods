@@ -1,0 +1,197 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Big Craftable Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/BigCraftables",
+            "FromFile": "assets/BigCraftables/Craftables.png"
+        },
+        {
+            "LogName": "Crafting Data",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_Teapot_Recipe": "330 1 390 5/Field/{{ModId}}_Teapot/true/null/Teapot"
+            }
+        },
+        {
+            "LogName": "BigCraftable Data",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Teapot": {
+                    "Name": "{{ModId}}_Teapot",
+                    "DisplayName": "Teapot",
+                    "Description": "A cute little pot for brewing tea.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "{{ModId}}/BigCraftables",
+                    "SpriteIndex": 0,
+                    "ContextTags": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Machine Data",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_Teapot": {
+                    "Default_Tea": {
+                        "Id": "Default_Tea",
+                        "Triggers": [
+                            {
+                                "Id": "ItemPlacedInMachine_Chamomile",
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "{{ModId}}_Chamomile",
+                                "RequiredTags": null,
+                                "RequiredCount": 1,
+                                "Condition": null
+                            }
+                        ],
+                        "UseFirstValidOutput": false,
+                        "OutputItem": [
+                            {
+                                "CustomData": null,
+                                "OutputMethod": null,
+                                "CopyColor": false,
+                                "CopyPrice": false,
+                                "CopyQuality": false,
+                                "PreserveType": null,
+                                "PreserveId": null,
+                                "IncrementMachineParentSheetIndex": 0,
+                                "PriceModifiers": null,
+                                "PriceModifierMode": "Stack",
+                                "Condition": null,
+                                "Id": "Default",
+                                "ItemId": "{{ModId}}_Chamomile_Tea",
+                                "RandomItemId": null,
+                                "MaxItems": null,
+                                "MinStack": 3,
+                                "MaxStack": 3,
+                                "Quality": -1,
+                                "ObjectInternalName": null,
+                                "ObjectDisplayName": null,
+                                "ToolUpgradeLevel": -1,
+                                "IsRecipe": false,
+                                "StackModifiers": null,
+                                "StackModifierMode": "Stack",
+                                "QualityModifiers": null,
+                                "QualityModifierMode": "Stack",
+                                "ModData": null,
+                                "PerItemCondition": null
+                            }
+                        ],
+                        "MinutesUntilReady": 50,
+                        "DaysUntilReady": -1,
+                        "InvalidCountMessage": null,
+                        "RecalculateOnCollect": false,
+                        "AdditionalConsumedItems": null,
+                        "PreventTimePass": null,
+                        "ReadyTimeModifiers": null,
+                        "ReadyTimeModifierMode": "Stack",
+                        "InvalidItemMessage": null,
+                        "InvalidItemMessageCondition": null,
+                        "LoadEffects": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Sounds": [
+                                    {
+                                        "Id": "furnace",
+                                        "Delay": 0
+                                    }
+                                ],
+                                "Interval": 100,
+                                "Frames": null,
+                                "ShakeDuration": -1,
+                                "TemporarySprites": [
+                                    {
+                                        "Id": "Default",
+                                        "Condition": null,
+                                        "Texture": "{{ModId}}/BigCraftables",
+                                        "SourceRect": {
+                                            "X": 0,
+                                            "Y": 0,
+                                            "Width": 16,
+                                            "Height": 32
+                                        },
+                                        "Interval": 50.0,
+                                        "Frames": 3,
+                                        "Loops": 100,
+                                        "PositionOffset": "0, -16",
+                                        "Flicker": false,
+                                        "Flip": false,
+                                        "SortOffset": 0.0,
+                                        "AlphaFade": 0.005,
+                                        "Scale": 0.25,
+                                        "ScaleChange": 0.0,
+                                        "Rotation": 0.0,
+                                        "RotationChange": 0.0,
+                                        "Color": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "WorkingEffects": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Sounds": null,
+                                "Interval": 100,
+                                "Frames": null,
+                                "ShakeDuration": -1,
+                                "TemporarySprites": [
+                                    {
+                                        "Id": "Default",
+                                        "Condition": null,
+                                        "Texture": "{{ModId}}/BigCraftables",
+                                        "SourceRect": {
+                                            "X": 0,
+                                            "Y": 0,
+                                            "Width": 16,
+                                            "Height": 32
+                                        },
+                                        "Interval": 50.0,
+                                        "Frames": 4,
+                                        "Loops": 10,
+                                        "PositionOffset": "0, -10",
+                                        "Flicker": false,
+                                        "Flip": false,
+                                        "SortOffset": 0.0,
+                                        "AlphaFade": 0.005,
+                                        "Scale": 0.25,
+                                        "ScaleChange": 0.0,
+                                        "Rotation": 0.0,
+                                        "RotationChange": 0.0,
+                                        "Color": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "WorkingEffectChance": 0.165,
+                        "AllowLoadWhenFull": false,
+                        "WobbleWhileWorking": true,
+                        "LightWhileWorking": {
+                            "Radius": 1.5,
+                            "Color": "DarkCyan"
+                        },
+                        "ShowNextIndexWhileWorking": true,
+                        "ShowNextIndexWhenReady": false,
+                        "AllowFairyDust": true,
+                        "IsIncubator": false,
+                        "ClearContentsOvernightCondition": null,
+                        "StatsToIncrementWhenLoaded": null,
+                        "StatsToIncrementWhenHarvested": null,
+                        "ExperienceGainOnHarvest": null,
+                        "CustomFields": null
+                    }
+                }
+            }
+        }
+    ]
+}
