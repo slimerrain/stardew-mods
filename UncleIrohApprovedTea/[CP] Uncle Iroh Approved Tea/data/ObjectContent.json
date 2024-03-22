@@ -6,6 +6,11 @@
             "FromFile": "data/Objects.json"
         },
         {
+            "LogName": "Big Craftables",
+            "Action": "Include",
+            "FromFile": "data/BigCraftables.json"
+        },
+        {
             "LogName": "Crops",
             "Action": "Include",
             "FromFile": "data/Crops.json"
@@ -16,14 +21,16 @@
             "FromFile": "data/FruitTrees.json"
         },
         {
-            "LogName": "Big Craftables",
+            "LogName": "Tea Recipes",
             "Action": "Include",
-            "FromFile": "data/BigCraftables.json"
+            "FromFile": "data/CookingRecipes.json",
+            "When": {"TeaRecipes": true }
         },
         {
-            "LogName": "Shops",
+            "LogName": "Big Craftables and Machines",
             "Action": "Include",
-            "FromFile": "data/Shops.json"
+            "FromFile": "data/Machines.json",
+            "When": {"TeaBrewing": true }
         }
     ]
 }

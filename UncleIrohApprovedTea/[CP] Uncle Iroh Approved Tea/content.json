@@ -1,5 +1,23 @@
 {
     "Format": "2.0.0",
+
+    "ConfigSchema": {
+        "TeaRecipes": {
+            "Description": "If you want all teas to be craftable in the kitchen.",
+            "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "TeaBrewing": {
+            "Description": "If you want all teas to be brewable in the Teapot.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        }
+    },
+
     "Changes": [
         {
             "LogName": "ObjectContent",

@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Gourmet Pantry Rules for New Machines",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_Teapot": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModId}}_Chamomile",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Chamomile",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Chamomile_Tea",
+                                    "ItemId": "(O){{ModId}}_Chamomile_Tea",
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                        "Modification": "Multiply",
+                                        "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        }
+                    ],
+                    "InvalidItemMessage":"Can't Brew This",
+                    "InvalidCountMessage":"Requires Chamomile",
+                    "ShowNextIndexWhileWorking": false,
+                    "ShowNextIndexWhenReady": false,
+                    "WobbleWhileWorking": false,
+                    "WorkingEffects": [
+                        {
+                            "Frames":[1,2,3],
+                            "Interval":100
+                        }
+                   ] 
+                }
+            }
+        }
+    ]
+}

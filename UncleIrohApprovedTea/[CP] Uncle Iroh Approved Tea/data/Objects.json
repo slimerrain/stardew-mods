@@ -249,7 +249,7 @@
                 },
                 "{{ModId}}_Brown_Rice_Tea": {
                     "Name": "{{ModId}}_Brown_Rice_Tea",
-                    "DisplayName": "Brown rice Tea",
+                    "DisplayName": "Brown Rice Tea",
                     "Description": "An earthy roasted rice tea with a deep flavor.",
                     "Price": 10,
                     "Type": "ArtisanGoods",
@@ -579,14 +579,6 @@
                     "Edibility": 1,
                     "ContextTags": [ "" ]
                 }
-            }
-        },
-        {
-            "Log": "Cooking Recipe Data",
-            "Action": "EditData",
-            "Target": "Data/CookingRecipes",
-            "Entries": {
-                "{{ModId}}_Barley_Tea": "{{ModId}}_Barley 1/1 1/{{ModId}}_Barley_Tea/none/Barley Tea"
             }
         }
     ]
