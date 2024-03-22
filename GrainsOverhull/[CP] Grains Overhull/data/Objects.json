@@ -207,11 +207,10 @@
         {
             "Action": "EditData",
             "Target": "Data/Objects",
-            "Entries": 
+            "Fields": 
             {
                 "271": // Unmilled Rice
                 {
-                    "Id": "271",
                     "DisplayName": "Brown Rice"
                 }
             }
