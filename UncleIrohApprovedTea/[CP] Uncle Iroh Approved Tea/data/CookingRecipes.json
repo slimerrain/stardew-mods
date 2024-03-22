@@ -1,17 +1,18 @@
 {
-    {
-        "Log": "Cooking Recipe Data",
-        "Action": "EditData",
-        "Target": "Data/CookingRecipes",
-        "Entries": {
-            "{{ModId}}_Barley_Tea": "{{ModId}}_Barley 1/6 9/{{ModId}}_Barley_Tea 3/none/Barley Tea",
-            "{{ModId}}_Brown_Rice_Tea": "271 1/6 9/{{ModId}}_Brown_Rice_Tea 3/none/Brown Rice Tea",
-            "{{ModId}}_Cassia_Tea": "{{ModId}}_Cassia 1/6 9/{{ModId}}_Cassia_Tea 3/none/Cassia Tea",
-            "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 3/none/Chamomile Tea",
-            "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 3/none/Chrysanthemum Tea",
-            "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum 1 {{ModId}}_Cassia 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/none/Health Blend Tea",
-            "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 3/none/Lavender Tea",
-            "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 1/6 9/{{ModId}}_Jasmine_Tea 3/none/Jasmine Tea"
+    "Changes": [
+        {
+            "Log": "Cooking Recipe Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_Barley_Tea": "{{ModId}}_Barley 1/6 9/{{ModId}}_Barley_Tea 3/none/Barley Tea",
+                "{{ModId}}_Brown_Rice_Tea": "271 1/6 9/{{ModId}}_Brown_Rice_Tea 3/none/Brown Rice Tea",
+                "{{ModId}}_Cassia_Tea": "{{ModId}}_Cassia 1/6 9/{{ModId}}_Cassia_Tea 3/none/Cassia Tea",
+                "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 3/none/Chamomile Tea",
+                "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 3/none/Chrysanthemum Tea",
+                "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 3/none/Lavender Tea",
+                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 1/6 9/{{ModId}}_Jasmine_Tea 3/none/Jasmine Tea"
+            }
         }
-    }
+    ]
 }

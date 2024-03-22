@@ -10,6 +10,87 @@
                     "HasOutput": false,
                     "OutputRules": [
                         {
+                            "Id": "{{ModId}}_Barley",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Barley",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Barley_Tea",
+                                    "ItemId": "(O){{ModId}}_Barley_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Brown_Rice",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Brown_Rice",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Brown_Rice_Tea",
+                                    "ItemId": "(O){{ModId}}_Brown_Rice_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Cassia",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Cassia",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Cassia_Tea",
+                                    "ItemId": "(O){{ModId}}_Cassia_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
                             "Id": "{{ModId}}_Chamomile",
                             "Triggers": [
                                 {
@@ -22,6 +103,61 @@
                                 {
                                     "Id": "{{ModId}}_Chamomile_Tea",
                                     "ItemId": "(O){{ModId}}_Chamomile_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                        "Modification": "Multiply",
+                                        "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Chrysanthemum",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Chrysanthemum",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Chrysanthemum_Tea",
+                                    "ItemId": "(O){{ModId}}_Chrysanthemum_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": 
+                                    [
+                                        {
+                                        "Modification": "Multiply",
+                                        "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Lavender",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Lavender",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Lavender_Tea",
+                                    "ItemId": "(O){{ModId}}_Lavender_Tea",
+                                    "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": 
@@ -37,14 +173,14 @@
                         }
                     ],
                     "InvalidItemMessage":"Can't Brew This",
-                    "InvalidCountMessage":"Requires Chamomile",
+                    "InvalidCountMessage":"Requires",
                     "ShowNextIndexWhileWorking": false,
                     "ShowNextIndexWhenReady": false,
                     "WobbleWhileWorking": false,
                     "WorkingEffects": [
                         {
-                            "Frames":[1,2,3],
-                            "Interval":100
+                            "Frames": [1,2,3],
+                            "Interval": 200
                         }
                    ] 
                 }

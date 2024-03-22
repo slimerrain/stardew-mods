@@ -486,14 +486,14 @@
                 "{{ModId}}_Cassia_Seeds": {
                     "Name": "{{ModId}}_Cassia_Seeds",
                     "DisplayName": "Cassia Seeds",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "The hard and dark seeds of a Cassia Flower, typically used for brewing tea",
+                    "Price": 12,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "0",
-                    "Edibility": 1,
-                    "ContextTags": [ "seed_item" ]
+                    "Edibility": 5,
+                    "ContextTags": [ "color_dark_brown, seed_item" ]
                 },
                 "{{ModId}}_Dried_Goji_Berries": {
                     "Name": "{{ModId}}_Dried_Goji_Berries",
@@ -505,81 +505,92 @@
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "1",
                     "Edibility": 1,
-                    "ContextTags": [ "seed_item" ]
+                    "ContextTags": [ "color_red, dried_item, berry_item, fruit_item" ]
                 },
                 "{{ModId}}_Dried_Lotus_Seeds": {
                     "Name": "{{ModId}}_Dried_Lotus_Seeds",
                     "DisplayName": "Dried Lotus Seeds",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "Seeds from a lotus seed pod. Typically used in pastes and soups.",
+                    "Price": 150,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "2",
-                    "Edibility": 1,
-                    "ContextTags": [ "seed_item" ]
+                    "Edibility": 9,
+                    "ContextTags": [ "color_white, dried_item, seed_item" ]
                 },
                 "{{ModId}}_Dried_Orange_Peel": {
                     "Name": "{{ModId}}_Dried_Orange_Peel",
                     "DisplayName": "Dried Orange Peel",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "A versatile ingredient for making food or drinks.",
+                    "Price": 75,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "3",
-                    "Edibility": 1,
-                    "ContextTags": [ "seed_item" ]
+                    "Edibility": 9,
+                    "ContextTags": [ "color_brown, seed_item" ]
                 },
                 "{{ModId}}_Dried_Strawberries": {
                     "Name": "{{ModId}}_Dried_Strawberries",
                     "DisplayName": "Dried Strawberries",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "Strawberries that have been dehydrated.",
+                    "Price":500,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "4",
-                    "Edibility": 1,
-                    "ContextTags": [ "seed_item" ]
+                    "Edibility": 13,
+                    "ContextTags": [ "color_dark_red, seed_item" ]
                 },
                 "{{ModId}}_Lily_Bulb_2": {
                     "Name": "{{ModId}}_Lily_Bulb_2",
                     "DisplayName": "Lily Bulb",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "Dried out bulb of a lily flower. Can be added to soup to help with coughs.",
+                    "Price": 50,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "5",
                     "Edibility": 1,
-                    "ContextTags": [ "" ]
+                    "ContextTags": [ "color_white" ]
                 },
                 "{{ModId}}_Orange_Peel": {
                     "Name": "{{ModId}}_Orange_Peel",
                     "DisplayName": "Orange Peel",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "The peel from an orange.",
+                    "Price": 50,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "6",
-                    "Edibility": 1,
-                    "ContextTags": [ "" ]
+                    "Edibility": 12,
+                    "ContextTags": [ "color_orange, peel_item" ]
                 },
                 "{{ModId}}_Rock_Sugar": {
                     "Name": "{{ModId}}_Rock_Sugar",
                     "DisplayName": "Rock Sugar",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "Mmmmm, crunchy.",
+                    "Price": 75,
                     "Type": "ArtisanGoods",
                     "Category": -74,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "7",
-                    "Edibility": 1,
-                    "ContextTags": [ "" ]
+                    "Edibility": 55,
+                    "ContextTags": [ "color_white, sugar_item, sweet_food" ]
                 }
             }
-        }
+        },{
+          "Changes": [
+              {
+                  "Log": "Cooking Recipe Data",
+                  "Action": "EditData",
+                  "Target": "Data/CookingRecipes",
+                  "Entries": {
+                      "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/none/Health Blend Tea"
+                  }
+              }
+          ]
+      }
     ]
 }
