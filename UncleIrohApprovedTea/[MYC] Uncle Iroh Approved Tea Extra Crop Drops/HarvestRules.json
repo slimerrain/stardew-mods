@@ -1,10 +1,10 @@
 {
     "Harvests": [
         {
-            "CropName": "Lotus",
+            "CropName": "slimerrain.uncleirohapprovedteacp_Lotus",
             "HarvestRules": [
                 {
-                    "ItemName": "Lotus Seeds", 
+                    "ItemName": "slimerrain.uncleirohapprovedteacp_Lotus_Seeds", 
                     "ExtraYieldItemType": "Object", 
                     "minHarvest": 1, 
                     "maxHarvest": 3, 

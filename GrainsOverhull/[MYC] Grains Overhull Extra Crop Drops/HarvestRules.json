@@ -1,10 +1,10 @@
 {
     "Harvests": [
         {
-            "CropName": "Buckwheat",
+            "CropName": "slimerrain.uncleirohapprovedteacp_Buckwheat",
             "HarvestRules": [
                 {
-                    "ItemName": "Buckwheat Seeds", 
+                    "ItemName": "slimerrain.uncleirohapprovedteacp_Buckwheat_Seeds", 
                     "ExtraYieldItemType": "Object", 
                     "minHarvest": 1, 
                     "maxHarvest": 3, 

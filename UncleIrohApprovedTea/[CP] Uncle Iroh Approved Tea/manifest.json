@@ -6,6 +6,12 @@
     "MinimumApiVersion": "3.0.0",
     "UniqueID": "slimerrain.uncleirohapprovedteacp",
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+    "Dependencies": [
+        {
+            "UniqueID": "slimerrain.grainsoverhullcp",
+            "IsRequired": true
+        }
+    ],
     "UpdateKeys": [ "" ]
  }
  

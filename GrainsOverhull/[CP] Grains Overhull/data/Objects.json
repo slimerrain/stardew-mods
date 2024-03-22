@@ -164,17 +164,6 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": 
-            {
-                "271": // Unmilled Rice
-                {
-                    "DisplayName": "Brown Rice"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Data/ObjectContextTags",
             "TextOperations": [
                 {
@@ -214,6 +203,18 @@
                     "Delimiter": ","
                 }
             ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+            {
+                "271": // Unmilled Rice
+                {
+                    "Id": "271",
+                    "DisplayName": "Brown Rice"
+                }
+            }
         }
     ]
 }
