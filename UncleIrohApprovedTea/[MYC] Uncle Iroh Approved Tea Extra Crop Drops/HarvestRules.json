@@ -1,14 +1,14 @@
 {
     "Harvests": [
         {
-            "CropName": "Buckwheat",
+            "CropName": "Lotus",
             "HarvestRules": [
                 {
-                    "ItemName": "Buckwheat Seeds", 
+                    "ItemName": "Lotus Seeds", 
                     "ExtraYieldItemType": "Object", 
                     "minHarvest": 1, 
                     "maxHarvest": 3, 
-                    "maxHarvestIncreasePerFarmingLevel": 0
+                    "maxHarvestIncreasePerFarmingLevel": 0.1
                 }
             ]
         }

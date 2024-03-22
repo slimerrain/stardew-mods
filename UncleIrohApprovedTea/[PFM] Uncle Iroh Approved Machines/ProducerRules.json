@@ -63,7 +63,7 @@
     },
     { 
         "ProducerName": "Dehydrator",
-        "InputIdentifier": "Sugarcane",
+        "InputIdentifier": "slimerrain.uncleirohapprovedteacp_Sugarcane",
         "InputStack": 1,
         "InputPriceBased": true,
 		"OutputPriceIncrement": 75,
@@ -81,23 +81,7 @@
     // teapot
     { 
         "ProducerQualifiedItemId": "slimerrain.uncleirohapprovedteacp_Teapot",
-        "InputIdentifier": "Unmilled Rice",
-        "InputStack": 1,
-        "InputPriceBased": true,
-		"OutputPriceIncrement": 10,
-		"OutputPriceMultiplier": 2,
-        "MinutesUntilReady": 20,
-        "SubtractTimeOfDay": true,
-        "OutputIdentifier": "slimerrain.uncleirohapprovedteacp_Brown_Rice_Tea",
-        "OutputName": "Brown Rice Tea",
-		"OutputStack": 3,
-        "PlacingAnimationColorName": "White",
-		"Sounds": [ "Ship" ],
-        "WarningsLogLevel": "Warn"
-    },
-    { 
-        "ProducerQualifiedItemId": "slimerrain.uncleirohapprovedteacp_Teapot",
-        "InputIdentifier": "slimerrain.uncleirohapprovedteacp_Brown_Rice",
+        "InputIdentifier": "Brown Rice",
         "InputStack": 1,
         "InputPriceBased": true,
 		"OutputPriceIncrement": 10,

@@ -7,5 +7,14 @@
 		"WhichBG": 0,
 		"Repeatable": false,
 		"AutoOpen": false
+	},
+	{
+		"Id": "uncleirohsteashop.healthblendtearecipe",
+		"Title": "Health Blend Tea Recipe",
+		"Text": "Hey @!^I heard you've been making tea at home. Apparently, if you mix together cassia tea, chrysanthemum tea, and goji berries it makes a blend that's really good for your overall health. Let me know if you give it a try!^-Sandy",
+		"Recipe": "Health Blend Tea",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false
 	}
 ]
