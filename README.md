@@ -4,18 +4,21 @@ Stardew Valley mods! There are a lot of mods that add similar things as I am, bu
 ## Mods
 - Grains Overhull
 adds various new grains plus machine functionality and recipes
-    - requires JsonAssets, ContentPatcher
+    - [1.5.6] requires JsonAssets, ContentPatcher, MultiYieldCrops
+    - [1.6] Requires ContentPatcher, MultiYieldCrops
 
 - Uncle Iroh's Tea Shop
 adds various tea herbs and common ingredients as well as machines and recipes
     - requires grain overhull
-    - requires JsonAssets, ContentPatcher, MainFrameworkMod
-    - will add different tea bushes and use others'? when 1.6 comes out. (Osmanthus tea bush...)
+    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
+    - [1.6] requires ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
+    - will add different tea bushes and use others'? when 1.6 comes out. (Jasmine & Osmanthus tea bushes...)
 
 - Alcoholics Acknowledged
 adds various types of alcohols and machines for processing
     - requires grain overhull
-    - requires JsonAssets, ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
+    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
+    - [1.5.6] requires ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
 
 ## Credits and Use  
 Feel free to use any of the assets with credits to slimerrain.
