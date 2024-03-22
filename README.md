@@ -18,7 +18,7 @@ adds various tea herbs and common ingredients as well as machines and recipes
 adds various types of alcohols and machines for processing
     - requires grain overhull
     - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
-    - [1.5.6] requires ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
+    - [1.6] requires ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
 
 ## Credits and Use  
 Feel free to use any of the assets with credits to slimerrain.
