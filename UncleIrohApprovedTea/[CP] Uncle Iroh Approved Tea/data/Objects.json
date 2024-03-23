@@ -105,9 +105,34 @@
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "2",
+                    "SpriteIndex": "7",
                     "Edibility": -300,
                     "ContextTags": [ "seed_item" ]
+                },
+                
+                "{{ModId}}_Jasmine": {
+                    "Name": "{{ModId}}_Jasmine",
+                    "DisplayName": "Jasmine",
+                    "Description": "A large stem of pungent tiny purple flowers.",
+                    "Price": 20,
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "7",
+                    "Edibility": 1,
+                    "ContextTags": [ "color_white, flower_item" ]
+                },
+                "{{ModId}}_Jasmine_Seeds": {
+                    "Name": "{{ModId}}_Jasmine_Seeds",
+                    "DisplayName": "Jasmine Seeds",
+                    "Description": "Takes 18 days to produce a jasmine tea bush with jasmine flowers.",
+                    "Price": 1250,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "7",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item, bush_seeds" ]
                 },
                 
                 "{{ModId}}_Lavender": {
@@ -227,7 +252,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 60,
+                        "Duration": 600,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -264,7 +289,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 60,
+                        "Duration": 600,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -301,7 +326,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 60,
+                        "Duration": 600,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -351,7 +376,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 60,
+                        "Duration": 600,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -388,7 +413,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 180,
+                        "Duration": 1800,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -412,12 +437,12 @@
                     "Name": "{{ModId}}_Lavender_Tea",
                     "DisplayName": "Lavender Tea",
                     "Description": "A piney floral tea made from lavender flowers.",
-                    "Price": 1,
+                    "Price": 15,
                     "Type": "ArtisanGoods",
                     "Category": -26,
                     "Texture": "{{ModId}}/Drinks",
                     "SpriteIndex": "6",
-                    "Edibility": 1,
+                    "Edibility": 16,
                     "IsDrink": true,
                     "Buffs": [
                       {
@@ -425,7 +450,7 @@
                         "BuffId": null,
                         "IconTexture": null,
                         "IconSpriteIndex": 0,
-                        "Duration": 0,
+                        "Duration": 600,
                         "IsDebuff": false,
                         "GlowColor": null,
                         "CustomAttributes": {
@@ -448,13 +473,13 @@
                 "{{ModId}}_Jasmine_Tea": {
                     "Name": "{{ModId}}_Jasmine_Tea",
                     "DisplayName": "Jasmine Tea",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "A classic tea with a light floral aroma.",
+                    "Price": 300,
                     "Type": "ArtisanGoods",
                     "Category": -26,
                     "Texture": "{{ModId}}/Drinks",
                     "SpriteIndex": "7",
-                    "Edibility": 1,
+                    "Edibility": 68,
                     "IsDrink": true,
                     "Buffs": [
                       {
@@ -471,9 +496,9 @@
                           "MiningLevel": 0.0,
                           "LuckLevel": 0.0,
                           "ForagingLevel": 0.0,
-                          "MaxStamina": 0.0,
+                          "MaxStamina": 100.0,
                           "MagneticRadius": 0.0,
-                          "Speed": 0.0,
+                          "Speed": 1.5,
                           "Defense": 0.0,
                           "Attack": 0.0
                         },
@@ -580,17 +605,14 @@
                     "ContextTags": [ "color_white, sugar_item, sweet_food" ]
                 }
             }
-        },{
-          "Changes": [
-              {
-                  "Log": "Cooking Recipe Data",
-                  "Action": "EditData",
-                  "Target": "Data/CookingRecipes",
-                  "Entries": {
-                      "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/none/Health Blend Tea"
-                  }
-              }
-          ]
-      }
+        },
+        {
+            "Log": "Cooking Recipe Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/default/Health Blend Tea"
+            }
+        }
     ]
 }

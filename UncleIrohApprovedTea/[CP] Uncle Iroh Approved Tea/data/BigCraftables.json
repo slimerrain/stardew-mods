@@ -11,7 +11,7 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Teapot_Recipe": "330 1 390 5/Field/Teapot/true/null/Teapot"
+                "Teapot_Recipe": "330 1 390 5/Field/Teapot/true/default/Teapot"
             }
         },
         {

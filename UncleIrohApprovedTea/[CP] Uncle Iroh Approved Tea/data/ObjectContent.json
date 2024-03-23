@@ -21,13 +21,18 @@
             "FromFile": "data/FruitTrees.json"
         },
         {
+            "LogName": "Tea Bushes",
+            "Action": "Include",
+            "FromFile": "data/TeaBushes.json"
+        },
+        {
             "LogName": "Tea Recipes",
             "Action": "Include",
             "FromFile": "data/CookingRecipes.json",
             "When": {"TeaRecipes": true }
         },
         {
-            "LogName": "Big Craftables and Machines",
+            "LogName": "Machines",
             "Action": "Include",
             "FromFile": "data/Machines.json",
             "When": {"TeaBrewing": true }

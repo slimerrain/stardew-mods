@@ -13,32 +13,32 @@
             "FromFile": "assets/FruitTrees/Saplings.png"
         },
         {
-            "LogName": "Objects Data",
+            "LogName": "Fruit Tree Object Data",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "{{ModId}}_Cassia_Flower": {
                     "Name": "{{ModId}}_Cassia_Flower",
                     "DisplayName": "Cassia Flower",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "A hanging flower with many small seeds growing in it.",
+                    "Price": 80,
                     "Type": "Basic",
                     "Category": -80,
                     "Texture": "{{ModId}}/TreeHarvests",
                     "SpriteIndex": "0",
-                    "Edibility": 46,
-                    "ContextTags": ["season_summer"]
+                    "Edibility": 5,
+                    "ContextTags": ["season_summer, flower_item"]
                 },
                 "{{ModId}}_Cassia_Sapling": {
                     "Name": "{{ModId}}_Cassia_Sapling",
                     "DisplayName": "Cassia Sapling",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "Takes 28 days to produce a mature Cassia tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+                    "Price": 450,
                     "Type": "Basic",
-                    "Category": -80,
+                    "Category": -74,
                     "Texture": "{{ModId}}/Saplings",
                     "SpriteIndex": "0",
-                    "Edibility": 46,
+                    "Edibility": -300,
                     "ContextTags": ["season_summer"]
                 }
             }
@@ -48,36 +48,17 @@
             "Action": "EditData",
             "Target": "Data/FruitTrees",
             "Entries": {
-                "{{ModId}}_Cassia_Flower_Tree": {
-                    "DisplayName": "Cassia Flower Tree",
-                    "Seasons": [ "Summer" ],
+                "{{ModId}}_Cassia_Sapling": {
+                    "DisplayName": "Cassia Tree",
+                    "Seasons": ["Summer" ],
                     "Fruit": [
-                      {
-                        "Season": null,
-                        "Chance": 1.0,
-                        "Condition": null,
-                        "Id": "Default",
-                        "ItemId": "{{ModId}}_Cassia_Flower",
-                        "RandomItemId": null,
-                        "MaxItems": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack",
-                        "ModData": null,
-                        "PerItemCondition": null
-                      }
+                        {
+                            "Id": "Default",
+                            "ItemId": "(O){{ModId}}_Cassia_Flower"
+                        }
                     ],
                     "Texture": "{{ModId}}/FruitTrees",
-                    "TextureSpriteRow": 0,
-                    "CustomFields": null
+                    "TextureSpriteRow": 0
                 }
             }
         }

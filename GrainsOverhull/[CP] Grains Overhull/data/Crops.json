@@ -92,7 +92,7 @@
                 },
                 "{{ModId}}_Rye_Seeds": { 
                     "Seasons": [ "spring" ],
-                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "DaysInPhase": [ 1, 2, 2, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
                     "IsPaddyCrop": false,
@@ -112,7 +112,7 @@
                 },
                 "{{ModId}}_Sorghum_Seeds": { 
                     "Seasons": [ "spring" ],
-                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "DaysInPhase": [ 1, 1, 2, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
                     "IsPaddyCrop": false,

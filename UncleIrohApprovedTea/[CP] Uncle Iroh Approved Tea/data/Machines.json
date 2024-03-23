@@ -10,11 +10,11 @@
                     "HasOutput": false,
                     "OutputRules": [
                         {
-                            "Id": "{{ModId}}_Barley",
+                            "Id": "slimerrain.grainsoverhullcp_Barley",
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Barley",
+                                    "RequiredItemId": "(O)slimerrain.grainsoverhullcp_Barley",
                                     "RequiredCount": 1
                                 }
                             ],
@@ -25,8 +25,7 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
                                             "Modification": "Multiply",
                                             "Amount": 1.25
@@ -41,7 +40,7 @@
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Brown_Rice",
+                                    "RequiredItemId": "(O)271",
                                     "RequiredCount": 1
                                 }
                             ],
@@ -52,8 +51,7 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
                                             "Modification": "Multiply",
                                             "Amount": 1.25
@@ -68,7 +66,7 @@
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Cassia",
+                                    "RequiredItemId": "(O){{ModId}}_Cassia_Seeds",
                                     "RequiredCount": 1
                                 }
                             ],
@@ -79,8 +77,7 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
                                             "Modification": "Multiply",
                                             "Amount": 1.25
@@ -106,11 +103,10 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
-                                        "Modification": "Multiply",
-                                        "Amount": 1.25
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
                                         }
                                     ]
                                 }
@@ -133,11 +129,36 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
-                                        "Modification": "Multiply",
-                                        "Amount": 1.25
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Jasmine",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Jasmine_Tea",
+                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
+                                    "MinStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
                                         }
                                     ]
                                 }
@@ -160,11 +181,10 @@
                                     "MinStack": 3,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
-                                    "PriceModifiers": 
-                                    [
+                                    "PriceModifiers": [
                                         {
-                                        "Modification": "Multiply",
-                                        "Amount": 1.25
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
                                         }
                                     ]
                                 }
@@ -172,17 +192,162 @@
                             "MinutesUntilReady": 20
                         }
                     ],
-                    "InvalidItemMessage":"Can't Brew This",
-                    "InvalidCountMessage":"Requires",
+                    "InvalidItemMessage": "Can't Brew This",
+                    "InvalidCountMessage": "Requires",
                     "ShowNextIndexWhileWorking": false,
                     "ShowNextIndexWhenReady": false,
                     "WobbleWhileWorking": false,
                     "WorkingEffects": [
                         {
-                            "Frames": [1,2,3],
+                            "Frames": [
+                                1,
+                                2,
+                                3
+                            ],
                             "Interval": 200
                         }
-                   ] 
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Gourmet Pantry Rules for New Machines",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargerField": [
+                "(BC)Dehydrator",
+                "OutputRules"
+            ],
+            "Entires": {
+                "slimerrain.grainsoverhullcp_Strawberry": {
+                    "Id": "slimerrain.grainsoverhullcp_Strawberry",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Strawberry",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Dried_Strawberries",
+                            "ItemId": "(O){{ModId}}_Dried_Strawberries",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Lotus_Seeds": {
+                    "Id": "{{ModId}}_Lotus_Seeds",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Lotus_Seeds",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Dried_Lotus_Seeds",
+                            "ItemId": "(O){{ModId}}_Dried_Lotus_Seeds",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Cassia_Flower": {
+                    "Id": "{{ModId}}_Cassia_Flower",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Cassia_Flower",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Cassia_Seeds",
+                            "ItemId": "(O){{ModId}}_Cassia_Seeds",
+                            "MinStack": 5,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Orange_Peel": {
+                    "Id": "{{ModId}}_Orange_Peel",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Orange_Peel",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Dried_Orange_Peel",
+                            "ItemId": "(O){{ModId}}_Dried_Orange_Peel",
+                            "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Sugarcane": {
+                    "Id": "{{ModId}}_Sugarcane",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Sugarcane",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Rock_Sugar",
+                            "ItemId": "(O){{ModId}}_Rock_Sugar",
+                            "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
                 }
             }
         }

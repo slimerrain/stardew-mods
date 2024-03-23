@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Crop Harvests Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/TeaBushes",
+            "FromFile": "assets/Bushes/TeaBushes.png"
+        },
+        {
+            "LogName": "Add to Custom Bush Framework",
+            "Action": "EditData",
+            "Target": "furyx639.CustomBush/Data",
+            "Entries": {
+                "(O){{ModId}})_Jasmine_Seeds": {
+                    "AgeToProduce": 18,
+                    "DayToBeginProducing": 0,
+                    "Seasons": ["spring", "fall"],
+                    "ItemsProduced": [
+                        {
+                            "ItemId": "(O){{ModId}})_Jasmine",
+                            "Chance": 1.0,
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4]}]
+                        }
+                    ],
+                    "Texture": "{{ModId}}/TeaBushes",
+                    "IndoorTexture": "{{ModId}}/TeaBushes",
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ]
+}
