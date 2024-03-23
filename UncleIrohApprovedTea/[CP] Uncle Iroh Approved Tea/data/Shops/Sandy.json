@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Sandy": {
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_Barley_Tea",
+                            "ItemId": "{{ModId}}_Barley_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Brown_Rice_Tea",
+                            "ItemId": "{{ModId}}_Brown_Rice_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Cassia_Tea",
+                            "ItemId": "{{ModId}}_Cassia_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Chamomile_Tea",
+                            "ItemId": "{{ModId}}_Chamomile_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Chrysanthemum_Tea",
+                            "ItemId": "{{ModId}}_Chrysanthemum_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Lavender_Tea",
+                            "ItemId": "{{ModId}}_Lavender_Tea",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "{{ModId}}_Health_Blend_Tea",
+                            "ItemId": "{{ModId}}_Health_Blend_Tea",
+                            "Price": 400
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

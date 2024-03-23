@@ -1,0 +1,111 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Ingredients Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Ingredients",
+            "FromFile": "assets/Objects/Ingredients.png"
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "{{ModId}}_Cassia_Seeds": {
+                "Name": "{{ModId}}_Cassia_Seeds",
+                "DisplayName": "Cassia Seeds",
+                "Description": "The hard and dark seeds of a Cassia Flower, typically used for brewing tea",
+                "Price": 12,
+                "Type": "Seeds",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "0",
+                "Edibility": 5,
+                "ContextTags": [ "color_dark_brown", "seed_item" ]
+            },
+            "{{ModId}}_Dried_Goji_Berries": {
+                "Name": "{{ModId}}_Dried_Goji_Berries",
+                "DisplayName": "Dried Goji Berries",
+                "Description": "",
+                "Price": 1,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "1",
+                "Edibility": 1,
+                "ContextTags": [ "color_red", "dried_item", "berry_item", "fruit_item" ]
+            },
+            "{{ModId}}_Dried_Lotus_Seeds": {
+                "Name": "{{ModId}}_Dried_Lotus_Seeds",
+                "DisplayName": "Dried Lotus Seeds",
+                "Description": "Seeds from a lotus seed pod. Typically used in pastes and soups.",
+                "Price": 150,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "2",
+                "Edibility": 9,
+                "ContextTags": [ "color_white", "dried_item", "seed_item" ]
+            },
+            "{{ModId}}_Dried_Orange_Peel": {
+                "Name": "{{ModId}}_Dried_Orange_Peel",
+                "DisplayName": "Dried Orange Peel",
+                "Description": "A versatile ingredient for making food or drinks.",
+                "Price": 75,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "3",
+                "Edibility": 9,
+                "ContextTags": [ "color_brown", "seed_item" ]
+            },
+            "{{ModId}}_Dried_Strawberries": {
+                "Name": "{{ModId}}_Dried_Strawberries",
+                "DisplayName": "Dried Strawberries",
+                "Description": "Strawberries that have been dehydrated.",
+                "Price":500,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "4",
+                "Edibility": 13,
+                "ContextTags": [ "color_dark_red", "seed_item" ]
+            },
+            "{{ModId}}_Lily_Bulb_2": {
+                "Name": "{{ModId}}_Lily_Bulb_2",
+                "DisplayName": "Lily Bulb",
+                "Description": "Dried out bulb of a lily flower. Can be added to soup to help with coughs.",
+                "Price": 50,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "5",
+                "Edibility": 1,
+                "ContextTags": [ "color_white" ]
+            },
+            "{{ModId}}_Orange_Peel": {
+                "Name": "{{ModId}}_Orange_Peel",
+                "DisplayName": "Orange Peel",
+                "Description": "The peel from an orange.",
+                "Price": 50,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "6",
+                "Edibility": 12,
+                "ContextTags": [ "color_orange", "peel_item" ]
+            },
+            "{{ModId}}_Rock_Sugar": {
+                "Name": "{{ModId}}_Rock_Sugar",
+                "DisplayName": "Rock Sugar",
+                "Description": "Mmmmm, crunchy.",
+                "Price": 75,
+                "Type": "ArtisanGoods",
+                "Category": -74,
+                "Texture": "{{ModId}}/Ingredients",
+                "SpriteIndex": "7",
+                "Edibility": 55,
+                "ContextTags": [ "color_white", "sugar_item", "sweet_food" ]
+            },
+        }
+    ]
+}

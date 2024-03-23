@@ -168,37 +168,37 @@
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Wheat"],
+                    "Target": [ "Entries", "483"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Wheat Flour"],
+                    "Target": [ "Entries", "246"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Unmilled Rice"],
+                    "Target": [ "Entries", "271"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Rice"],
+                    "Target": [ "Entries", "423"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Amaranth"],
+                    "Target": [ "Entries", "300"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Corn"],
+                    "Target": [ "Entries", "270"],
                     "Value": "grain_item",
                     "Delimiter": ","
                 }

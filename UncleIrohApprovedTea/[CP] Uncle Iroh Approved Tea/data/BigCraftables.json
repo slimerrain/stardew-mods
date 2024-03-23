@@ -1,38 +1,21 @@
 {
     "Changes": [
         {
-            "LogName": "Load Big Craftable Tilesheet",
-            "Action": "Load",
-            "Target": "{{ModId}}/BigCraftables",
-            "FromFile": "assets/BigCraftables/Craftables.png"
+            "LogName": "Big Craftables",
+            "Action": "Include",
+            "FromFile": "data/BigCraftables/BigCraftables.json"
         },
         {
-            "LogName": "Crafting Data",
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries": {
-                "Teapot_Recipe": "330 1 390 5/Field/Teapot/true/default/Teapot"
-            }
+            "LogName": "Machines",
+            "Action": "Include",
+            "FromFile": "data/BigCraftables/Teapot.json",
+            "When": {"TeaBrewing": true }
         },
         {
-            "LogName": "BigCraftable Data",
-            "Action": "EditData",
-            "Target": "Data/BigCraftables",
-            "Entries": {
-                "{{ModId}}_Teapot": {
-                    "Name": "{{ModId}}_Teapot",
-                    "DisplayName": "Teapot",
-                    "Description": "A cute little pot for brewing tea.",
-                    "Price": 1000,
-                    "Fragility": 0,
-                    "CanBePlacedOutdoors": true,
-                    "CanBePlacedIndoors": true,
-                    "IsLamp": false,
-                    "Texture": "{{ModId}}/BigCraftables",
-                    "SpriteIndex": 0,
-                    "CustomFields": null
-                }
-            }
+            "LogName": "Machines",
+            "Action": "Include",
+            "FromFile": "data/BigCraftables/Dehydrator.json",
+            "When": {"CustomDehydratorRules": true }
         }
     ]
 }

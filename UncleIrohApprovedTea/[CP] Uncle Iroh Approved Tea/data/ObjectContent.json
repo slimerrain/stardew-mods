@@ -1,7 +1,12 @@
 {
     "Changes": [
         {
-            "LogName": "Objects",
+            "LogName": "Big Craftables",
+            "Action": "Include",
+            "FromFile": "data/Crops.json"
+        },
+        {
+            "LogName": "Big Craftables",
             "Action": "Include",
             "FromFile": "data/Objects.json"
         },
@@ -11,31 +16,9 @@
             "FromFile": "data/BigCraftables.json"
         },
         {
-            "LogName": "Crops",
+            "LogName": "Big Craftables",
             "Action": "Include",
-            "FromFile": "data/Crops.json"
-        },
-        {
-            "LogName": "Fruit Trees",
-            "Action": "Include",
-            "FromFile": "data/FruitTrees.json"
-        },
-        {
-            "LogName": "Tea Bushes",
-            "Action": "Include",
-            "FromFile": "data/TeaBushes.json"
-        },
-        {
-            "LogName": "Tea Recipes",
-            "Action": "Include",
-            "FromFile": "data/CookingRecipes.json",
-            "When": {"TeaRecipes": true }
-        },
-        {
-            "LogName": "Machines",
-            "Action": "Include",
-            "FromFile": "data/Machines.json",
-            "When": {"TeaBrewing": true }
+            "FromFile": "data/Recipes.json"
         }
     ]
 }

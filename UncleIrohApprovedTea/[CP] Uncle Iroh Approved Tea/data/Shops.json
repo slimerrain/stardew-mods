@@ -1,123 +1,14 @@
 {
     "Changes": [
         {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "Entries": {
-                "Seedshop": {
-                    "Items": [
-                        {
-                            "Id": "{{ModId}}_Cassia_Sapling",
-                            "ItemId": "{{ModId}}_Cassia_Sapling",
-                            "Price": 450
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Chamomile_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Chamomile_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Chamomile_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Chamomile_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Fall",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Goji_Berry_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Goji_Berry_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Goji_Berry_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Goji_Berry_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lavender_Seeds",
-                            "ItemId": "{{ModId}}_Lavender_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lily_Bulb",
-                            "ItemId": "{{ModId}}_Lily_Bulb"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lotus_Seeds",
-                            "ItemId": "{{ModId}}_Lotus_Seeds_Spring"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Lotus_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Lotus_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Lotus_Seeds_Fall",
-                            "ItemId": "{{ModId}}_Lotus_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Sugarcane_Seeds",
-                            "ItemId": "{{ModId}}_Sugarcane_Seeds"
-                        }
-                    ]
-                },
-                "Sandy": {
-                    "Items": [
-                        {
-                            "Id": "{{ModId}}_Barley_Tea",
-                            "ItemId": "{{ModId}}_Barley_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Brown_Rice_Tea",
-                            "ItemId": "{{ModId}}_Brown_Rice_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Cassia_Tea",
-                            "ItemId": "{{ModId}}_Cassia_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Chamomile_Tea",
-                            "ItemId": "{{ModId}}_Chamomile_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Chrysanthemum_Tea",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Lavender_Tea",
-                            "ItemId": "{{ModId}}_Lavender_Tea",
-                            "Price": 200
-                        },
-                        {
-                            "Id": "{{ModId}}_Health_Blend_Tea",
-                            "ItemId": "{{ModId}}_Health_Blend_Tea",
-                            "Price": 400
-                        }
-                    ]
-                }
-            }
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "data/Shops/SeedShop.json"
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "data/Shops/Sandy.json"
         }
     ]
 }

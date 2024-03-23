@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "Tea Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/CraftingRecipes.json"
+        },
+        {
+            "LogName": "Tea Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/CookingRecipes.json",
+            "When": {"TeaRecipes": true }
+        }
+    ]
+}

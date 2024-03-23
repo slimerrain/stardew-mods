@@ -15,6 +15,13 @@
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
+        },
+        "CustomDehydratorRules": {
+            "Description": "Some modifications to dehydrator rules based on the new items.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
         }
     },
 

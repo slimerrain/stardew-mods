@@ -11,10 +11,12 @@
             "Action": "EditData",
             "Target": "furyx639.CustomBush/Data",
             "Entries": {
-                "(O){{ModId}})_Jasmine_Seeds": {
+                "(O){{ModId}})_Jasmine_Sapling": {
                     "AgeToProduce": 18,
                     "DayToBeginProducing": 0,
-                    "Seasons": ["spring", "fall"],
+                    "DisplayName": "Jasmine Bush",
+                    "Description": "A bush that produces jasmine flowers in the summer and fall once fully grown.",
+                    "Seasons": ["summer", "fall"],
                     "ItemsProduced": [
                         {
                             "ItemId": "(O){{ModId}})_Jasmine",
@@ -26,7 +28,7 @@
                     ],
                     "Texture": "{{ModId}}/TeaBushes",
                     "IndoorTexture": "{{ModId}}/TeaBushes",
-                    "TextureSpriteRow": 0
+                    "TextureSpriteRow": 2
                 }
             }
         }

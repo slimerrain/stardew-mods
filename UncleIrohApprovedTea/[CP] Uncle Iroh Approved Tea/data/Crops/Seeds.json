@@ -1,0 +1,115 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Seeds Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Seeds",
+            "FromFile": "assets/Crops/Seeds.png"
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Chamomile_Seeds": {
+                    "Name": "{{ModId}}_Chamomile_Seeds",
+                    "DisplayName": "Chamomile Seeds",
+                    "Description": "Plant these in the spring or summer. Takes 7 days to produce a chamomile flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "0",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Chrysanthemum_Seeds": {
+                    "Name": "{{ModId}}_Chrysanthemum_Seeds",
+                    "DisplayName": "Chrysanthemum Seeds",
+                    "Description": "Plant these in the spring, summer, or fall. Takes 8 days to produce chrysanthemums.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "1",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Goji_Berry_Seeds": {
+                    "Name": "{{ModId}}_Goji_Berry_Seeds",
+                    "DisplayName": "Goji Berry Seeds",
+                    "Description": "Plant these in the spring or summer. Takes 11 days to mature, and continues to produce goji berries after first harvest.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "2",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lavender_Seeds": {
+                    "Name": "{{ModId}}_Lavender_Seeds",
+                    "DisplayName": "Lavender Seeds",
+                    "Description": "Plant these in the spring. Takes 5 days to produce lavender flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "3",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lily_Bulb": {
+                    "Name": "{{ModId}}_Lily_Bulb",
+                    "DisplayName": "Lily Bulb",
+                    "Description": "Plant these in the spring. Takes 7 days to produce lily flowers.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "4",
+                    "Edibility": -300,
+                    "ContextTags": [ "bulb_item", "seed_item" ]
+                },
+                "{{ModId}}_Lotus_Seeds": {
+                    "Name": "{{ModId}}_Lotus_Seeds",
+                    "DisplayName": "Lotus Seeds",
+                    "Description": "Plant these in spring, summer, or fall. Takes 6 days to mature. Grows faster if planted near a body of water. Regrows. Harvest with the scythe.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "5",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Sugarcane_Seeds": {
+                    "Name": "{{ModId}}_Sugarcane_Seeds",
+                    "DisplayName": "Sugarcane Seeds",
+                    "Description": "Plant these in the fall. Takes 8 days to mature. Grows faster if planted near a body of water. Regrows. Harvest with the scythe.",
+                    "Price": 10,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "6",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "Name": "{{ModId}}_Jasmine_Sapling",
+                    "DisplayName": "Jasmine Sapling",
+                    "Description": "Takes 18 days to produce a tea bush with jasmine flowers.",
+                    "Price": 1250,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "7",
+                    "Edibility": -300,
+                    "ContextTags": null,
+                    "CustomFields": null
+                }
+            }
+        }
+
+    ]
+}
