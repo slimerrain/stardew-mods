@@ -6,9 +6,9 @@
             "FromFile": "Data/Objects.json"
         },
         {
-            "LogName": "Crops",
+            "LogName": "Shops",
             "Action": "Include",
-            "FromFile": "Data/Crops.json"
+            "FromFile": "Data/Shops.json"
         }
     ]
 }
