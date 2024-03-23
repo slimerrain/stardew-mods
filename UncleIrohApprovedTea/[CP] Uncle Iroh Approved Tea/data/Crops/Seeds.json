@@ -100,7 +100,7 @@
                     "DisplayName": "Jasmine Sapling",
                     "Description": "Takes 18 days to produce a tea bush with jasmine flowers.",
                     "Price": 1250,
-                    "Type": "Seeds",
+                    "Type": "Basic",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "7",

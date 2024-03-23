@@ -3,12 +3,12 @@
         {
             "LogName": "Big Craftables",
             "Action": "Include",
-            "FromFile": "data/Crops.json"
+            "FromFile": "data/Objects.json"
         },
         {
             "LogName": "Big Craftables",
             "Action": "Include",
-            "FromFile": "data/Objects.json"
+            "FromFile": "data/Crops.json"
         },
         {
             "LogName": "Big Craftables",

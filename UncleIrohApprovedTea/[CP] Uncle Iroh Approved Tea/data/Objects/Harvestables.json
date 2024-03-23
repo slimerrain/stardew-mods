@@ -21,12 +21,12 @@
                     "Name": "{{ModId}}_Chamomile",
                     "DisplayName": "Chamomile",
                     "Description": "A small white flower with a big yellow center. Used for brewing tea.",
-                    "Price": 1,
+                    "Price": 25,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "0",
-                    "Edibility": 1,
+                    "Edibility": 6,
                     "ContextTags": [ "color_white", "flower_item" ]
                 },
 
@@ -34,12 +34,12 @@
                     "Name": "{{ModId}}_Chrysanthemum",
                     "DisplayName": "Chrysanthemum",
                     "Description": "A yellow flower with many small petals sticking out. Used for brewing tea.",
-                    "Price": 1,
+                    "Price": 20,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "1",
-                    "Edibility": 1,
+                    "Edibility": 11,
                     "ContextTags": [ "color_yellow", "flower_item" ]
                 },
                 
@@ -47,12 +47,12 @@
                     "Name": "{{ModId}}_Goji_Berry",
                     "DisplayName": "Goji Berry",
                     "Description": "A small pink berry that can be dehydrated and used for various dishes and put into teas.",
-                    "Price": 1,
+                    "Price": 60,
                     "Type": "Basic",
                     "Category": -79,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "2",
-                    "Edibility": 1,
+                    "Edibility": 9,
                     "ContextTags": [ "color_red", "special_dehydrator_rule", "fruit_item", "berry_item" ]
                 },
                 
@@ -60,12 +60,12 @@
                     "Name": "{{ModId}}_Lavender",
                     "DisplayName": "Lavender",
                     "Description": "A large stem of pungent tiny purple flowers.",
-                    "Price": 1,
+                    "Price": 120,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "3",
-                    "Edibility": 1,
+                    "Edibility": -1,
                     "ContextTags": [ "color_purple", "flower_item" ]
                 },
                 
@@ -73,12 +73,12 @@
                     "Name": "{{ModId}}_Lily",
                     "DisplayName": "Lily",
                     "Description": "A tall flower with bright petals.",
-                    "Price": 1,
+                    "Price": 40,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "4",
-                    "Edibility": 1,
+                    "Edibility": 4,
                     "ContextTags": [ "color_orange", "flower_item" ]
                 },
                 
@@ -86,25 +86,25 @@
                     "Name": "{{ModId}}_Lotus",
                     "DisplayName": "Lotus",
                     "Description": "An ornamental water-based flower with many spreading petals.",
-                    "Price": 1,
+                    "Price": 80,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "5",
-                    "Edibility": 1,
+                    "Edibility": 7,
                     "ContextTags": [ "color_pink", "flower_item" ]
                 },
                 
                 "{{ModId}}_Sugarcane": {
                     "Name": "{{ModId}}_Sugarcane",
                     "DisplayName": "Sugarcane",
-                    "Description": "",
-                    "Price": 1,
+                    "Description": "A tall and fibrous stalk of sugar.",
+                    "Price": 45,
                     "Type": "Vegetable",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "6",
-                    "Edibility": 1,
+                    "Edibility": 6,
                     "ContextTags": [ "color_red", "vegetable_item" ]
                 },
                 

@@ -14,8 +14,6 @@
                 "(O){{ModId}})_Jasmine_Sapling": {
                     "AgeToProduce": 18,
                     "DayToBeginProducing": 0,
-                    "DisplayName": "Jasmine Bush",
-                    "Description": "A bush that produces jasmine flowers in the summer and fall once fully grown.",
                     "Seasons": ["summer", "fall"],
                     "ItemsProduced": [
                         {
@@ -28,7 +26,7 @@
                     ],
                     "Texture": "{{ModId}}/TeaBushes",
                     "IndoorTexture": "{{ModId}}/TeaBushes",
-                    "TextureSpriteRow": 2
+                    "TextureSpriteRow": 0
                 }
             }
         }

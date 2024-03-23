@@ -3,80 +3,93 @@
         {
             "Action": "EditData",
             "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
             "Entries": {
-                "Seedshop": {
-                    "Items": [
-                        {
-                            "Id": "{{ModId}}_Cassia_Sapling",
-                            "ItemId": "{{ModId}}_Cassia_Sapling",
-                            "Price": 450
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Chamomile_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Chamomile_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Chamomile_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Chamomile_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Chrysanthemum_Seeds_Fall",
-                            "ItemId": "{{ModId}}_Chrysanthemum_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Goji_Berry_Seeds_Spring",
-                            "ItemId": "{{ModId}}_Goji_Berry_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Goji_Berry_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Goji_Berry_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lavender_Seeds",
-                            "ItemId": "{{ModId}}_Lavender_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lily_Bulb",
-                            "ItemId": "{{ModId}}_Lily_Bulb"
-                        },
-                        {
-                            "Condition": "SEASON spring",
-                            "Id": "{{ModId}}_Lotus_Seeds",
-                            "ItemId": "{{ModId}}_Lotus_Seeds_Spring"
-                        },
-                        {
-                            "Condition": "SEASON summer",
-                            "Id": "{{ModId}}_Lotus_Seeds_Summer",
-                            "ItemId": "{{ModId}}_Lotus_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Lotus_Seeds_Fall",
-                            "ItemId": "{{ModId}}_Lotus_Seeds"
-                        },
-                        {
-                            "Condition": "SEASON fall",
-                            "Id": "{{ModId}}_Sugarcane_Seeds",
-                            "ItemId": "{{ModId}}_Sugarcane_Seeds"
-                        }
-                    ]
+                "{{ModId}}_Chamomile_Seeds_Spring": {
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Chamomile_Seeds_Spring",
+                    "ItemId": "{{ModId}}_Chamomile_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Chamomile_Seeds_Summer": {
+                    "Condition": "SEASON summer",
+                    "Id": "{{ModId}}_Chamomile_Seeds_Summer",
+                    "ItemId": "{{ModId}}_Chamomile_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Chrysanthemum_Seeds_Spring": {
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Chrysanthemum_Seeds_Spring",
+                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Chrysanthemum_Seeds_Summer": {
+                    "Condition": "SEASON summer",
+                    "Id": "{{ModId}}_Chrysanthemum_Seeds_Summer",
+                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Chrysanthemum_Seeds_Fall": {
+                    "Condition": "SEASON fall",
+                    "Id": "{{ModId}}_Chrysanthemum_Seeds_Fall",
+                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Goji_Berry_Seeds_Spring": {
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Goji_Berry_Seeds_Spring",
+                    "ItemId": "{{ModId}}_Goji_Berry_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Goji_Berry_Seeds_Summer": {
+                    "Condition": "SEASON summer",
+                    "Id": "{{ModId}}_Goji_Berry_Seeds_Summer",
+                    "ItemId": "{{ModId}}_Goji_Berry_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Lavender_Seeds": {
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Lavender_Seeds",
+                    "ItemId": "{{ModId}}_Lavender_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Lily_Bulb":{
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Lily_Bulb",
+                    "ItemId": "{{ModId}}_Lily_Bulb",
+                    "Price": 10
+                },
+                "{{ModId}}_Lotus_Seeds_Spring": {
+                    "Condition": "SEASON spring",
+                    "Id": "{{ModId}}_Lotus_Seeds_Spring",
+                    "ItemId": "{{ModId}}_Lotus_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Lotus_Seeds_Summer": {
+                    "Condition": "SEASON summer",
+                    "Id": "{{ModId}}_Lotus_Seeds_Summer",
+                    "ItemId": "{{ModId}}_Lotus_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Lotus_Seeds_Fall": {
+                    "Condition": "SEASON fall",
+                    "Id": "{{ModId}}_Lotus_Seeds_Fall",
+                    "ItemId": "{{ModId}}_Lotus_Seeds",
+                    "Price": 10
+                },
+                "{{ModId}}_Sugarcane_Seeds": {
+                    "Condition": "SEASON fall",
+                    "Id": "{{ModId}}_Sugarcane_Seeds",
+                    "ItemId": "{{ModId}}_Sugarcane_Seeds",
+                    "Price": 35
+                },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "Id": "{{ModId}}_Jasmine_Sapling",
+                    "ItemId": "{{ModId}}_Jasmine_Sapling",
+                    "Price": 1250
                 }
             }
         }

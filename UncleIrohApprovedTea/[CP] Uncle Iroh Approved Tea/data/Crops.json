@@ -8,7 +8,7 @@
         {
             "LogName": "Crops",
             "Action": "Include",
-            "FromFile": "data/Crops/FruitSeeds.json"
+            "FromFile": "data/Crops/FruitTrees.json"
         },
         {
             "LogName": "Crops",
