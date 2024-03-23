@@ -1,24 +1,60 @@
 {
     "Changes": [
         {
-            "LogName": "Big Craftables",
+            "LogName": "Dried Objects",
             "Action": "Include",
-            "FromFile": "data/Objects.json"
+            "FromFile": "data/Objects/DriedGoods.json"
         },
+        {
+            "LogName": "Drink Objects",
+            "Action": "Include",
+            "FromFile": "data/Objects/Drinks.json"
+        },
+        {
+            "LogName": "Harvestable Objects",
+            "Action": "Include",
+            "FromFile": "data/Objects/Harvestables.json"
+        },
+
+        
+        {
+            "LogName": "Crops Seeds",
+            "Action": "Include",
+            "FromFile": "data/Crops/Seeds.json"
+        },
+        {
+            "LogName": "Crops",
+            "Action": "Include",
+            "FromFile": "data/Crops/Crops.json"
+        },
+        {
+            "LogName": "Fruit Tree Crops",
+            "Action": "Include",
+            "FromFile": "data/Crops/FruitTrees.json"
+        },
+        {
+            "LogName": "Tea Bush Crops",
+            "Action": "Include",
+            "FromFile": "data/Crops/TeaBushes.json"
+        },
+
+        
         {
             "LogName": "Big Craftables",
             "Action": "Include",
-            "FromFile": "data/Crops.json"
+            "FromFile": "data/BigCraftables/BigCraftables.json"
         },
         {
-            "LogName": "Big Craftables",
+            "LogName": "Teapot Machine",
             "Action": "Include",
-            "FromFile": "data/BigCraftables.json"
+            "FromFile": "data/BigCraftables/Teapot.json",
+            "When": {"TeaBrewing": true }
         },
         {
-            "LogName": "Big Craftables",
+            "LogName": "Dehydrator Machine",
             "Action": "Include",
-            "FromFile": "data/Recipes.json"
+            "FromFile": "data/BigCraftables/Dehydrator.json",
+            "When": {"CustomDehydratorRules": true }
         }
     ]
 }

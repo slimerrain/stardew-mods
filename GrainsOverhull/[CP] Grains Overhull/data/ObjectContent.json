@@ -3,12 +3,17 @@
         {
             "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/Objects.json"
+            "FromFile": "Data/Objects/Harvestables.json"
         },
         {
-            "LogName": "Shops",
+            "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/Shops.json"
+            "FromFile": "Data/Crops/Seeds.json"
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Crops/Crops.json"
         }
     ]
 }

@@ -27,14 +27,32 @@
 
     "Changes": [
         {
-            "LogName": "ObjectContent",
+            "LogName": "Objects",
             "Action": "Include",
             "FromFile": "Data/ObjectContent.json"
+        },
+
+        {
+            "LogName": "Crafting Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/CraftingRecipes.json"
+        },
+        {
+            "LogName": "Tea Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/CookingRecipes.json",
+            "When": {"TeaRecipes": true }
+        },
+
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "data/Shops/SeedShop.json"
         },
         {
             "LogName": "Shops",
             "Action": "Include",
-            "FromFile": "Data/Shops.json"
+            "FromFile": "data/Shops/Sandy.json"
         }
     ]
 }

@@ -8,109 +8,109 @@
                 // ========== VANILLA ITEMS ==========
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Ancient Fruit"],
+                    "Target": [ "Entries", "(O)454"],
                     "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Apple"],
+                    "Target": [ "Entries", "(O)613"],
                     "Value": "cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Blueberry"],
+                    "Target": [ "Entries", "(O)258"],
                     "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Beet"],
+                    "Target": [ "Entries", "(O)284"],
                     "Value": "rum_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Cactus Fruit"],
+                    "Target": [ "Entries", "(O)90"],
                     "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Cranberries"],
+                    "Target": [ "Entries", "(O)282"],
                     "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Corn"],
+                    "Target": [ "Entries", "(O)270"],
                     "Value": "whiskey_item, vodka_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Ginger"],
+                    "Target": [ "Entries", "(O)829"],
                     "Value": "fire_cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Hot Pepper"],
+                    "Target": [ "Entries", "(O)260"],
                     "Value": "fire_cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Melon"],
+                    "Target": [ "Entries", "(O)254"],
                     "Value": "brandy_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Potato"],
+                    "Target": [ "Entries", "(O)192"],
                     "Value": "ale_item, vodka_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Radish"],
+                    "Target": [ "Entries", "(O)Radish"],
                     "Value": "fire_cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Sugar"],
+                    "Target": [ "Entries", "(O)Sugar"],
                     "Value": "rum_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Starfruit"],
+                    "Target": [ "Entries", "(O)Starfruit"],
                     "Value": "cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Salmonberry"],
+                    "Target": [ "Entries", "(O)Salmonberry"],
                     "Value": "cider_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Unmilled Rice"],
+                    "Target": [ "Entries", "(O)Unmilled Rice"],
                     "Value": "soju_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Wheat"],
+                    "Target": [ "Entries", "(O)Wheat"],
                     "Value": "vodka_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Yam"],
+                    "Target": [ "Entries", "(O)Yam"],
                     "Value": "soju_item",
                     "Delimiter": ","
                 },
@@ -118,37 +118,37 @@
                 // ========== GRAIN OVERHULL ITEMS ==========
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Barley"],
+                    "Target": [ "Entries", "{{ModId}}_Barley"],
                     "Value": "whiskey_item, ale_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Buckwheat Seeds"],
+                    "Target": [ "Entries", "{{ModId}}_Buckwheat_Seeds"],
                     "Value": "whiskey_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Millet"],
+                    "Target": [ "Entries", "{{ModId}}_Millet"],
                     "Value": "ale_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Oat"],
+                    "Target": [ "Entries", "{{ModId}}_Oat"],
                     "Value": "whiskey_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Rye"],
+                    "Target": [ "Entries", "{{ModId}}_Rye"],
                     "Value": "ale_item, vodka_item",
                     "Delimiter": ","
                 },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Sorghum"],
+                    "Target": [ "Entries", "{{ModId}}_Sorghum"],
                     "Value": "ale_item, whiskey_item",
                     "Delimiter": ","
                 }

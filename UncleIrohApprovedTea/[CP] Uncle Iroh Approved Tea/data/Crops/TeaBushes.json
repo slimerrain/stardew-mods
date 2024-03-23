@@ -11,13 +11,13 @@
             "Action": "EditData",
             "Target": "furyx639.CustomBush/Data",
             "Entries": {
-                "(O){{ModId}})_Jasmine_Sapling": {
+                "(O){{ModId}}_Jasmine_Sapling": {
                     "AgeToProduce": 18,
                     "DayToBeginProducing": 0,
                     "Seasons": ["summer", "fall"],
                     "ItemsProduced": [
                         {
-                            "ItemId": "(O){{ModId}})_Jasmine",
+                            "ItemId": "(O){{ModId}}_Jasmine",
                             "Chance": 1.0,
                             "MinStack": 2,
                             "MaxStack": 5,
