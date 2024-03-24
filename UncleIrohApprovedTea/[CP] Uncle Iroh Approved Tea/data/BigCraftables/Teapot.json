@@ -188,9 +188,7 @@
             "LogName": "Add Tea Rules for Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
-            "When": {
-                "GrainsOverhull": true
-            },
+			"When": { "HasMod |contains=slimerrain.grainsoverhullcp": true },
             "Entries": {
                 "(BC){{ModId}}_Teapot": {
                     "HasInput": false,

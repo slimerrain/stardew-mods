@@ -201,9 +201,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "RenameUnmilledRice": true
-            },
+            "When": { "RenameUnmilledRice": true },
             "Fields": 
             {
                 "271": // Unmilled Rice

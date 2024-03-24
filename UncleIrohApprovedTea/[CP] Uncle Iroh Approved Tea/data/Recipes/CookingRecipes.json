@@ -17,9 +17,7 @@
             "Log": "Cooking Recipe Data",
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
-            "When": {
-                "GrainsOverhull": true
-            },
+			"When": { "HasMod |contains=slimerrain.grainsoverhullcp": true },
             "Entries": {
                 "{{ModId}}_Barley_Tea": "slimerrain.grainsoverhullcp_Barley 1/6 9/{{ModId}}_Barley_Tea 3/default/Barley Tea"
             }

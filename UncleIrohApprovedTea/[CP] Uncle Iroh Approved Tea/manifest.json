@@ -5,20 +5,12 @@
     "Version": "1.0.1",
     "MinimumApiVersion": "3.0.0",
     "UniqueID": "slimerrain.uncleirohapprovedteacp",
-    "ContentPackFor": {
-        "UniqueID": "Pathoschild.ContentPatcher"
-    },
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
     "Dependencies": [
-        {
-            "UniqueID": "slimerrain.grainsoverhullcp",
-            "IsRequired": false
-        },
         {
             "UniqueID": "furyx639.CustomBush",
             "IsRequired": true
         }
     ],
-    "UpdateKeys": [
-        ""
-    ]
+    "UpdateKeys": [ "" ]
 }

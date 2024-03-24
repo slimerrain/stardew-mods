@@ -271,17 +271,7 @@
             "drink_item",
             "tea_item"
           ]
-        }
-      }
-    },
-    {
-      "LogName": "Objects Data",
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-        "GrainsOverhull": true
-      },
-      "Entries": {
+        },
         "{{ModId}}_Barley_Tea": {
           "Name": "{{ModId}}_Barley_Tea",
           "DisplayName": "Barley Tea",

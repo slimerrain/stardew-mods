@@ -5,6 +5,278 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "TextOperations": [
+                // tea
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "{{ModId}}_Barley_Tea {{ModId}}_Brown_Rice_Tea {{ModId}}_Cassia_Tea {{ModId}}_Chamomile_Tea {{ModId}}_Chrysanthemum_Tea {{ModId}}_Health_Blend_Tea {{ModId}}_Jasmine_Tea {{ModId}}_Lavender_Tea",
+                    "Delimiter": " "
+                },
+                // crops
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "{{ModId}}_Cassia_Flower {{ModId}}_Chamomile {{ModId}}_Chrysanthemum {{ModId}}_Goji_Berry {{ModId}}_Jasmine {{ModId}}_Lavender",
+                    "Delimiter": " "
+                },
+                // other
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "{{ModId}}_Cassia_Seeds {{ModId}}__Dried_Goji_Berries {{ModId}}_Dried_Lotus_Seeds {{ModId}}_Dried_Orange_Peel {{ModId}}_Dried_Strawberries {{ModId}}_Lily_Bulb_2 {{ModId}}_Rock_Sugar",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", "1"],
+                    "Value": "{{ModId}}_Health_Blend_Tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", "3"],
+                    "Value": "{{ModId}}_Dried_Strawberries",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", "1"],
+                    "Value": "{{ModId}}_Brown_Rice_Tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", "3"],
+                    "Value": "{{ModId}}_Chamomile_Tea {{ModId}}_Rock_Sugar {{ModId}}_Jasmine",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", "1"],
+                    "Value": "{{ModId}}_Health_Blend_Tea",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", "3"],
+                    "Value": "{{ModId}}_Chamomile_Tea {{ModId}}_Lavender_Tea {{ModId}}_Barley_Tea {{ModId}}__Dried_Goji_Berries",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
                 {
                     "Operation": "Append",
                     "Target": ["Fields", "", "1"],
