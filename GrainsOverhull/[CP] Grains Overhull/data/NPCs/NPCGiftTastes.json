@@ -218,10 +218,9 @@
                     "Value": "{{ModId}}_Barley",
                     "Delimiter": " "
                 },
-                ,
                 {
                     "Operation": "Append",
-                    "Target": ["Fields", "Universal_Neutral"],
+                    "Target": ["Entries", "Universal_Neutral"],
                     "Value": "{{ModId}}_Oat {{ModId}}_Barley {{ModId}}_Buckwheat {{ModId}}_Millet {{ModId}}_Rye {{ModId}}_Sorghum",
                     "Delimiter": " "
                 }
