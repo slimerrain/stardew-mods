@@ -142,7 +142,7 @@
                     "HarvestMaxStack": 3,
                     "HarvestMaxIncreasePerFarmingLevel": 0.1,
                     "ExtraHarvestChance": 0.1,
-                    "HarvestMethod": "Grab",
+                    "HarvestMethod": "Scythe",
                     "HarvestMinQuality": 0,
                     "HarvestMaxQuality": null,
                     "TintColors": [],

@@ -11,7 +11,7 @@
     "Dependencies": [
         {
             "UniqueID": "slimerrain.grainsoverhullcp",
-            "IsRequired": true
+            "IsRequired": false
         },
         {
             "UniqueID": "furyx639.CustomBush",

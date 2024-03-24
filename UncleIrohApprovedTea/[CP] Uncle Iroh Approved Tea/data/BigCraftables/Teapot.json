@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Add Gourmet Pantry Rules for New Machines",
+            "LogName": "Add Tea Rules Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
@@ -9,32 +9,6 @@
                     "HasInput": false,
                     "HasOutput": false,
                     "OutputRules": [
-                        {
-                            "Id": "slimerrain.grainsoverhullcp_Barley",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O)slimerrain.grainsoverhullcp_Barley",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Barley_Tea",
-                                    "ItemId": "(O){{ModId}}_Barley_Tea",
-                                    "MinStack": 3,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 20
-                        },
                         {
                             "Id": "{{ModId}}_Brown_Rice",
                             "Triggers": [
@@ -195,7 +169,7 @@
                     "InvalidItemMessage": "Can't Brew This",
                     "InvalidCountMessage": "Requires",
                     "ShowNextIndexWhileWorking": false,
-                    "ShowNextIndexWhenReady": false,
+                    "ShowNextIndexWhenReady": true,
                     "WobbleWhileWorking": false,
                     "WorkingEffects": [
                         {
@@ -205,6 +179,48 @@
                                 3
                             ],
                             "Interval": 200
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Tea Rules for Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "When": {
+                "GrainsOverhull": true
+            },
+            "Entries": {
+                "(BC){{ModId}}_Teapot": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "slimerrain.grainsoverhullcp_Barley",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)slimerrain.grainsoverhullcp_Barley",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Barley_Tea",
+                                    "ItemId": "(O){{ModId}}_Barley_Tea",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
                         }
                     ]
                 }

@@ -6,6 +6,6 @@
     "MinimumApiVersion": "3.0.0",
     "UniqueID": "slimerrain.grainsoverhullcp",
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
-    "UpdateKeys": [ "" ]
+    "UpdateKeys": [ "20884" ]
  }
  

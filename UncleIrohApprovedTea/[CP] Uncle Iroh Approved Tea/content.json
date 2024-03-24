@@ -22,11 +22,18 @@
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
+        },
+        "GrainsOverhull": {
+            "Description": "Enable if you have the Grains Overhull mod. Will add barley tea as a recipe.",
+            "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false,
+            "AllowMultiple": false
         }
     },
 
     "Changes": [
-        {
+        { 
             "LogName": "Objects",
             "Action": "Include",
             "FromFile": "Data/ObjectContent.json"
