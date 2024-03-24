@@ -110,7 +110,7 @@
                 "{{ModId}}_Rye": {
                     "Name": "{{ModId}}_Rye",
                     "DisplayName": "Rye",
-                    "Description": "A hardy, nutritious grain used for baking and brewing.",
+                    "Description": "A hardy and nutritious grain used for baking and brewing.",
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
@@ -134,7 +134,7 @@
                 "{{ModId}}_Sorghum": {
                     "Name": "{{ModId}}_Sorghum",
                     "DisplayName": "Sorghum",
-                    "Description": "A versatile, nutritional grain with a variety of uses.",
+                    "Description": "A versatile and nutritional grain with a variety of uses.",
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
@@ -201,6 +201,9 @@
         {
             "Action": "EditData",
             "Target": "Data/Objects",
+            "When": {
+                "RenameUnmilledRice": true
+            },
             "Fields": 
             {
                 "271": // Unmilled Rice

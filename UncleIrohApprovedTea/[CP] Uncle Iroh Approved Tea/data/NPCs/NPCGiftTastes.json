@@ -1,8 +1,17 @@
 {
     "Changes": [
         {
-            "Log": "Adding Gift Tastest for NPCs",
-            ""
+            "Log": "Gift Taste for NPCs Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", "1"],
+                    "Value": "",
+                    "Delimiter": " "
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/Shops.json"
+        },
+        {
+            "LogName": "Bachelor Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/BachelorGiftTastes.json"
+        },
+        {
+            "LogName": "Bachelorette Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/BacheloretteGiftTastes.json"
+        },
+        {
+            "LogName": "NPC Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/NPCGiftTastes.json"
+        }
+    ]
+}

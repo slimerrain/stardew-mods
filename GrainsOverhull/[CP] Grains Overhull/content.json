@@ -1,14 +1,26 @@
 {
     "Format": "2.0.0",
+
+    "ConfigSchema": {
+        "RenameUnmilledRice": {
+            "Description": "If you want Unmilled Rice to be called Brown Rice instead.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        }
+    },
+
     "Changes": [
         { 
+            "LogName": "Objects",
             "Action": "Include",
             "FromFile": "data/ObjectContent.json"
         },
         {
-            "LogName": "Shops",
+            "LogName": "NPCs",
             "Action": "Include",
-            "FromFile": "Data/Shops.json"
+            "FromFile": "Data/NPCs.json"
         }
     ]
 }
