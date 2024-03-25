@@ -9,6 +9,9 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
+            "When": {
+                "Barley": true
+            },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": { 
                     "Seasons": [ "spring" ],
@@ -29,7 +32,16 @@
                     "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 0,
                     "CustomFields": {}
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "When": {
+                "Buckwheat": true
+            },
+            "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": { 
                     "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 1, 1, 1, 1 ],
@@ -49,7 +61,16 @@
                     "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 1,
                     "CustomFields": {}
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "When": {
+                "Millet": true
+            },
+            "Entries": {
                 "{{ModId}}_Millet_Seeds": { 
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 1, 1 ],
@@ -69,7 +90,16 @@
                     "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 2,
                     "CustomFields": {}
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "When": {
+                "Oat": true
+            },
+            "Entries": {
                 "{{ModId}}_Oat_Seeds": { 
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 1, 1 ],
@@ -89,7 +119,16 @@
                     "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 3,
                     "CustomFields": {}
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "When": {
+                "Rye": true
+            },
+            "Entries": {
                 "{{ModId}}_Rye_Seeds": { 
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 2, 1 ],
@@ -109,7 +148,16 @@
                     "Texture": "{{ModId}}/Crops",
                     "SpriteIndex": 4,
                     "CustomFields": {}
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "When": {
+                "Sorghum": true
+            },
+            "Entries": {
                 "{{ModId}}_Sorghum_Seeds": { 
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 2, 1 ],

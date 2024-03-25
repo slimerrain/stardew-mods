@@ -10,11 +10,14 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
+            "When": {
+                "Barley": true
+            },
             "Entries": {
                 "{{ModId}}_Barley": {
                     "Name": "{{ModId}}_Barley",
-                    "DisplayName": "Barley",
-                    "Description": "One of the most nutritional and widely cultivated grains.",
+                    "DisplayName": "{{i18n:Barley.displayname}}",
+                    "Description": "{{i18n:Barley.description}}",
                     "Price": 25,
                     "Type": "Basic",
                     "Category": -75,
@@ -25,20 +28,29 @@
                 },
                 "{{ModId}}_Barley_Seeds": {
                     "Name": "{{ModId}}_Barley_Seeds",
-                    "DisplayName": "Barley Seeds",
-                    "Description": "Plant these in spring. Takes 4 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Barley.seed.displayname}}",
+                    "Description": "{{i18n:Barley.seed.description}}",
                     "Price": 10,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "0",
                     "Edibility": -300
-                },
-
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Buckwheat": true
+            },
+            "Entries": {
                 "{{ModId}}_Buckwheat": {
                     "Name": "{{ModId}}_Buckwheat",
-                    "DisplayName": "Buckwheat",
-                    "Description": "One of the most widely cultivated grains. Great for cooking!",
+                    "DisplayName": "{{i18n:Buckwheat.displayname}}",
+                    "Description": "{{i18n:Buckwheat.description}}",
                     "Price": 30,
                     "Type": "Basic",
                     "Category": -80,
@@ -49,20 +61,29 @@
                 },
                 "{{ModId}}_Buckwheat_Seeds": {
                     "Name": "{{ModId}}_Buckwheat_Seeds",
-                    "DisplayName": "Buckwheat Seeds",
-                    "Description": "Plant these in spring or summer. Takes 5 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Buckwheat.seed.displayname}}",
+                    "Description": "{{i18n:Buckwheat.seed.description}}",
                     "Price": 200,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "1",
                     "Edibility": -300
-                },
-
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Millet": true
+            },
+            "Entries": {
                 "{{ModId}}_Millet": {
                     "Name": "{{ModId}}_Millet",
-                    "DisplayName": "Millet",
-                    "Description": "An ancient nutritional grain commonly used for cooking.",
+                    "DisplayName": "{{i18n:Millet.displayname}}",
+                    "Description": "{{i18n:Millet.description}}",
                     "Price": 35,
                     "Type": "Basic",
                     "Category": -75,
@@ -73,20 +94,29 @@
                 },
                 "{{ModId}}_Millet_Seeds": {
                     "Name": "{{ModId}}_Millet_Seeds",
-                    "DisplayName": "Millet Seeds",
-                    "Description": "Plant these in summer. Takes 4 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Millet.seed.displayname}}",
+                    "Description": "{{i18n:Millet.seed.description}}",
                     "Price": 10,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "2",
                     "Edibility": -300
-                },
-
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Oat": true
+            },
+            "Entries": {
                 "{{ModId}}_Oat": {
                     "Name": "{{ModId}}_Oat",
-                    "DisplayName": "Oat",
-                    "Description": "A nutritious grain with lots of fiber and a variety of uses.",
+                    "DisplayName": "{{i18n:Oat.displayname}}",
+                    "Description": "{{i18n:Oat.description}}",
                     "Price": 35,
                     "Type": "Basic",
                     "Category": -75,
@@ -97,20 +127,29 @@
                 },
                 "{{ModId}}_Oat_Seeds": {
                     "Name": "{{ModId}}_Oat_Seeds",
-                    "DisplayName": "Oat Seeds",
-                    "Description": "Plant these in spring. Takes 4 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Oat.seed.displayname}}",
+                    "Description": "{{i18n:Oat.seed.description}}",
                     "Price": 16,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "3",
                     "Edibility": -300
-                },
-
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Rye": true
+            },
+            "Entries": {
                 "{{ModId}}_Rye": {
                     "Name": "{{ModId}}_Rye",
-                    "DisplayName": "Rye",
-                    "Description": "A hardy and nutritious grain used for baking and brewing.",
+                    "DisplayName": "{{i18n:Rye.displayname}}",
+                    "Description": "{{i18n:Rye.description}}",
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
@@ -121,20 +160,29 @@
                 },
                 "{{ModId}}_Rye_Seeds": {
                     "Name": "{{ModId}}_Rye_Seeds",
-                    "DisplayName": "Rye Seeds",
-                    "Description": "Plant these in summer or fall. Takes 6 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Rye.seed.displayname}}",
+                    "Description": "{{i18n:Rye.seed.description}}",
                     "Price": 20,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "4",
                     "Edibility": -300
-                },
-
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Sorghum": true
+            },
+            "Entries": {
                 "{{ModId}}_Sorghum": {
                     "Name": "{{ModId}}_Sorghum",
-                    "DisplayName": "Sorghum",
-                    "Description": "A versatile and nutritional grain with a variety of uses.",
+                    "DisplayName": "{{i18n:Sorghum.displayname}}",
+                    "Description": "{{i18n:Sorghum.description}}",
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
@@ -145,8 +193,8 @@
                 },
                 "{{ModId}}_Sorghum_Seeds": {
                     "Name": "{{ModId}}_Sorghum_Seeds",
-                    "DisplayName": "Sorghum Seeds",
-                    "Description": "Plant these in spring or summer. Takes 5 days to mature. Harvest with the scythe.",
+                    "DisplayName": "{{i18n:Sorghum.seed.displayname}}",
+                    "Description": "{{i18n:Sorghum.seed.description}}",
                     "Price": 10,
                     "Type": "Seeds",
                     "Category": -74,
@@ -204,9 +252,9 @@
             "When": { "RenameUnmilledRice": true },
             "Fields": 
             {
-                "271": // Unmilled Rice
+                "271":
                 {
-                    "DisplayName": "Brown Rice"
+                    "DisplayName": "{{i18n:UnmilledRice.displayname}}"
                 }
             }
         }

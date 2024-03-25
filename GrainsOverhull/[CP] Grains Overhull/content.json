@@ -3,7 +3,49 @@
 
     "ConfigSchema": {
         "RenameUnmilledRice": {
-            "Description": "If you want Unmilled Rice to be called Brown Rice instead.",
+            "Description": "{{i18n:Config.RenameUnmilledRice.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Barley": {
+            "Description": "{{i18n:Config.Barley.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Buckwheat": {
+            "Description": "{{i18n:Config.Buckwheat.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Millet": {
+            "Description": "{{i18n:Config.Millet.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Oats": {
+            "Description": "{{i18n:Config.Oats.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Rye": {
+            "Description": "{{i18n:Config.Rye.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "Sorghum": {
+            "Description": "{{i18n:Config.Sorghum.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
