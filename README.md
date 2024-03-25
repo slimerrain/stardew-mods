@@ -7,7 +7,7 @@ adds various new grains, machine functionality, and recipes (WIP)
     - [1.5.6] requires JsonAssets, ContentPatcher, (optional) MultiYieldCrops
     - [1.6] Requires ContentPatcher, (optional) MultiYieldCrops
 
-- Uncle Iroh's Tea Shop
+- Uncle Iroh Approved Tea
 adds various tea herbs and common ingredients as well as machines and recipes
     - requires grain overhull
     - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
