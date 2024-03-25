@@ -110,7 +110,7 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "When": {
-                "Oat": true
+                "Oats": true
             },
             "Entries": {
                 "{{ModId}}_Oat": {

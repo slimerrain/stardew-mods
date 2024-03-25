@@ -97,7 +97,7 @@
             "Action": "EditData",
             "Target": "Data/Crops",
             "When": {
-                "Oat": true
+                "Oats": true
             },
             "Entries": {
                 "{{ModId}}_Oat_Seeds": { 
