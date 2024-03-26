@@ -4,13 +4,26 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Barley": true
+            },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": {
                     "Condition": "SEASON spring",
                     "Id": "{{ModId}}_Barley_Seeds",
                     "ItemId": "{{ModId}}_Barley_Seeds",
                     "Price": 5
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Buckwheat": true
+            },
+            "Entries": {
                 "{{ModId}}_Buckwheat_Seeds_Spring": {
                     "Condition": "SEASON spring",
                     "Id": "{{ModId}}_Buckwheat_Seeds_Spring",
@@ -22,19 +35,49 @@
                     "Id": "{{ModId}}_Buckwheat_Seeds_Summer",
                     "ItemId": "{{ModId}}_Buckwheat_Seeds",
                     "Price": 100
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Millet": true
+            },
+            "Entries": {
                 "{{ModId}}_Millet_Seeds_Summer": {
                     "Condition": "SEASON summer",
                     "Id": "{{ModId}}_Millet_Seeds_Summer",
                     "ItemId": "{{ModId}}_Millet_Seeds",
                     "Price": 5
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Oats": true
+            },
+            "Entries": {
                 "{{ModId}}_Oat_Seeds_Spring": {
                     "Condition": "SEASON spring",
                     "Id": "{{ModId}}_Oat_Seeds_Spring",
                     "ItemId": "{{ModId}}_Oat_Seeds",
                     "Price": 8
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Rye": true
+            },
+            "Entries": {
                 "{{ModId}}_Rye_Seeds_Summer": {
                     "Condition": "SEASON summer",
                     "Id": "{{ModId}}_Rye_Seeds_Summer",
@@ -46,7 +89,17 @@
                     "Id": "{{ModId}}_Rye_Seeds_Fall",
                     "ItemId": "{{ModId}}_Rye_Seeds",
                     "Price": 10
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Sorghum": true
+            },
+            "Entries": {
                 "{{ModId}}_Sorghum_Seeds_Summer": {
                     "Condition": "SEASON summer",
                     "Id": "{{ModId}}_Sorghum_Seeds_Summer",
