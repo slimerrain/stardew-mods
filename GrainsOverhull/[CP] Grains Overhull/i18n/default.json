@@ -1,4 +1,5 @@
 {
+    // ========== CROPS & SEEDS ==========
     "UnmilledRice.displayname": "Brown Rice",
     "Rice.displayname": "White Rice",
 
@@ -31,19 +32,59 @@
     "Sorghum.description": "A versatile and nutritional grain with a variety of uses.",
     "Sorghum.seed.displayname": "Sorghum Seeds",
     "Sorghum.seed.description": "Plant these in spring or summer. Takes 5 days to mature. Harvest with the scythe.",
+    
+    // ========== INGREDIENTS ==========
+    "PearlBarley.displayname": "Pearl Barley",
+    "PearlBarley.description": "A less common cooking ingredient made from crushed barley.",
 
+    "BuckwheatFlour.displayname": "Buckwheat Flour",
+    "BuckwheatFlour.description": "A fairly common cooking ingredient made from crushed buckwheat seeds.",
+
+    "HulledMillet.displayname": "Hulled Millet",
+    "HulledMillet.description": "A subtly-flavored cooking ingredient made from lightly processed millet.",
+
+    "RolledOats.displayname": "Rolled Oats",
+    "RolledOats.description": "A common cooking ingredient made from lightly processed oats.",
+
+    "RyeFlour.displayname": "Rye Flour",
+    "RyeFlour.description": "A common cooking ingredient used sparsely in dishes for the unique flavor it possesses. It's made from crushed rye.",
+
+    "SorghumFlour.displayname": "Sorghum Flour",
+    "SorghumFlour.description": "A mild and sweet cooking ingredient made from crushed sorghum.",
+
+    // ========== DISHES ==========
     "HarvestBowl.displayname": "Harvest Bowl",
     "HarvestBowl.description": "Nice on the eyes and on the tongue.",
+    "HarvestBowl.tv.description": "",
 
     "BlueberryOatmeal.displayname": "Blueberry Oatmeal",
     "BlueberryOatmeal.description": "It's sweet and hearty.",
+    "BlueberryOatmeal.tv.description": "",
 
     "OvernightOats.displayname": "Overnight Oats",
     "OvernightOats.description": "Easy meal prep for a busy worker.",
+    "OvernightOats.tv.description": "",
 
-    "Config.NewDishes.description": "If you want new food recipes from this mod.",
+    "Galette.displayname": "Galette",
+    "Galette.description": "A savory crepe.",
+    "Galette.tv.description": "",
+
+    "MilletPorridge.displayname": "Millet Porridge",
+    "MilletPorridge.description": "A comforting side dish that goes well with anything.",
+    "MilletPorridge.tv.description": "",
+
+    "RyeBread.displayname": "Rye Bread",
+    "RyeBread.description": "",
+    "RyeBread.tv.description": "",
+
+    "SorghumSalad.displayname": "Sorghum Salad",
+    "SorghumSalad.description": "",
+    "SorghumSalad.tv.description": "",
+
+    // ========== CONFIG ==========
     "Config.RenameUnmilledRice.description": "If you want \"Unmilled Rice\" to be called \"Brown Rice\" instead.",
     "Config.RenameMilledRice.description": "If you want \"Rice\" to be called \"White Rice\" instead.",
+
     "Config.Barley.description": "Uncheck this if you want to remove this mod's Barley from the game. (Remove the crops from the farm and inventories first.)",
     "Config.Buckwheat.description": "Uncheck this if you want to remove this mod's Buckwheat from the game. (Remove the crops from the farm and inventories first.)",
     "Config.Millet.description": "Uncheck this if you want to remove this mod's Millet from the game. (Remove the crops from the farm and inventories first.)",

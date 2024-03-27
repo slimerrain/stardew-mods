@@ -20,7 +20,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Consumables",
                     "SpriteIndex": "0",
-                    "Edibility": 55,
+                    "Edibility": 45,
                     "Buffs": [
                       {
                         "Id": "Eat",
@@ -35,8 +35,8 @@
                           "FishingLevel": 0.0,
                           "MiningLevel": 0.0,
                           "LuckLevel": 0.0,
-                          "ForagingLevel": 0.0,
-                          "MaxStamina": 30.0,
+                          "ForagingLevel": 1.0,
+                          "MaxStamina": 0.0,
                           "MagneticRadius": 0.0,
                           "Speed": 1.0,
                           "Defense": 0.0,
@@ -56,7 +56,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Consumables",
                     "SpriteIndex": "1",
-                    "Edibility": 40,
+                    "Edibility": 15,
                     "Buffs": [
                       {
                         "Id": "Eat",
@@ -72,7 +72,7 @@
                           "MiningLevel": 0.0,
                           "LuckLevel": 0.0,
                           "ForagingLevel": 0.0,
-                          "MaxStamina": 50.0,
+                          "MaxStamina": 0.0,
                           "MagneticRadius": 0.0,
                           "Speed": 1.0,
                           "Defense": 1.0,
@@ -92,7 +92,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Consumables",
                     "SpriteIndex": "2",
-                    "Edibility": 40,
+                    "Edibility": 18,
                     "Buffs": [
                       {
                         "Id": "Eat",
@@ -107,8 +107,8 @@
                           "FishingLevel": 0.0,
                           "MiningLevel": 0.0,
                           "LuckLevel": 0.0,
-                          "ForagingLevel": 2.0,
-                          "MaxStamina": 50.0,
+                          "ForagingLevel": 0.0,
+                          "MaxStamina": 0.0,
                           "MagneticRadius": 0.0,
                           "Speed": 0.0,
                           "Defense": 2.0,
@@ -118,6 +118,54 @@
                       }
                     ],
                     "ContextTags": ["color_light_brown", "food_item"]
+                },
+                "{{ModId}}_Trail_Mix": {
+                    "Name": "{{ModId}}_Trail_Mix",
+                    "DisplayName": "{{i18n:TrailMix.displayname}}",
+                    "Description": "{{i18n:TrailMix.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "3",
+                    "Edibility": 45,
+                    "ContextTags": ["color_light_brown", "food_item"]
+                },
+                "{{ModId}}_Galette": {
+                    "Name": "{{ModId}}_Galette",
+                    "DisplayName": "{{i18n:Galette.displayname}}",
+                    "Description": "{{i18n:Galette.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "4",
+                    "Edibility": 52,
+                    "ContextTags": ["color_brown", "food_item"]
+                },
+                "{{ModId}}_Millet_Porridge": {
+                    "Name": "{{ModId}}_Millet_Porridge",
+                    "DisplayName": "{{i18n:MilletPorridge.displayname}}",
+                    "Description": "{{i18n:MilletPorridge.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "5",
+                    "Edibility": 15,
+                    "CustomAttributes": {
+                      "FarmingLevel": 0.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 50.0,
+                      "MagneticRadius": 0.0,
+                      "Speed": 0.0,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    },
+                    "ContextTags": ["color_brown", "food_item"]
                 }
             }
         }

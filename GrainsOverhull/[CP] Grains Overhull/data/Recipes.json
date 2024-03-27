@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "Data/Recipes/CookingRecipes.json"
+        },
+        {
+            "LogName": "Bachelor Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/Recipes/CookingChannel.json"
+        }
+    ]
+}

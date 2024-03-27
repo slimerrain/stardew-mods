@@ -20,7 +20,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "0",
-                    "Edibility": 4,
+                    "Edibility": 1,
                     "ContextTags": ["color_orange", "flour_item"]
                 },
                 "{{ModId}}_Buckwheat_Flour": {
@@ -32,19 +32,19 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "1",
-                    "Edibility": 4,
+                    "Edibility": 2,
                     "ContextTags": ["color_light_brown", "flour_item"]
                 },
-                "{{ModId}}_Millet_Flour": {
-                    "Name": "{{ModId}}_Millet_Flour",
-                    "DisplayName": "{{i18n:MilletFlour.displayname}}",
-                    "Description": "{{i18n:MilletFlour.description}}",
+                "{{ModId}}_Hulled_Millet": {
+                    "Name": "{{ModId}}_Hulled_Millet",
+                    "DisplayName": "{{i18n:HulledMillet.displayname}}",
+                    "Description": "{{i18n:HulledMillet.description}}",
                     "Price": 110,
                     "Type": "Basic",
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "2",
-                    "Edibility": 4,
+                    "Edibility": 2,
                     "ContextTags": ["color_yellow", "flour_item"]
                 },
                 "{{ModId}}_Rolled_Oats": {
@@ -56,7 +56,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "3",
-                    "Edibility": 4,
+                    "Edibility": 3,
                     "ContextTags": ["color_light_yellow", "flour_item"]
                 },
                 "{{ModId}}_Rye_Flour": {
@@ -68,7 +68,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "4",
-                    "Edibility": 4,
+                    "Edibility": 1,
                     "ContextTags": ["color_blue", "flour_item"]
                 },
                 "{{ModId}}_Sorghum_Flour": {
@@ -80,7 +80,7 @@
                     "Category": -7,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "5",
-                    "Edibility": 4,
+                    "Edibility": 1,
                     "ContextTags": ["color_light_brown", "flour_item"]
                 }
             }

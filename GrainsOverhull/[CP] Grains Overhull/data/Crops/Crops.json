@@ -9,9 +9,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Barley": true
-            },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": { 
                     "Seasons": [ "spring" ],
@@ -38,9 +35,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Buckwheat": true
-            },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": { 
                     "Seasons": [ "spring", "summer" ],
@@ -67,9 +61,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Millet": true
-            },
             "Entries": {
                 "{{ModId}}_Millet_Seeds": { 
                     "Seasons": [ "spring" ],
@@ -96,9 +87,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Oats": true
-            },
             "Entries": {
                 "{{ModId}}_Oat_Seeds": { 
                     "Seasons": [ "spring" ],
@@ -125,9 +113,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Rye": true
-            },
             "Entries": {
                 "{{ModId}}_Rye_Seeds": { 
                     "Seasons": [ "spring" ],
@@ -154,9 +139,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Crops",
-            "When": {
-                "Sorghum": true
-            },
             "Entries": {
                 "{{ModId}}_Sorghum_Seeds": { 
                     "Seasons": [ "spring" ],

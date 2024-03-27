@@ -8,8 +8,7 @@
         {
             "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/Objects/Consumables.json",
-            "When": { "NewDishes": true }
+            "FromFile": "Data/Objects/Consumables.json"
         },
         {
             "LogName": "Objects",

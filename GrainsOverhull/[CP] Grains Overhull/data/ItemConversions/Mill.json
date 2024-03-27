@@ -7,9 +7,6 @@
                 "Mill",
                 "ItemConversions"
             ],
-            "When": {
-                "Barley": true
-            },
             "Entries": {
                 "{{ModId}}_Pearl_Barley": {
                     "Id": "{{ModId}}_Pearl_Barley",
@@ -24,20 +21,7 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "When": {
-                "Buckwheat": true
-            },
-            "Entries": {
+                },
                 "{{ModId}}_Buckwheat_Flour": {
                     "Id": "{{ModId}}_Buckwheat_Flour",
                     "SourceChest": "Input",
@@ -51,22 +35,9 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "When": {
-                "Millet": true
-            },
-            "Entries": {
-                "{{ModId}}_Millet_Flour": {
-                    "Id": "{{ModId}}_Millet_Flour",
+                },
+                "{{ModId}}_Hulled_Millet": {
+                    "Id": "{{ModId}}_Hulled_Millet",
                     "SourceChest": "Input",
                     "DestinationChest": "Output",
                     "RequiredTags": [
@@ -74,24 +45,11 @@
                     ],
                     "ProducedItems": [
                         {
-                            "ItemId": "(O){{ModId}}_Millet_Flour"
+                            "ItemId": "(O){{ModId}}_Hulled_Millet"
                         }
                     ],
                     "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "When": {
-                "Oats": true
-            },
-            "Entries": {
+                },
                 "{{ModId}}_Rolled_Oats": {
                     "Id": "{{ModId}}_Rolled_Oats",
                     "SourceChest": "Input",
@@ -105,20 +63,7 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "When": {
-                "Rye": true
-            },
-            "Entries": {
+                },
                 "{{ModId}}_Rye_Flour": {
                     "Id": "{{ModId}}_Rye_Flour",
                     "SourceChest": "Input",
@@ -132,20 +77,7 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "When": {
-                "Sorghum": true
-            },
-            "Entries": {
+                },
                 "{{ModId}}_Sorghum_Flour": {
                     "Id": "{{ModId}}_Sorghum_Flour",
                     "SourceChest": "Input",

@@ -1,18 +1,15 @@
 {
     "Changes": [
         {
-            "LogName": "Load Objects Tilesheet",
+            "LogName": "Load Harvestables Tilesheet",
             "Action": "Load",
-            "Target": "{{ModId}}/Objects",
-            "FromFile": "assets/Objects/Objects.png"
+            "Target": "{{ModId}}/Harvestables",
+            "FromFile": "assets/Objects/Harvestables.png"
         },
         {
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Barley": true
-            },
             "Entries": {
                 "{{ModId}}_Barley": {
                     "Name": "{{ModId}}_Barley",
@@ -21,32 +18,11 @@
                     "Price": 25,
                     "Type": "Basic",
                     "Category": -75,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "0",
-                    "Edibility": 46,
+                    "Edibility": 1,
                     "ContextTags": ["color_yellow", "season_spring", "grain_item", "barley"]
                 },
-                "{{ModId}}_Barley_Seeds": {
-                    "Name": "{{ModId}}_Barley_Seeds",
-                    "DisplayName": "{{i18n:Barley.seed.displayname}}",
-                    "Description": "{{i18n:Barley.seed.description}}",
-                    "Price": 10,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "0",
-                    "Edibility": -300
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "Buckwheat": true
-            },
-            "Entries": {
                 "{{ModId}}_Buckwheat": {
                     "Name": "{{ModId}}_Buckwheat",
                     "DisplayName": "{{i18n:Buckwheat.displayname}}",
@@ -54,33 +30,11 @@
                     "Price": 30,
                     "Type": "Basic",
                     "Category": -80,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "1",
-                    "Edibility": 34,
+                    "Edibility": 1,
                     "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item"]
                 },
-                "{{ModId}}_Buckwheat_Seeds": {
-                    "Name": "{{ModId}}_Buckwheat_Seeds",
-                    "DisplayName": "{{i18n:Buckwheat.seed.displayname}}",
-                    "Description": "{{i18n:Buckwheat.seed.description}}",
-                    "Price": 200,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "1",
-                    "Edibility": -300,
-                    "ContextTags": ["grain_item", "buckwheat"]
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "Millet": true
-            },
-            "Entries": {
                 "{{ModId}}_Millet": {
                     "Name": "{{ModId}}_Millet",
                     "DisplayName": "{{i18n:Millet.displayname}}",
@@ -88,32 +42,11 @@
                     "Price": 35,
                     "Type": "Basic",
                     "Category": -75,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "2",
-                    "Edibility": 40,
+                    "Edibility": 1,
                     "ContextTags": ["color_brown", "season_summer", "grain_item", "millet"]
                 },
-                "{{ModId}}_Millet_Seeds": {
-                    "Name": "{{ModId}}_Millet_Seeds",
-                    "DisplayName": "{{i18n:Millet.seed.displayname}}",
-                    "Description": "{{i18n:Millet.seed.description}}",
-                    "Price": 10,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "2",
-                    "Edibility": -300
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "Oats": true
-            },
-            "Entries": {
                 "{{ModId}}_Oat": {
                     "Name": "{{ModId}}_Oat",
                     "DisplayName": "{{i18n:Oat.displayname}}",
@@ -121,32 +54,11 @@
                     "Price": 35,
                     "Type": "Basic",
                     "Category": -75,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "3",
-                    "Edibility": 40,
+                    "Edibility": 2,
                     "ContextTags": ["color_white", "season_spring", "grain_item", "oat"]
                 },
-                "{{ModId}}_Oat_Seeds": {
-                    "Name": "{{ModId}}_Oat_Seeds",
-                    "DisplayName": "{{i18n:Oat.seed.displayname}}",
-                    "Description": "{{i18n:Oat.seed.description}}",
-                    "Price": 16,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "3",
-                    "Edibility": -300
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "Rye": true
-            },
-            "Entries": {
                 "{{ModId}}_Rye": {
                     "Name": "{{ModId}}_Rye",
                     "DisplayName": "{{i18n:Rye.displayname}}",
@@ -154,32 +66,11 @@
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "4",
-                    "Edibility": 40,
+                    "Edibility": 1,
                     "ContextTags": ["color_dark_green", "season_summer", "season_fall", "grain_item", "rye"]
                 },
-                "{{ModId}}_Rye_Seeds": {
-                    "Name": "{{ModId}}_Rye_Seeds",
-                    "DisplayName": "{{i18n:Rye.seed.displayname}}",
-                    "Description": "{{i18n:Rye.seed.description}}",
-                    "Price": 20,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "4",
-                    "Edibility": -300
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "Sorghum": true
-            },
-            "Entries": {
                 "{{ModId}}_Sorghum": {
                     "Name": "{{ModId}}_Sorghum",
                     "DisplayName": "{{i18n:Sorghum.displayname}}",
@@ -187,21 +78,10 @@
                     "Price": 40,
                     "Type": "Basic",
                     "Category": -75,
-                    "Texture": "{{ModId}}/Objects",
+                    "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "5",
-                    "Edibility": 40,
+                    "Edibility": 1,
                     "ContextTags": ["color_orange", "season_spring", "season_summer", "grain_item", "sorghum"]
-                },
-                "{{ModId}}_Sorghum_Seeds": {
-                    "Name": "{{ModId}}_Sorghum_Seeds",
-                    "DisplayName": "{{i18n:Sorghum.seed.displayname}}",
-                    "Description": "{{i18n:Sorghum.seed.description}}",
-                    "Price": 10,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "5",
-                    "Edibility": -300
                 }
             }
         },
