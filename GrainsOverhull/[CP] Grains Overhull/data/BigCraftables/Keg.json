@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Keg rules for Grains",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)12",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_Ale": {
+                    "Id": "{{ModId}}_Ale",
+                    "Triggers": [
+                        {
+                            "Id": "ItemPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": null,
+                            "RequiredTags": [
+                                "barley",
+                                "millet",
+                                "rye",
+                                "sorghum"
+                            ],
+                            "RequiredCount": 1,
+                            "Condition": null
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "CustomData": null,
+                            "OutputMethod": null,
+                            "CopyColor": false,
+                            "CopyPrice": false,
+                            "CopyQuality": false,
+                            "PreserveType": null,
+                            "PreserveId": null,
+                            "IncrementMachineParentSheetIndex": 0,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "(O)303",
+                            "ItemId": "FLAVORED_ITEM Ale DROP_IN_ID",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "MinutesUntilReady": 2250,
+                    "DaysUntilReady": -1,
+                    "InvalidCountMessage": null,
+                    "RecalculateOnCollect": false
+                }
+            }
+        }
+    ]
+}

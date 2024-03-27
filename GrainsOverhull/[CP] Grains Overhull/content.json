@@ -79,6 +79,11 @@
         {
             "LogName": "NPCs",
             "Action": "Include",
+            "FromFile": "Data/BigCraftables/Keg.json"
+        },
+        {
+            "LogName": "NPCs",
+            "Action": "Include",
             "FromFile": "Data/ItemConversions/Mill.json"
         },
         {

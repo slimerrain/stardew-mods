@@ -49,37 +49,33 @@
     "RyeFlour.displayname": "Rye Flour",
     "RyeFlour.description": "A common cooking ingredient used sparsely in dishes for the unique flavor it possesses. It's made from crushed rye.",
 
-    "SorghumFlour.displayname": "Sorghum Flour",
-    "SorghumFlour.description": "A mild and sweet cooking ingredient made from crushed sorghum.",
-
     // ========== DISHES ==========
     "HarvestBowl.displayname": "Harvest Bowl",
     "HarvestBowl.description": "Nice on the eyes and on the tongue.",
-    "HarvestBowl.tv.description": "",
+    "HarvestBowl.tv.description": "Here's a nice big whole grain rice bowl with a nice mix of veggies and fruit. Make sure to start by washing the rice and...",
 
     "BlueberryOatmeal.displayname": "Blueberry Oatmeal",
     "BlueberryOatmeal.description": "It's sweet and hearty.",
-    "BlueberryOatmeal.tv.description": "",
+    "BlueberryOatmeal.tv.description": "Today we're going back to the basics for a simple yet filling dish. First, mix your oats with your milk...",
 
     "OvernightOats.displayname": "Overnight Oats",
     "OvernightOats.description": "Easy meal prep for a busy worker.",
-    "OvernightOats.tv.description": "",
 
     "Galette.displayname": "Galette",
     "Galette.description": "A savory crepe.",
-    "Galette.tv.description": "",
+    "Galette.tv.description": "Most people don't realize there are actually savory crepes as well! You're going to need some buckwheat flour rather than wheat for this one.",
 
     "MilletPorridge.displayname": "Millet Porridge",
     "MilletPorridge.description": "A comforting side dish that goes well with anything.",
-    "MilletPorridge.tv.description": "",
+    "MilletPorridge.tv.description": "This side dish is the easiest one-ingredient recipe you'll find. Just pour your hulled millet into your pot and bring your water to a boil!",
 
     "RyeBread.displayname": "Rye Bread",
-    "RyeBread.description": "",
-    "RyeBread.tv.description": "",
+    "RyeBread.description": "A tangier and sourer handmade loaf.",
+    "RyeBread.tv.description": "A little secret about bread is that you can substitute 25 percent of the flour for rye flour and get a whole new loaf!",
 
     "SorghumSalad.displayname": "Sorghum Salad",
-    "SorghumSalad.description": "",
-    "SorghumSalad.tv.description": "",
+    "SorghumSalad.description": "A refreshing blend for a quick morning boost.",
+    "SorghumSalad.tv.description": "This ancient grain can be prepared without removing the hull, so lets soften it up and prepare our two other ingredients...",
 
     // ========== CONFIG ==========
     "Config.RenameUnmilledRice.description": "If you want \"Unmilled Rice\" to be called \"Brown Rice\" instead.",

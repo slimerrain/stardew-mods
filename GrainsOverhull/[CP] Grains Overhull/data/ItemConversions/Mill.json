@@ -77,20 +77,6 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                },
-                "{{ModId}}_Sorghum_Flour": {
-                    "Id": "{{ModId}}_Sorghum_Flour",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "sorghum"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Sorghum_Flour"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
                 }
             }
         }

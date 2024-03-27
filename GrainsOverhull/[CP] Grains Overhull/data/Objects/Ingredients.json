@@ -70,18 +70,6 @@
                     "SpriteIndex": "4",
                     "Edibility": 1,
                     "ContextTags": ["color_blue", "flour_item"]
-                },
-                "{{ModId}}_Sorghum_Flour": {
-                    "Name": "{{ModId}}_Sorghum_Flour",
-                    "DisplayName": "{{i18n:SorghumFlour.displayname}}",
-                    "Description": "{{i18n:SorghumFlour.description}}",
-                    "Price": 120,
-                    "Type": "Basic",
-                    "Category": -7,
-                    "Texture": "{{ModId}}/Ingredients",
-                    "SpriteIndex": "5",
-                    "Edibility": 1,
-                    "ContextTags": ["color_light_brown", "flour_item"]
                 }
             }
         }

@@ -7,7 +7,11 @@
             "Entries": {
                 "{{ModId}}__Harvest_Bowl": "{{i18n:HarvestBowl.displayname}}! {{i18n:HarvestBowl.tv.description}}",
                 "{{ModId}}_Blueberry_Oatmeal": "{{i18n:BlueberryOatmeal.displayname}}! {{i18n:BlueberryOatmeal.tv.description}}",
-                "{{ModId}}_Trail_Mix": "{{i18n:TrailMix.displayname}}! {{i18n:TrailMix.tv.description}}"
+                "{{ModId}}_Trail_Mix": "{{i18n:TrailMix.displayname}}! {{i18n:TrailMix.tv.description}}",
+                "{{ModId}}_Galette": "{{i18n:Galette.displayname}}! {{i18n:Galette.tv.description}}",
+                "{{ModId}}_Millet_Porridge": "{{i18n:MilletPorridge.displayname}}! {{i18n:MilletPorridge.tv.description}}",
+                "{{ModId}}_Rye_Bread": "{{i18n:RyeBread.displayname}}! {{i18n:RyeBread.tv.description}}",
+                "{{ModId}}_Sorghum_Salad": "{{i18n:SorghumSalad.displayname}}! {{i18n:SorghumSalad.tv.description}}"
             }
         }
     ]
