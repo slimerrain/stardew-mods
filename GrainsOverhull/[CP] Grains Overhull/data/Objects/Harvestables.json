@@ -24,7 +24,7 @@
                     "Texture": "{{ModId}}/Objects",
                     "SpriteIndex": "0",
                     "Edibility": 46,
-                    "ContextTags": ["color_yellow", "season_spring", "grain_item"]
+                    "ContextTags": ["color_yellow", "season_spring", "grain_item", "barley"]
                 },
                 "{{ModId}}_Barley_Seeds": {
                     "Name": "{{ModId}}_Barley_Seeds",
@@ -68,7 +68,8 @@
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "1",
-                    "Edibility": -300
+                    "Edibility": -300,
+                    "ContextTags": ["grain_item", "buckwheat"]
                 }
             }
         },
@@ -90,7 +91,7 @@
                     "Texture": "{{ModId}}/Objects",
                     "SpriteIndex": "2",
                     "Edibility": 40,
-                    "ContextTags": ["color_brown", "season_summer", "grain_item"]
+                    "ContextTags": ["color_brown", "season_summer", "grain_item", "millet"]
                 },
                 "{{ModId}}_Millet_Seeds": {
                     "Name": "{{ModId}}_Millet_Seeds",
@@ -123,7 +124,7 @@
                     "Texture": "{{ModId}}/Objects",
                     "SpriteIndex": "3",
                     "Edibility": 40,
-                    "ContextTags": ["color_white", "season_spring", "grain_item"]
+                    "ContextTags": ["color_white", "season_spring", "grain_item", "oat"]
                 },
                 "{{ModId}}_Oat_Seeds": {
                     "Name": "{{ModId}}_Oat_Seeds",
@@ -156,7 +157,7 @@
                     "Texture": "{{ModId}}/Objects",
                     "SpriteIndex": "4",
                     "Edibility": 40,
-                    "ContextTags": ["color_dark_green", "season_summer", "season_fall", "grain_item"]
+                    "ContextTags": ["color_dark_green", "season_summer", "season_fall", "grain_item", "rye"]
                 },
                 "{{ModId}}_Rye_Seeds": {
                     "Name": "{{ModId}}_Rye_Seeds",
@@ -189,7 +190,7 @@
                     "Texture": "{{ModId}}/Objects",
                     "SpriteIndex": "5",
                     "Edibility": 40,
-                    "ContextTags": ["color_orange", "season_spring", "season_summer", "grain_item"]
+                    "ContextTags": ["color_orange", "season_spring", "season_summer", "grain_item", "sorghum"]
                 },
                 "{{ModId}}_Sorghum_Seeds": {
                     "Name": "{{ModId}}_Sorghum_Seeds",
@@ -255,6 +256,18 @@
                 "271":
                 {
                     "DisplayName": "{{i18n:UnmilledRice.displayname}}"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "RenameMilledRice": true },
+            "Fields": 
+            {
+                "423":
+                {
+                    "DisplayName": "{{i18n:Rice.displayname}}"
                 }
             }
         }

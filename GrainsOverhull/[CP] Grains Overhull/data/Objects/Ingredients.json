@@ -1,0 +1,89 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Ingredients Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Ingredients",
+            "FromFile": "assets/Objects/Ingredients.png"
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Pearl_Barley": {
+                    "Name": "{{ModId}}_Pearl_Barley",
+                    "DisplayName": "{{i18n:PearlBarley.displayname}}",
+                    "Description": "{{i18n:PearlBarley.description}}",
+                    "Price": 110,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "0",
+                    "Edibility": 4,
+                    "ContextTags": ["color_orange", "flour_item"]
+                },
+                "{{ModId}}_Buckwheat_Flour": {
+                    "Name": "{{ModId}}_Buckwheat_Flour",
+                    "DisplayName": "{{i18n:BuckwheatFlour.displayname}}",
+                    "Description": "{{i18n:BuckwheatFlour.description}}",
+                    "Price": 115,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "1",
+                    "Edibility": 4,
+                    "ContextTags": ["color_light_brown", "flour_item"]
+                },
+                "{{ModId}}_Millet_Flour": {
+                    "Name": "{{ModId}}_Millet_Flour",
+                    "DisplayName": "{{i18n:MilletFlour.displayname}}",
+                    "Description": "{{i18n:MilletFlour.description}}",
+                    "Price": 110,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "2",
+                    "Edibility": 4,
+                    "ContextTags": ["color_yellow", "flour_item"]
+                },
+                "{{ModId}}_Rolled_Oats": {
+                    "Name": "{{ModId}}_Rolled_Oats",
+                    "DisplayName": "{{i18n:RolledOats.displayname}}",
+                    "Description": "{{i18n:RolledOats.description}}",
+                    "Price": 150,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "3",
+                    "Edibility": 4,
+                    "ContextTags": ["color_light_yellow", "flour_item"]
+                },
+                "{{ModId}}_Rye_Flour": {
+                    "Name": "{{ModId}}_Rye_Flour",
+                    "DisplayName": "{{i18n:RyeFlour.displayname}}",
+                    "Description": "{{i18n:RyeFlour.description}}",
+                    "Price": 110,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "4",
+                    "Edibility": 4,
+                    "ContextTags": ["color_blue", "flour_item"]
+                },
+                "{{ModId}}_Sorghum_Flour": {
+                    "Name": "{{ModId}}_Sorghum_Flour",
+                    "DisplayName": "{{i18n:SorghumFlour.displayname}}",
+                    "Description": "{{i18n:SorghumFlour.description}}",
+                    "Price": 120,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Ingredients",
+                    "SpriteIndex": "5",
+                    "Edibility": 4,
+                    "ContextTags": ["color_light_brown", "flour_item"]
+                }
+            }
+        }
+    ]
+}

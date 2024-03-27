@@ -17,7 +17,7 @@
             "AllowMultiple": false
         },
         "CustomDehydratorRules": {
-            "Description": "Some modifications to dehydrator rules based on the new items.",
+            "Description": "Some modifications to existing vanilla dehydrator rules based on the mod's dried items.",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
@@ -45,12 +45,12 @@
         },
 
         {
-            "LogName": "Shops",
+            "LogName": "Seed Shop",
             "Action": "Include",
             "FromFile": "data/Shops/SeedShop.json"
         },
         {
-            "LogName": "Shops",
+            "LogName": "Sandy Shop",
             "Action": "Include",
             "FromFile": "data/Shops/Sandy.json"
         }

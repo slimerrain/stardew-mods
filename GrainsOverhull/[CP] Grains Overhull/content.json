@@ -2,8 +2,22 @@
     "Format": "2.0.0",
 
     "ConfigSchema": {
+        "NewDishes": {
+            "Description": "{{i18n:Config.NewDishes.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
         "RenameUnmilledRice": {
             "Description": "{{i18n:Config.RenameUnmilledRice.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "RenameMilledRice": {
+            "Description": "{{i18n:Config.RenameMilledRice.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
@@ -63,6 +77,16 @@
             "LogName": "NPCs",
             "Action": "Include",
             "FromFile": "Data/NPCs.json"
+        },
+        {
+            "LogName": "NPCs",
+            "Action": "Include",
+            "FromFile": "Data/BigCraftables/PreservesJar.json"
+        },
+        {
+            "LogName": "NPCs",
+            "Action": "Include",
+            "FromFile": "Data/ItemConversions/Mill.json"
         }
     ]
 }

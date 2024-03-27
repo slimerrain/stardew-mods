@@ -1,0 +1,125 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Consumables Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/Consumables",
+            "FromFile": "assets/Objects/Consumables.png"
+        },
+        {
+            "LogName": "Consumables Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Harvest_Bowl": {
+                    "Name": "{{ModId}}_Harvest_Bowl",
+                    "DisplayName": "{{i18n:HarvestBowl.displayname}}",
+                    "Description": "{{i18n:HarvestBowl.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "0",
+                    "Edibility": 55,
+                    "Buffs": [
+                      {
+                        "Id": "Eat",
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 1800,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 0.0,
+                          "ForagingLevel": 0.0,
+                          "MaxStamina": 30.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 1.0,
+                          "Defense": 0.0,
+                          "Attack": 0.0
+                        },
+                        "CustomFields": null
+                      }
+                    ],
+                    "ContextTags": ["color_light_brown", "food_item"]
+                },
+                "{{ModId}}_Overnight_Oats": {
+                    "Name": "{{ModId}}_Overnight_Oats",
+                    "DisplayName": "{{i18n:OvernightOats.displayname}}",
+                    "Description": "{{i18n:OvernightOats.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "1",
+                    "Edibility": 40,
+                    "Buffs": [
+                      {
+                        "Id": "Eat",
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 1200,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 0.0,
+                          "ForagingLevel": 0.0,
+                          "MaxStamina": 50.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 1.0,
+                          "Defense": 1.0,
+                          "Attack": 1.0
+                        },
+                        "CustomFields": null
+                      }
+                    ],
+                    "ContextTags": ["color_light_brown", "food_item"]
+                },
+                "{{ModId}}_Blueberry_Oatmeal": {
+                    "Name": "{{ModId}}_Blueberry_Oatmeal",
+                    "DisplayName": "{{i18n:BlueberryOatmeal.displayname}}",
+                    "Description": "{{i18n:BlueberryOatmeal.description}}",
+                    "Price": 175,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "2",
+                    "Edibility": 40,
+                    "Buffs": [
+                      {
+                        "Id": "Eat",
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 1800,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 0.0,
+                          "ForagingLevel": 2.0,
+                          "MaxStamina": 50.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 0.0,
+                          "Defense": 2.0,
+                          "Attack": 0.0
+                        },
+                        "CustomFields": null
+                      }
+                    ],
+                    "ContextTags": ["color_light_brown", "food_item"]
+                }
+            }
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Add Gourmet Pantry Rules for New Machines",
+            "LogName": "Add Dehydrator rules for Tea",
             "Action": "EditData",
             "Target": "Data/Machines",
             "TargetField": [
@@ -20,7 +20,7 @@
                                 "category_fruits"
                             ],
                             "RequiredCount": 5,
-                            "Condition": "!ANY \"ITEM_CONTEXT_TAG Input special_dehydrator_rule\" \"ITEM_ID Target (O)400\""
+                            "Condition": "!ANY \"ITEM_CONTEXT_TAG Input special_dehydrator_rule\""
                         }
                     ],
                     "UseFirstValidOutput": false,
@@ -60,32 +60,6 @@
                     "DaysUntilReady": 1,
                     "InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]",
                     "RecalculateOnCollect": false
-                },
-                "{{ModId}}_Strawberry": {
-                    "Id": "{{ModId}}_Strawberry",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "{{ModId}}_Dried_Strawberries",
-                            "ItemId": "(O){{ModId}}_Dried_Strawberries",
-                            "MinStack": 1,
-                            "CopyQuality": true,
-                            "CopyPrice": true,
-                            "PriceModifiers": [
-                                {
-                                    "Modification": "Multiply",
-                                    "Amount": 1.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 20
                 },
                 "{{ModId}}_Goji_Berry": {
                     "Id": "{{ModId}}_Goji_Berry",
@@ -205,6 +179,98 @@
                             "Id": "{{ModId}}_Rock_Sugar",
                             "ItemId": "(O){{ModId}}_Rock_Sugar",
                             "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                }
+            }
+        },
+        {
+            "LogName": "Overwrite Dehydrator rules for Tea",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)Dehydrator",
+                "OutputRules"
+            ],
+            "When": {
+                "CustomDehydratorRules": true
+            },
+            "Entries": {
+                "DriedFruit": {
+                    "Id": "DriedFruit",
+                    "Triggers": [
+                        {
+                            "Id": "ItemPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": null,
+                            "RequiredTags": [
+                                "category_fruits"
+                            ],
+                            "RequiredCount": 5,
+                            "Condition": "!ANY \"ITEM_CONTEXT_TAG Input special_dehydrator_rule\" \"ITEM_ID Target (O)400\""
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "CustomData": null,
+                            "OutputMethod": null,
+                            "CopyColor": false,
+                            "CopyPrice": false,
+                            "CopyQuality": false,
+                            "PreserveType": null,
+                            "PreserveId": null,
+                            "IncrementMachineParentSheetIndex": 0,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                            "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "MinutesUntilReady": -1,
+                    "DaysUntilReady": 1,
+                    "InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]",
+                    "RecalculateOnCollect": false
+                },
+                "{{ModId}}_Strawberry": {
+                    "Id": "{{ModId}}_Strawberry",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Dried_Strawberries",
+                            "ItemId": "(O){{ModId}}_Dried_Strawberries",
+                            "MinStack": 1,
                             "CopyQuality": true,
                             "CopyPrice": true,
                             "PriceModifiers": [
