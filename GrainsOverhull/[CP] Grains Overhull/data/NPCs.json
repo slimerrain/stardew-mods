@@ -3,7 +3,12 @@
         {
             "LogName": "Shops",
             "Action": "Include",
-            "FromFile": "Data/NPCs/Shops.json"
+            "FromFile": "Data/NPCs/SeedShop.json"
+        },
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/Saloon.json"
         },
         {
             "LogName": "Bachelor Gift Tastes",

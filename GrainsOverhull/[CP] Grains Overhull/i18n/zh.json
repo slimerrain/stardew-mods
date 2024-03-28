@@ -1,4 +1,4 @@
-// Thank you to @YinGeLiXi for some of this mandarin translation!
+// Thank you to @YinGeLiXi for this mandarin translation!
 {
     "UnmilledRice.displayname": "糙米",
     "Rice.displayname": "白米",
@@ -35,54 +35,54 @@
     
     // ========== INGREDIENTS ==========
     "PearlBarley.displayname": "薏米",
-    "PearlBarley.description": "一种不太常见的烹饪原料，由碎大麦制成。",
+    "PearlBarley.description": "一种不太常见的烹饪原料，用碾碎的大麦制成。",
 
     "BuckwheatFlour.displayname": "小麦麸皮面粉",
-    "BuckwheatFlour.description": "一种相当常见的烹饪原料，由压碎的荞麦种子制成。",
+    "BuckwheatFlour.description": "一种相当常见的烹饪原料，用碾碎的荞麦种子制成。",
 
     "HulledMillet.displayname": "去壳小米",
-    "HulledMillet.description": "一种由轻微加工的小米制成的味道微妙的烹饪原料。",
+    "HulledMillet.description": "一种味道微妙的烹饪原料，用简单加工后的小米制成",
 
     "RolledOats.displayname": "燕麦片",
-    "RolledOats.description": "一种常见的烹饪原料，由轻度加工的燕麦制成。",
+    "RolledOats.description": "一种常见的烹饪原料，用简单加工后的燕麦制成。",
 
     "RyeFlour.displayname": "黑麦面粉",
-    "RyeFlour.description": "一种常见的烹饪原料，因其独特的风味而很少在菜肴中使用。 它是由压碎的黑麦制成的。",
+    "RyeFlour.description": "一种常见的烹饪原料，因其独特的风味而很少在菜肴中使用。 用碾碎的黑麦制成。",
 
     // ========== DISHES ==========
     "HarvestBowl.displayname": "丰收碗",
-    "HarvestBowl.description": "眼睛和舌头上都很舒服。",
+    "HarvestBowl.description": "视觉与味觉上的双重享受。",
     "HarvestBowl.tv.description": "这是蔬菜和水果完美搭配的美味盖饭。 确保你从洗米开始...",
 
     "BlueberryOatmeal.displayname": "蓝莓燕麦片",
-    "BlueberryOatmeal.description": "这是甜蜜而丰盛的。",
-    "BlueberryOatmeal.tv.description": "今天我们将回到一道简单而丰盛的菜肴的基础知识。 首先，将燕麦与牛奶混合...",
+    "BlueberryOatmeal.description": "一份甜蜜而丰盛的美食。",
+    "BlueberryOatmeal.tv.description": "今天我们将学习制作一道简单而丰盛的菜肴的基础知识。首先，将燕麦与牛奶混合...",
 
     "OvernightOats.displayname": "隔夜的麦片",
-    "OvernightOats.description": "为忙碌的工作人员轻松准备饭菜。",
+    "OvernightOats.description": "为忙碌的工人准备的简易食品。",
 
-    "Galette.displayname": "咸法式煎饼",
-    "Galette.description": "美味的薄饼。",
-    "Galette.tv.description": "大多数人没有意识到实际上有咸法式煎饼！ 为了做到这一点，你需要一些荞麦粉而不是小麦。",
+    "Galette.displayname": "咸法式薄饼",
+    "Galette.description": "一种美味的薄饼。",
+    "Galette.tv.description": "大部分人没有意识到实际上有咸法式薄饼！ 为了做到这一点，你需要一些荞麦粉而不是小麦。",
 
     "MilletPorridge.displayname": "小米粥",
     "MilletPorridge.description": "一道令人心旷神怡的配菜，与任何东西都很相配。",
-    "MilletPorridge.tv.description": "这道配菜是您能找到的最简单的单一成分食谱。 只需将带壳的小米放入锅中，然后将水煮沸即可！",
+    "MilletPorridge.tv.description": "这道配菜是您能找到的最简单的食谱。 只需将去壳的小米放入锅中，然后将水煮沸即可！",
 
     "RyeBread.displayname": "黑麦面包",
-    "RyeBread.description": "一种丹吉尔和更酸的手工面包。",
-    "RyeBread.tv.description": "关于面包的一个小秘密是，你可以用 25% 的面粉代替黑麦面粉，得到一个全新的面包！",
+    "RyeBread.description": "一种浓郁而酸的手工面包。",
+    "RyeBread.tv.description": "面包有一个小秘密，你可以用 25% 的面粉代替黑麦面粉，得到一块全新的面包！",
 
     "SorghumSalad.displayname": "高粱沙拉",
-    "SorghumSalad.description": "清爽的混合物，适合早晨快速提神。",
-    "SorghumSalad.tv.description": "这种古老的谷物可以在不去除外壳的情况下制备，所以让我们软化它并准备我们的其他两种成分...",
+    "SorghumSalad.description": "独特的混合物，适合早晨快速提神。",
+    "SorghumSalad.tv.description": "这种古老的谷物可以在不去壳的情况下制作，所以让我们软化它并准备我们的其他两种材料...",
 
-    "Config.RenameUnmilledRice.description": "如果你想把“未磨米”改称为“糙米”。",
-    "Config.RenameMilledRice.description": "如果你想把“大米”改称为“白米”。",
-    "Config.Barley.description": "如果您想从游戏中删除此模组的大麦，请取消选中此选项。 （首先从农场和库存中移除农作物。）",
-    "Config.Buckwheat.description": "如果您想从游戏中删除此模组的荞麦，请取消选中此选项。 （首先从农场和库存中移除农作物。）",
-    "Config.Millet.description": "如果您想从游戏中删除此模组的小米，请取消选中此选项。 （首先从农场和库存中移除农作物。）",
-    "Config.Oats.description": "如果您想从游戏中删除此模组的燕麦，请取消选中此选项。 （首先从农场和库存中移除农作物。）",
-    "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。 （首先从农场和库存中移除农作物。）",
-    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。 （首先从农场和库存中移除农作物。）"
+    "Config.RenameUnmilledRice.description": "如果你想把“未碾米”替换为“糙米”。",
+    "Config.RenameMilledRice.description": "如果你想把“大米”替换为“白米”。",
+    "Config.Barley.description": "如果您想从游戏中删除此模组的大麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
+    "Config.Buckwheat.description": "如果您想从游戏中删除此模组的荞麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
+    "Config.Millet.description": "如果您想从游戏中删除此模组的小米，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
+    "Config.Oats.description": "如果您想从游戏中删除此模组的燕麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
+    "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
+    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。 （首先从农场和背包中移除农作物。）"
 }
