@@ -63,7 +63,7 @@
             "Target": "Data/Crops",
             "Entries": {
                 "{{ModId}}_Millet_Seeds": { 
-                    "Seasons": [ "spring" ],
+                    "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 1, 1, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -115,7 +115,7 @@
             "Target": "Data/Crops",
             "Entries": {
                 "{{ModId}}_Rye_Seeds": { 
-                    "Seasons": [ "spring" ],
+                    "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 1, 2, 2, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -141,7 +141,7 @@
             "Target": "Data/Crops",
             "Entries": {
                 "{{ModId}}_Sorghum_Seeds": { 
-                    "Seasons": [ "spring" ],
+                    "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 1, 2, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
