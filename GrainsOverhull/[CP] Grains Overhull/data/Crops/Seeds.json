@@ -10,9 +10,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Barley": true
-            },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": {
                     "Name": "{{ModId}}_Barley_Seeds",
@@ -31,9 +28,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Buckwheat": true
-            },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": {
                     "Name": "{{ModId}}_Buckwheat_Seeds",
@@ -53,9 +47,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Millet": true
-            },
             "Entries": {
                 "{{ModId}}_Millet_Seeds": {
                     "Name": "{{ModId}}_Millet_Seeds",
@@ -74,9 +65,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Oats": true
-            },
             "Entries": {
                 "{{ModId}}_Oat_Seeds": {
                     "Name": "{{ModId}}_Oat_Seeds",
@@ -95,9 +83,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Rye": true
-            },
             "Entries": {
                 "{{ModId}}_Rye_Seeds": {
                     "Name": "{{ModId}}_Rye_Seeds",
@@ -116,9 +101,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "Sorghum": true
-            },
             "Entries": {
                 "{{ModId}}_Sorghum_Seeds": {
                     "Name": "{{ModId}}_Sorghum_Seeds",

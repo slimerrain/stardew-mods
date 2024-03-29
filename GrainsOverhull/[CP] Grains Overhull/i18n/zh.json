@@ -79,10 +79,10 @@
 
     "Config.RenameUnmilledRice.description": "如果你想把“未碾米”替换为“糙米”。",
     "Config.RenameMilledRice.description": "如果你想把“大米”替换为“白米”。",
-    "Config.Barley.description": "如果您想从游戏中删除此模组的大麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
-    "Config.Buckwheat.description": "如果您想从游戏中删除此模组的荞麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
-    "Config.Millet.description": "如果您想从游戏中删除此模组的小米，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
-    "Config.Oats.description": "如果您想从游戏中删除此模组的燕麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
-    "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。 （首先从农场和背包中移除农作物。）",
-    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。 （首先从农场和背包中移除农作物。）"
+    "Config.Barley.description": "如果您想从游戏中删除此模组的大麦，请取消选中此选项。",
+    "Config.Buckwheat.description": "如果您想从游戏中删除此模组的荞麦，请取消选中此选项。",
+    "Config.Millet.description": "如果您想从游戏中删除此模组的小米，请取消选中此选项。",
+    "Config.Oats.description": "如果您想从游戏中删除此模组的燕麦，请取消选中此选项。",
+    "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。",
+    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。"
 }

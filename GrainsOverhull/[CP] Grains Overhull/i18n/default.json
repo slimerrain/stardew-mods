@@ -78,10 +78,10 @@
     "Config.RenameUnmilledRice.description": "If you want \"Unmilled Rice\" to be called \"Brown Rice\" instead.",
     "Config.RenameMilledRice.description": "If you want \"Rice\" to be called \"White Rice\" instead.",
 
-    "Config.Barley.description": "Uncheck this if you want to remove this mod's Barley from the game. (Remove the crops from the farm and inventories first.)",
-    "Config.Buckwheat.description": "Uncheck this if you want to remove this mod's Buckwheat from the game. (Remove the crops from the farm and inventories first.)",
-    "Config.Millet.description": "Uncheck this if you want to remove this mod's Millet from the game. (Remove the crops from the farm and inventories first.)",
-    "Config.Oats.description": "Uncheck this if you want to remove this mod's Oats from the game. (Remove the crops from the farm and inventories first.)",
-    "Config.Rye.description": "Uncheck this if you want to remove this mod's Rye from the game. (Remove the crops from the farm and inventories first.)",
-    "Config.Sorghum.description": "Uncheck this if you want to remove this mod's Sorghum from the game. (Remove the crops from the farm and inventories first.)"
+    "Config.Barley.description": "Uncheck this if you want to remove this mod's Barley from the game.",
+    "Config.Buckwheat.description": "Uncheck this if you want to remove this mod's Buckwheat from the game.",
+    "Config.Millet.description": "Uncheck this if you want to remove this mod's Millet from the game.",
+    "Config.Oats.description": "Uncheck this if you want to remove this mod's Oats from the game.",
+    "Config.Rye.description": "Uncheck this if you want to remove this mod's Rye from the game.",
+    "Config.Sorghum.description": "Uncheck this if you want to remove this mod's Sorghum from the game."
 }
