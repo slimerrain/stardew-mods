@@ -100,15 +100,15 @@
                 "Sorghum": true
             },
             "Entries": {
-                "{{ModId}}_Sorghum_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "Id": "{{ModId}}_Sorghum_Seeds_Summer",
+                "{{ModId}}_Sorghum_Seeds_Spring": {
+                    "Condition": "SEASON fall",
+                    "Id": "{{ModId}}_Sorghum_Seeds_Fall",
                     "ItemId": "{{ModId}}_Sorghum_Seeds",
                     "Price": 5
                 },
-                "{{ModId}}_Sorghum_Seeds_Fall": {
-                    "Condition": "SEASON fall",
-                    "Id": "{{ModId}}_Sorghum_Seeds_Fall",
+                "{{ModId}}_Sorghum_Seeds_Summer": {
+                    "Condition": "SEASON summer",
+                    "Id": "{{ModId}}_Sorghum_Seeds_Summer",
                     "ItemId": "{{ModId}}_Sorghum_Seeds",
                     "Price": 5
                 }
