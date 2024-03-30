@@ -39,6 +39,49 @@
                     "Price": 400
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Sandy",
+                "Items"
+            ],
+            "When": {
+                "TeaRecipes": true
+            },
+            "Entries": {
+                "{{ModId}}_Cassia_Sapling": {
+                    "Id": "{{ModId}}_Cassia_Sapling",
+                    "ItemId": "{{ModId}}_Cassia_Sapling",
+                    "Price": 2400
+                },
+                "{{ModId}}_Barley_Tea": {
+                    "Id": "{{ModId}}_Barley_Tea",
+                    "ItemId": "{{ModId}}_Barley_Tea",
+                    "Price": 400
+                },
+                "{{ModId}}_Brown_Rice_Tea": {
+                    "Id": "{{ModId}}_Brown_Rice_Tea",
+                    "ItemId": "{{ModId}}_Brown_Rice_Tea",
+                    "Price": 400
+                },
+                "{{ModId}}_Chamomile_Tea": {
+                    "Id": "{{ModId}}_Chamomile_Tea",
+                    "ItemId": "{{ModId}}_Chamomile_Tea",
+                    "Price": 400
+                },
+                "{{ModId}}_Lavender_Tea": {
+                    "Id": "{{ModId}}_Lavender_Tea",
+                    "ItemId": "{{ModId}}_Lavender_Tea",
+                    "Price": 400
+                },
+                "{{ModId}}_Jasmine_Tea": {
+                    "Id": "{{ModId}}_Jasmine_Tea",
+                    "ItemId": "{{ModId}}_Jasmine_Tea",
+                    "Price": 400
+                }
+            }
         }
     ]
 }

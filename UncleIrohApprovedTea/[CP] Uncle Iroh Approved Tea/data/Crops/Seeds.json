@@ -98,14 +98,27 @@
                 "{{ModId}}_Jasmine_Sapling": {
                     "Name": "{{ModId}}_Jasmine_Sapling",
                     "DisplayName": "Jasmine Sapling",
-                    "Description": "Takes 18 days to produce a tea bush with jasmine flowers.",
+                    "Description": "Takes 18 days to produce a tea bush with jasmine flowers in summer and fall.",
                     "Price": 1250,
                     "Type": "Basic",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "7",
                     "Edibility": -300,
-                    "ContextTags": null,
+                    "ContextTags": [ "bush_item" ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Osmanthus_Sapling": {
+                    "Name": "{{ModId}}_Osmanthus_Sapling",
+                    "DisplayName": "Osmanthus Sapling",
+                    "Description": "Takes 18 days to produce a tea bush with osmanthus flowers in spring and summer.",
+                    "Price": 1200,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "8",
+                    "Edibility": -300,
+                    "ContextTags": [ "bush_item" ],
                     "CustomFields": null
                 }
             }

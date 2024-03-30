@@ -111,7 +111,7 @@
                 "{{ModId}}_Jasmine": {
                     "Name": "{{ModId}}_Jasmine",
                     "DisplayName": "Jasmine",
-                    "Description": "A large stem of pungent tiny purple flowers.",
+                    "Description": "A small white flower with a delightful floral scent.",
                     "Price": 20,
                     "Type": "Flower",
                     "Category": -80,
@@ -119,6 +119,19 @@
                     "SpriteIndex": "7",
                     "Edibility": 1,
                     "ContextTags": [ "color_white", "flower_item" ]
+                },
+                
+                "{{ModId}}_Osmanthus": {
+                    "Name": "{{ModId}}_Osmanthus",
+                    "DisplayName": "Osmanthus",
+                    "Description": "A tiny bright yellow flower with an overpowering floral scent.",
+                    "Price": 5,
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "8",
+                    "Edibility": 1,
+                    "ContextTags": [ "color_yellow", "flower_item" ]
                 },
 
                 // MODIFY VANILLA ITEM

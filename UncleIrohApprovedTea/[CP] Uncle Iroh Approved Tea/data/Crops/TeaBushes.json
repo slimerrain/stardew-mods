@@ -27,6 +27,23 @@
                     "Texture": "{{ModId}}/TeaBushes",
                     "IndoorTexture": "{{ModId}}/TeaBushes",
                     "TextureSpriteRow": 0
+                },
+                "(O){{ModId}}_Osmanthus_Sapling": {
+                    "AgeToProduce": 18,
+                    "DayToBeginProducing": 0,
+                    "Seasons": ["spring", "summer"],
+                    "ItemsProduced": [
+                        {
+                            "ItemId": "(O){{ModId}}_Osmanthus",
+                            "Chance": 1.0,
+                            "MinStack": 4,
+                            "MaxStack": 7,
+                            "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4]}]
+                        }
+                    ],
+                    "Texture": "{{ModId}}/TeaBushes",
+                    "IndoorTexture": "{{ModId}}/TeaBushes",
+                    "TextureSpriteRow": 1
                 }
             }
         }
