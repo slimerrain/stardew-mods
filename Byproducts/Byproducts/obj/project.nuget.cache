@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0nNIwsyDCBDxhDIVA/yr8lluvlxYoSizC/9Tk+c2vU25AIlW5VV0J1o8tiYOrWXp2vIQ/3UG+bHcM848AOgG3w==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\Byproducts\\Byproducts\\Byproducts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manon\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

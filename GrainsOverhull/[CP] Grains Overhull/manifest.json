@@ -2,10 +2,10 @@
     "Name": "[CP] Grains Overhull",
     "Author": "slimerrain",
     "Description": "Content patches relating to grains. Adds more grains to the valley.",
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "MinimumApiVersion": "3.0.0",
     "UniqueID": "slimerrain.grainsoverhullcp",
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
-    "UpdateKeys": [ "20884" ]
+    "UpdateKeys": [ "Nexus:20884" ]
  }
  

@@ -1,0 +1,19 @@
+{
+  "Name": "Byproducts",
+  "Author": "slimerrain",
+  "Description": "Byproducts for items.",
+  "Version": "1.0.0",
+  "UniqueID": "slimerrain.byproducts",
+  "EntryDll": "Byproducts.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "slimerrain.uncleirohapprovedteacp",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    }
+  ],
+  "UpdateKeys": [ "" ]
+}
