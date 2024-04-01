@@ -10,7 +10,8 @@
                 "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 3/null/Chamomile Tea",
                 "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 3/null/Chrysanthemum Tea",
                 "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 3/null/Lavender Tea",
-                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 1/6 9/{{ModId}}_Jasmine_Tea 3/null/Jasmine Tea"
+                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 3/6 9/{{ModId}}_Jasmine_Tea 3/null/Jasmine Tea",
+                "{{ModId}}_Osmanthus_Tea": "{{ModId}}_Osmanthus 5/6 9/{{ModId}}_Osmanthus_Tea 3/null/Osmanthus Tea"
             }
         },
         {

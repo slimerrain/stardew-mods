@@ -1,11 +1,17 @@
 {
     "Changes": [
-        {
-            "LogName": "Load Crop Harvests Tilesheet",
-            "Action": "Load",
-            "Target": "{{ModId}}/TeaBushes",
-            "FromFile": "assets/Bushes/TeaBushes.png"
-        },
+		{
+		"LogName": "Load Indoor Tea Bush Tilesheets",
+        "Action": "Load",
+        "Target": "{{ModId}}/TeaBushes_Indoor",
+		"FromFile": "assets/Bushes/TeaBushes_indoor.png"
+		},
+		{
+		"LogName": "Load Outdoor Tea Bush Tilesheets",
+        "Action": "Load",
+        "Target": "{{ModId}}/TeaBushes",
+		"FromFile": "assets/Bushes/TeaBushes_{{season}}.png"
+		},
         {
             "LogName": "Add to Custom Bush Framework",
             "Action": "EditData",
@@ -25,7 +31,7 @@
                         }
                     ],
                     "Texture": "{{ModId}}/TeaBushes",
-                    "IndoorTexture": "{{ModId}}/TeaBushes",
+                    "IndoorTexture": "{{ModId}}/TeaBushes_Indoor",
                     "TextureSpriteRow": 0
                 },
                 "(O){{ModId}}_Osmanthus_Sapling": {
@@ -42,8 +48,8 @@
                         }
                     ],
                     "Texture": "{{ModId}}/TeaBushes",
-                    "IndoorTexture": "{{ModId}}/TeaBushes",
-                    "TextureSpriteRow": 1
+                    "IndoorTexture": "{{ModId}}/TeaBushes_Indoor",
+                    "TextureSpriteRow": 2
                 }
             }
         }

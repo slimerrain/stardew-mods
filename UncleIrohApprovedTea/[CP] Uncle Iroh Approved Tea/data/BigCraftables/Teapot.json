@@ -22,7 +22,7 @@
                                 {
                                     "Id": "{{ModId}}_Brown_Rice_Tea",
                                     "ItemId": "(O){{ModId}}_Brown_Rice_Tea",
-                                    "MinStack": 3,
+                                    "MinStack": 2,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": [
@@ -48,7 +48,7 @@
                                 {
                                     "Id": "{{ModId}}_Cassia_Tea",
                                     "ItemId": "(O){{ModId}}_Cassia_Tea",
-                                    "MinStack": 3,
+                                    "MinStack": 2,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": [
@@ -74,7 +74,7 @@
                                 {
                                     "Id": "{{ModId}}_Chamomile_Tea",
                                     "ItemId": "(O){{ModId}}_Chamomile_Tea",
-                                    "MinStack": 3,
+                                    "MinStack": 2,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": [
@@ -100,7 +100,7 @@
                                 {
                                     "Id": "{{ModId}}_Chrysanthemum_Tea",
                                     "ItemId": "(O){{ModId}}_Chrysanthemum_Tea",
-                                    "MinStack": 3,
+                                    "MinStack": 2,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": [
@@ -119,13 +119,39 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O){{ModId}}_Jasmine",
-                                    "RequiredCount": 1
+                                    "RequiredCount": 3
                                 }
                             ],
                             "OutputItem": [
                                 {
                                     "Id": "{{ModId}}_Jasmine_Tea",
                                     "ItemId": "(O){{ModId}}_Jasmine_Tea",
+                                    "MinStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Osmanthus",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Osmanthus",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Osmanthus_Tea",
+                                    "ItemId": "(O){{ModId}}_Osmanthus_Tea",
                                     "MinStack": 1,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
@@ -207,7 +233,7 @@
                                 {
                                     "Id": "{{ModId}}_Barley_Tea",
                                     "ItemId": "(O){{ModId}}_Barley_Tea",
-                                    "MinStack": 3,
+                                    "MinStack": 1,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
                                     "PriceModifiers": [

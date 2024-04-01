@@ -5,7 +5,9 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Teapot_Recipe": "330 1 390 5/Field/Teapot/true/default/Teapot"
+                "{{ModId}}_Teapot": "330 1 390 5/Field/{{ModId}}_Teapot/true/farming 1/Teapot",
+                "{{ModId}}_Jasmine_Sapling": "{{ModId}}_Chamomile 1 {{ModId}}_Chrysanthemum 1 771 5 388 5/Field/{{ModId}}_Jasmine_Sapling/false/farming 6/Jasmine Sapling",
+                "{{ModId}}_Osmanthus_Sapling": "{{ModId}}_Jasmine 1 {{ModId}}_Lavender 1 771 5 388 5/Field/{{ModId}}_Osmanthus_Sapling/false/farming 8/Osmanthus Sapling"
             }
         }
     ]
