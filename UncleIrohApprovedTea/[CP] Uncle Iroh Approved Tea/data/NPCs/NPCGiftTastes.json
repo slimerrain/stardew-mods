@@ -9,14 +9,14 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Neutral"],
-                    "Value": "{{ModId}}_Barley_Tea {{ModId}}_Brown_Rice_Tea {{ModId}}_Cassia_Tea {{ModId}}_Chamomile_Tea {{ModId}}_Chrysanthemum_Tea {{ModId}}_Health_Blend_Tea {{ModId}}_Jasmine_Tea {{ModId}}_Lavender_Tea",
+                    "Value": "{{ModId}}_Barley_Tea {{ModId}}_Brown_Rice_Tea {{ModId}}_Cassia_Tea {{ModId}}_Chamomile_Tea {{ModId}}_Chrysanthemum_Tea {{ModId}}_Health_Blend_Tea {{ModId}}_Jasmine_Tea {{ModId}}_Lavender_Tea {{ModId}}_Osmanthus_Tea",
                     "Delimiter": " "
                 },
                 // crops
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Neutral"],
-                    "Value": "{{ModId}}_Cassia_Flower {{ModId}}_Chamomile {{ModId}}_Chrysanthemum {{ModId}}_Goji_Berry {{ModId}}_Jasmine {{ModId}}_Lavender",
+                    "Value": "{{ModId}}_Cassia_Flower {{ModId}}_Chamomile {{ModId}}_Chrysanthemum {{ModId}}_Goji_Berry {{ModId}}_Jasmine {{ModId}}_Lavender {{ModId}}_Osmanthus",
                     "Delimiter": " "
                 },
                 // other
@@ -161,7 +161,7 @@
                 {
                     "Operation": "Append",
                     "Target": ["Fields", "Evelyn", "1"],
-                    "Value": "",
+                    "Value": "{{ModId}}_Osmanthus_Tea",
                     "Delimiter": " "
                 },
 

@@ -250,7 +250,7 @@
               "BuffId": null,
               "IconTexture": null,
               "IconSpriteIndex": 0,
-              "Duration": 0,
+              "Duration": 600,
               "IsDebuff": false,
               "GlowColor": null,
               "CustomAttributes": {

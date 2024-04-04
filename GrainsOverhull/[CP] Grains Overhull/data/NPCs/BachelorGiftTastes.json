@@ -50,6 +50,12 @@
                     "Value": "{{ModId}}_Buckwheat {{ModId}}_Millet {{ModId}}_Rye {{ModId}}_Sorghum",
                     "Delimiter": " "
                 },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", "7"],
+                    "Value": "{{ModId}}_Buckwheat_Waffles",
+                    "Delimiter": " "
+                },
 
                 {
                     "Operation": "Append",

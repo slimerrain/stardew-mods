@@ -280,7 +280,7 @@
                   "DaysUntilReady": -1,
                   "InvalidCountMessage": null,
                   "RecalculateOnCollect": false
-                },
+                }
             }
         }
     ]

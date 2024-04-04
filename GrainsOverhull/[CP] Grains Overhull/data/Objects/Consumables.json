@@ -274,6 +274,42 @@
                       }
                     ],
                     "ContextTags": ["color_red", "food_item"]
+                },
+                "{{ModId}}_Buckwheat_Waffles": {
+                    "Name": "{{ModId}}_Buckwheat_Waffles",
+                    "DisplayName": "{{i18n:BuckwheatWaffles.displayname}}",
+                    "Description": "{{i18n:BuckwheatWaffles.description}}",
+                    "Price": 310,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Texture": "{{ModId}}/Consumables",
+                    "SpriteIndex": "8",
+                    "Edibility": 67,
+                    "Buffs": [
+                      {
+                        "Id": "Eat",
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 800,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 2.0,
+                          "ForagingLevel": 0.0,
+                          "MaxStamina": 0.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 0.0,
+                          "Defense": 2.0,
+                          "Attack": 0.0
+                        },
+                        "CustomFields": null
+                      }
+                    ],
+                    "ContextTags": ["color_brown", "food_item"]
                 }
             }
         }

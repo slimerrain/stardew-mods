@@ -46,6 +46,13 @@
                     "ItemId": "{{ModId}}_Galette",
                     "Price": 1700,
                     "IsRecipe": true
+                },
+                "{{ModId}}_Buckwheat_Waffles": {
+                    "Condition": "DAY_OF_WEEK Wednesday, !PLAYER_HAS_COOKING_RECIPE Current {{ModId}}_Buckwheat_Waffles",
+                    "Id": "{{ModId}}_Buckwheat_Waffles",
+                    "ItemId": "{{ModId}}_Buckwheat_Waffles",
+                    "Price": 1325,
+                    "IsRecipe": true
                 }
             }
         },

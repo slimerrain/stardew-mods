@@ -11,7 +11,8 @@
                 "{{ModId}}_Galette": "{{ModId}}_Buckwheat_Flour 1 -5 1 247 1 424 1/6 9/{{ModId}}_Galette 1/null/{{i18n:Galette.displayname}}",
                 "{{ModId}}_Millet_Porridge": "{{ModId}}_Hulled_Millet 1/6 9/{{ModId}}_Millet_Porridge 1/null/{{i18n:MilletPorridge.displayname}}",
                 "{{ModId}}_Rye_Bread": "246 1 {{ModId}}_Rye_Flour 1/6 9/{{ModId}}_Rye_Bread 1/null/{{i18n:RyeBread.displayname}}",
-                "{{ModId}}_Sorghum_Salad": "{{ModId}}_Sorghum 1 282 1 829 1/6 9/{{ModId}}_Sorghum_Salad 1/null/{{i18n:SorghumSalad.displayname}}"
+                "{{ModId}}_Sorghum_Salad": "{{ModId}}_Sorghum 1 282 1 829 1/6 9/{{ModId}}_Sorghum_Salad 1/null/{{i18n:SorghumSalad.displayname}}",
+                "{{ModId}}_Buckwheat_Waffles": "{{ModId}}_Buckwheat_Flour 1 -5 1 -6 1 724 1/6 9/{{ModId}}_Buckwheat_Waffles 1/null/{{i18n:BuckwheatWaffles.displayname}}"
             }
         }
     ]
