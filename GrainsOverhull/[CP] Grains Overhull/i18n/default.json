@@ -74,6 +74,9 @@
     "SorghumSalad.displayname": "Sorghum Salad",
     "SorghumSalad.description": "A refreshing blend for a quick morning boost.",
 
+    "BuckwheatWaffles.displayname": "Buckwheat Waffles",
+    "BuckwheatWaffles.description": "A small way to keep life interesting.",
+
     // ========== CONFIG ==========
     "Config.RenameUnmilledRice.description": "If you want \"Unmilled Rice\" to be called \"Brown Rice\" instead.",
     "Config.RenameMilledRice.description": "If you want \"Rice\" to be called \"White Rice\" instead.",

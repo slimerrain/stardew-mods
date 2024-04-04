@@ -52,30 +52,27 @@
     // ========== DISHES ==========
     "HarvestBowl.displayname": "丰收碗",
     "HarvestBowl.description": "视觉与味觉上的双重享受。",
-    "HarvestBowl.tv.description": "这是蔬菜和水果完美搭配的美味盖饭。 确保你从洗米开始...",
 
     "BlueberryOatmeal.displayname": "蓝莓燕麦片",
     "BlueberryOatmeal.description": "一份甜蜜而丰盛的美食。",
-    "BlueberryOatmeal.tv.description": "今天我们将学习制作一道简单而丰盛的菜肴的基础知识。首先，将燕麦与牛奶混合...",
 
     "OvernightOats.displayname": "隔夜的麦片",
     "OvernightOats.description": "为忙碌的工人准备的简易食品。",
 
     "Galette.displayname": "咸法式薄饼",
     "Galette.description": "一种美味的薄饼。",
-    "Galette.tv.description": "大部分人没有意识到实际上有咸法式薄饼！ 为了做到这一点，你需要一些荞麦粉而不是小麦。",
 
     "MilletPorridge.displayname": "小米粥",
     "MilletPorridge.description": "一道令人心旷神怡的配菜，与任何东西都很相配。",
-    "MilletPorridge.tv.description": "这道配菜是您能找到的最简单的食谱。 只需将去壳的小米放入锅中，然后将水煮沸即可！",
 
     "RyeBread.displayname": "黑麦面包",
     "RyeBread.description": "一种浓郁而酸的手工面包。",
-    "RyeBread.tv.description": "面包有一个小秘密，你可以用 25% 的面粉代替黑麦面粉，得到一块全新的面包！",
 
     "SorghumSalad.displayname": "高粱沙拉",
     "SorghumSalad.description": "独特的混合物，适合早晨快速提神。",
-    "SorghumSalad.tv.description": "这种古老的谷物可以在不去壳的情况下制作，所以让我们软化它并准备我们的其他两种材料...",
+
+    "BuckwheatWaffles.displayname": "荞麦华夫饼",
+    "BuckwheatWaffles.description": "一道旨在让起床变得更有趣的菜肴。",
 
     "Config.RenameUnmilledRice.description": "如果你想把“未碾米”替换为“糙米”。",
     "Config.RenameMilledRice.description": "如果你想把“大米”替换为“白米”。",
