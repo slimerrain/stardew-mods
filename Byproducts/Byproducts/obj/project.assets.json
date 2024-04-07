@@ -42,11 +42,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\Byproducts\\Byproducts\\Byproducts.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\stardew-mods\\Byproducts\\Byproducts\\Byproducts.csproj",
       "projectName": "Byproducts",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\Byproducts\\Byproducts\\Byproducts.csproj",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\stardew-mods\\Byproducts\\Byproducts\\Byproducts.csproj",
       "packagesPath": "C:\\Users\\manon\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\Byproducts\\Byproducts\\obj\\",
+      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\stardew-mods\\Byproducts\\Byproducts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manon\\AppData\\Roaming\\NuGet\\NuGet.Config",
