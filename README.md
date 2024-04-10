@@ -4,20 +4,20 @@ Stardew Valley mods! There are a lot of mods that add similar things as I am, bu
 ## Mods
 - Grains Overhull
 adds various new grains, machine functionality, and recipes (WIP)
-    - [1.5.6] requires JsonAssets, ContentPatcher, (optional) MultiYieldCrops
-    - [1.6] Requires ContentPatcher, (optional) MultiYieldCrops
+    - [1.5.6] requires JsonAssets, ContentPatcher, (optional) MultiYieldCrops [Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/stardew-1.5.6)
+    - [1.6] Requires ContentPatcher, (optional) MultiYieldCrops [Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/grains-overhull-1.1.5)
+    - [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/20884)
 
 - Uncle Iroh Approved Tea
 adds various tea herbs and common ingredients as well as machines and recipes
     - requires grain overhull
-    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
+    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProducerFrameworkMod [Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/stardew-1.5.6)
     - [1.6] requires ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
-    - will add different tea bushes. (Jasmine & Osmanthus tea bushes...)
 
 - Alcoholics Acknowledged
 adds various types of alcohols and machines for processing
     - requires grain overhull
-    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
+    - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod [Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/stardew-1.5.6)
     - [1.6] requires ContentPatcher, MainFrameworkMod, ProductionFrameworkMod, CustomCasksMod
 
 ## Credits and Use  
