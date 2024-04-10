@@ -33,7 +33,7 @@
                     "Name": "{{ModId}}_Buckwheat_Seeds",
                     "DisplayName": "{{i18n:Buckwheat.seed.displayname}}",
                     "Description": "{{i18n:Buckwheat.seed.description}}",
-                    "Price": 200,
+                    "Price": 20,
                     "Type": "Seeds",
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
