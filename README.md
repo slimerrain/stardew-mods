@@ -6,7 +6,7 @@ Stardew Valley mods! There are a lot of mods that add similar things as I am, bu
 adds various new grains, machine functionality, and recipes (WIP)
     - [1.5.6] requires JsonAssets, ContentPatcher, (optional) MultiYieldCrops [Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/stardew-1.5.6)
     - [1.6] Requires ContentPatcher, (optional) MultiYieldCrops [Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/grains-overhull-1.1.5)
-    - [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/20884)
+    - Here is a link to the [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/20884)
 
 - Uncle Iroh Approved Tea
 adds various tea herbs and common ingredients as well as machines and recipes
