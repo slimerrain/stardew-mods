@@ -11,10 +11,51 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
+        "{{ModId}}_Barley_Tea": {
+          "Name": "{{ModId}}_Barley_Tea",
+          "DisplayName": "{{i18n:Tea.Barley.name}}",
+          "Description": "{{i18n:Tea.Barley.description}}",
+          "Price": 7,
+          "Type": "ArtisanGoods",
+          "Category": -26,
+          "Texture": "{{ModId}}/Drinks",
+          "SpriteIndex": "0",
+          "Edibility": 75,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Drink",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 600,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 2.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 1.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              },
+              "CustomFields": null
+            }
+          ],
+          "ContextTags": [
+            "color_yellow",
+            "drink_item",
+            "tea_item"
+          ]
+        },
         "{{ModId}}_Brown_Rice_Tea": {
           "Name": "{{ModId}}_Brown_Rice_Tea",
-          "DisplayName": "Brown Rice Tea",
-          "Description": "An earthy roasted rice tea with a deep flavor.",
+          "DisplayName": "{{i18n:Tea.BrownRice.name}}",
+          "Description": "{{i18n:Tea.BrownRice.description}}",
           "Price": 10,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -54,8 +95,8 @@
         },
         "{{ModId}}_Cassia_Tea": {
           "Name": "{{ModId}}_Cassia_Tea",
-          "DisplayName": "Cassia Tea",
-          "Description": "A bittersweet tea made from steeping the salty seeds of a cassia flower.",
+          "DisplayName": "{{i18n:Tea.Cassia.name}}",
+          "Description": "{{i18n:Tea.Cassia.description}}",
           "Price": 9,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -95,8 +136,8 @@
         },
         "{{ModId}}_Chamomile_Tea": {
           "Name": "{{ModId}}_Chamomile_Tea",
-          "DisplayName": "Chamomile Tea",
-          "Description": "A relaxing tea made from chamomile flowers.",
+          "DisplayName": "{{i18n:Tea.Chamomile.name}}",
+          "Description": "{{i18n:Tea.Chamomile.description}}",
           "Price": 20,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -112,8 +153,8 @@
         },
         "{{ModId}}_Chrysanthemum_Tea": {
           "Name": "{{ModId}}_Chrysanthemum_Tea",
-          "DisplayName": "Chrysanthemum Tea",
-          "Description": "A sweet and floral tea made from chrysanthemum flowers that warms you right up.",
+          "DisplayName": "{{i18n:Tea.Chrysanthemum.name}}",
+          "Description": "{{i18n:Tea.Chrysanthemum.description}}",
           "Price": 8,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -153,8 +194,8 @@
         },
         "{{ModId}}_Health_Blend_Tea": {
           "Name": "{{ModId}}_Health_Blend_Tea",
-          "DisplayName": "Health Blend Tea",
-          "Description": "A delicious blend of chrysanthemum tea and cassia tea with some dried goji berries added in.",
+          "DisplayName": "{{i18n:Tea.HealthBlend.name}}",
+          "Description": "{{i18n:Tea.HealthBlend.description}}",
           "Price": 16,
           "Type": "Cooking",
           "Category": -7,
@@ -194,8 +235,8 @@
         },
         "{{ModId}}_Lavender_Tea": {
           "Name": "{{ModId}}_Lavender_Tea",
-          "DisplayName": "Lavender Tea",
-          "Description": "A piney floral tea made from lavender flowers.",
+          "DisplayName": "{{i18n:Tea.Lavender.name}}",
+          "Description": "{{i18n:Tea.Lavender.description}}",
           "Price": 15,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -235,8 +276,8 @@
         },
         "{{ModId}}_Jasmine_Tea": {
           "Name": "{{ModId}}_Jasmine_Tea",
-          "DisplayName": "Jasmine Tea",
-          "Description": "A classic tea with a light floral aroma.",
+          "DisplayName": "{{i18n:Tea.Jasmine.name}}",
+          "Description": "{{i18n:Tea.Jasmine.description}}",
           "Price": 150,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -276,8 +317,8 @@
         },
         "{{ModId}}_Osmanthus_Tea": {
           "Name": "{{ModId}}_Osmanthus_Tea",
-          "DisplayName": "Osmanthus Tea",
-          "Description": "A classic eastern tea with a recognizable floral aroma.",
+          "DisplayName": "{{i18n:Tea.Osmanthus.name}}",
+          "Description": "{{i18n:Tea.Osmanthus.description}}",
           "Price": 175,
           "Type": "ArtisanGoods",
           "Category": -26,
@@ -311,47 +352,6 @@
           ],
           "ContextTags": [
             "color_light_yellow",
-            "drink_item",
-            "tea_item"
-          ]
-        },
-        "{{ModId}}_Barley_Tea": {
-          "Name": "{{ModId}}_Barley_Tea",
-          "DisplayName": "Barley Tea",
-          "Description": "An energizing earthy tea made from Barley poured over ice.",
-          "Price": 7,
-          "Type": "ArtisanGoods",
-          "Category": -26,
-          "Texture": "{{ModId}}/Drinks",
-          "SpriteIndex": "0",
-          "Edibility": 75,
-          "IsDrink": true,
-          "Buffs": [
-            {
-              "Id": "Drink",
-              "BuffId": null,
-              "IconTexture": null,
-              "IconSpriteIndex": 0,
-              "Duration": 600,
-              "IsDebuff": false,
-              "GlowColor": null,
-              "CustomAttributes": {
-                "FarmingLevel": 0.0,
-                "FishingLevel": 2.0,
-                "MiningLevel": 0.0,
-                "LuckLevel": 0.0,
-                "ForagingLevel": 0.0,
-                "MaxStamina": 0.0,
-                "MagneticRadius": 0.0,
-                "Speed": 1.0,
-                "Defense": 0.0,
-                "Attack": 0.0
-              },
-              "CustomFields": null
-            }
-          ],
-          "ContextTags": [
-            "color_yellow",
             "drink_item",
             "tea_item"
           ]

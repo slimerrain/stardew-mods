@@ -19,8 +19,8 @@
             "Entries": {
                 "{{ModId}}_Chamomile": {
                     "Name": "{{ModId}}_Chamomile",
-                    "DisplayName": "Chamomile",
-                    "Description": "A small white flower with a big yellow center. Used for brewing tea.",
+                    "DisplayName": "{{i18n:Crops.Chamomile.name}}",
+                    "Description": "{{i18n:Crops.Chamomile.description}}",
                     "Price": 25,
                     "Type": "Flower",
                     "Category": -80,
@@ -32,8 +32,8 @@
 
                 "{{ModId}}_Chrysanthemum": {
                     "Name": "{{ModId}}_Chrysanthemum",
-                    "DisplayName": "Chrysanthemum",
-                    "Description": "A yellow flower with many small petals sticking out. Used for brewing tea.",
+                    "DisplayName": "{{i18n:Crops.Chrysanthemum.name}}",
+                    "Description": "{{i18n:Crops.Chrysanthemum.description}}",
                     "Price": 20,
                     "Type": "Flower",
                     "Category": -80,
@@ -45,8 +45,8 @@
                 
                 "{{ModId}}_Goji_Berry": {
                     "Name": "{{ModId}}_Goji_Berry",
-                    "DisplayName": "Goji Berry",
-                    "Description": "A small pink berry that can be dehydrated and used for various dishes and put into teas.",
+                    "DisplayName": "{{i18n:Crops.GojiBerry.name}}",
+                    "Description": "{{i18n:Crops.GojiBerry.description}}",
                     "Price": 60,
                     "Type": "Basic",
                     "Category": -79,
@@ -58,8 +58,8 @@
                 
                 "{{ModId}}_Lavender": {
                     "Name": "{{ModId}}_Lavender",
-                    "DisplayName": "Lavender",
-                    "Description": "A large stem of pungent tiny purple flowers.",
+                    "DisplayName": "{{i18n:Crops.Lavender.name}}",
+                    "Description": "{{i18n:Crops.Lavender.description}}",
                     "Price": 120,
                     "Type": "Flower",
                     "Category": -80,
@@ -71,8 +71,8 @@
                 
                 "{{ModId}}_Lily": {
                     "Name": "{{ModId}}_Lily",
-                    "DisplayName": "Lily",
-                    "Description": "A tall flower with bright petals.",
+                    "DisplayName": "{{i18n:Crops.Lily.name}}",
+                    "Description": "{{i18n:Crops.Lily.description}}",
                     "Price": 40,
                     "Type": "Flower",
                     "Category": -80,
@@ -84,8 +84,8 @@
                 
                 "{{ModId}}_Lotus": {
                     "Name": "{{ModId}}_Lotus",
-                    "DisplayName": "Lotus",
-                    "Description": "An ornamental water-based flower with many spreading petals.",
+                    "DisplayName": "{{i18n:Crops.Lotus.name}}",
+                    "Description": "{{i18n:Crops.Lotus.description}}",
                     "Price": 80,
                     "Type": "Flower",
                     "Category": -80,
@@ -97,8 +97,8 @@
                 
                 "{{ModId}}_Sugarcane": {
                     "Name": "{{ModId}}_Sugarcane",
-                    "DisplayName": "Sugarcane",
-                    "Description": "A tall and fibrous stalk of sugar.",
+                    "DisplayName": "{{i18n:Crops.Sugarcane.name}}",
+                    "Description": "{{i18n:Crops.Sugarcane.description}}",
                     "Price": 45,
                     "Type": "Vegetable",
                     "Category": -80,
@@ -110,8 +110,8 @@
                 
                 "{{ModId}}_Jasmine": {
                     "Name": "{{ModId}}_Jasmine",
-                    "DisplayName": "Jasmine",
-                    "Description": "A small white flower with a delightful floral scent.",
+                    "DisplayName": "{{i18n:Crops.Jasmine.name}}",
+                    "Description": "{{i18n:Crops.Jasmine.description}}",
                     "Price": 20,
                     "Type": "Flower",
                     "Category": -80,
@@ -123,8 +123,8 @@
                 
                 "{{ModId}}_Osmanthus": {
                     "Name": "{{ModId}}_Osmanthus",
-                    "DisplayName": "Osmanthus",
-                    "Description": "A tiny bright yellow flower with an overpowering floral scent.",
+                    "DisplayName": "{{i18n:Crops.Osmanthus.name}}",
+                    "Description": "{{i18n:Crops.Osmanthus.description}}",
                     "Price": 5,
                     "Type": "Flower",
                     "Category": -80,
@@ -132,35 +132,6 @@
                     "SpriteIndex": "8",
                     "Edibility": 1,
                     "ContextTags": [ "color_yellow", "flower_item" ]
-                },
-
-                // MODIFY VANILLA ITEM
-                "400": {
-                  "Name": "Strawberry",
-                  "DisplayName": "[LocalizedText Strings\\Objects:Strawberry_Name]",
-                  "Description": "[LocalizedText Strings\\Objects:Strawberry_Description]",
-                  "Type": "Basic",
-                  "Category": -79,
-                  "Price": 120,
-                  "Texture": null,
-                  "SpriteIndex": 400,
-                  "Edibility": 20,
-                  "IsDrink": false,
-                  "Buffs": null,
-                  "GeodeDropsDefaultItems": false,
-                  "GeodeDrops": null,
-                  "ArtifactSpotChances": null,
-                  "ExcludeFromFishingCollection": false,
-                  "ExcludeFromShippingCollection": false,
-                  "ExcludeFromRandomSale": false,
-                  "ContextTags": [
-                    "color_red",
-                    "dye_medium",
-                    "season_spring",
-                    "special_dehydrator_rule",
-                    "fruit_item"
-                  ],
-                  "CustomFields": null
                 }
             }
         },
@@ -169,7 +140,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/default/Health Blend Tea"
+                "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/null/Health Blend Tea"
             }
         }
     ]

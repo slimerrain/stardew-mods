@@ -13,8 +13,8 @@
             "Entries": {
                 "{{ModId}}_Cassia_Seeds": {
                     "Name": "{{ModId}}_Cassia_Seeds",
-                    "DisplayName": "Cassia Seeds",
-                    "Description": "The hard and dark seeds of a Cassia Flower, typically used for brewing tea",
+                    "DisplayName": "{{i18n:Dried.Seeds.Cassia.name}}",
+                    "Description": "{{i18n:Dried.Seeds.Cassia.description}}",
                     "Price": 12,
                     "Type": "Seeds",
                     "Category": -74,
@@ -28,8 +28,8 @@
                 },
                 "{{ModId}}_Dried_Goji_Berries": {
                     "Name": "{{ModId}}_Dried_Goji_Berries",
-                    "DisplayName": "Dried Goji Berries",
-                    "Description": "",
+                    "DisplayName": "{{i18n:Dried.Fruit.Goji.name}}",
+                    "Description": "{{i18n:Dried.Fruit.Goji.description}}",
                     "Price": 75,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -45,8 +45,8 @@
                 },
                 "{{ModId}}_Dried_Lotus_Seeds": {
                     "Name": "{{ModId}}_Dried_Lotus_Seeds",
-                    "DisplayName": "Dried Lotus Seeds",
-                    "Description": "Seeds from a lotus seed pod. Typically used in pastes and soups.",
+                    "DisplayName": "{{i18n:Dried.Seeds.Lotus.name}}",
+                    "Description": "{{i18n:Dried.Seeds.Lotus.description}}",
                     "Price": 150,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -61,8 +61,8 @@
                 },
                 "{{ModId}}_Dried_Orange_Peel": {
                     "Name": "{{ModId}}_Dried_Orange_Peel",
-                    "DisplayName": "Dried Orange Peel",
-                    "Description": "A versatile ingredient for making food or drinks.",
+                    "DisplayName": "{{i18n:Dried.Fruit.Peel.Orange.name}}",
+                    "Description": "{{i18n:Dried.Fruit.Peel.Orange.description}}",
                     "Price": 75,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -76,8 +76,8 @@
                 },
                 "{{ModId}}_Dried_Strawberries": {
                     "Name": "{{ModId}}_Dried_Strawberries",
-                    "DisplayName": "Dried Strawberries",
-                    "Description": "Strawberries that have been dehydrated.",
+                    "DisplayName": "{{i18n:Dried.Fruit.Strawberry.name}}",
+                    "Description": "{{i18n:Dried.Fruit.Strawberry.description}}",
                     "Price": 500,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -91,8 +91,8 @@
                 },
                 "{{ModId}}_Lily_Bulb_2": {
                     "Name": "{{ModId}}_Lily_Bulb_2",
-                    "DisplayName": "Lily Bulb",
-                    "Description": "Dried out bulb of a lily flower. Can be added to soup to help with coughs.",
+                    "DisplayName": "{{i18n:Dried.Seeds.Lily.name}}",
+                    "Description": "{{i18n:Dried.Seeds.Lily.description}}",
                     "Price": 50,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -105,8 +105,8 @@
                 },
                 "{{ModId}}_Orange_Peel": {
                     "Name": "{{ModId}}_Orange_Peel",
-                    "DisplayName": "Orange Peel",
-                    "Description": "The peel from an orange.",
+                    "DisplayName": "{{i18n:Byproduct.Fruit.Orange.name}}",
+                    "Description": "{{i18n:Byproduct.Fruit.Orange.description}}",
                     "Price": 50,
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -120,8 +120,8 @@
                 },
                 "{{ModId}}_Rock_Sugar": {
                     "Name": "{{ModId}}_Rock_Sugar",
-                    "DisplayName": "Rock Sugar",
-                    "Description": "Mmmmm, crunchy.",
+                    "DisplayName": "{{i18n:Dried.Vegetables.Sugarcane.name}}",
+                    "Description": "{{i18n:Dried.Vegetables.Sugarcane.description}}",
                     "Price": 75,
                     "Type": "ArtisanGoods",
                     "Category": -26,

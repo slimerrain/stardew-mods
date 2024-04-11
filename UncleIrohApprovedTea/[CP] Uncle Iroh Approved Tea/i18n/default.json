@@ -1,3 +1,106 @@
 {
+    // ========== BYPRODUCTS ==========
+    "Byproduct.Fruit.Orange.name": "Orange Peel",
+    "Byproduct.Fruit.Orange.description": "The peel from an orange.",
     
+    // ========== DISHES ==========
+    "Dishes..name": "",
+    "Dishes..description": "",
+
+    // ========== DRIED ITEMS ==========
+    
+    "Dried.Seeds.Cassia.name": "Cassia Seeds",
+    "Dried.Seeds.Cassia.description": "The hard and dark seeds of a Cassia Flower, typically used for brewing tea",
+
+    "Dried.Fruit.Goji.name": "Dried Goji Berries",
+    "Dried.Fruit.Goji.description": "Crunchy pieces of dehydrated goji berries.",
+
+    "Dried.Seeds.Lotus.name": "Dried Lotus Seeds",
+    "Dried.Seeds.Lotus.description": "Seeds from a lotus seed pod. Typically used in pastes and soups.",
+
+    "Dried.Seeds.Lily.name": "Lily Bulb",
+    "Dried.Seeds.Lily.description": "Dried out bulb of a lily flower. Can be added to soup to help with coughs.",
+
+    "Dried.Fruit.Peel.Orange.name": "Dried Orange Peel",
+    "Dried.Fruit.Peel.Orange.description": "A versatile ingredient for making food or drinks.",
+
+    "Dried.Fruit.Strawberry.name": "Dried Strawberries",
+    "Dried.Fruit.Strawberry.description": "Crunchy pieces of dehydrated strawberries.",
+    
+    "Dried.Vegetables.Sugarcane.name": "Rock Sugar",
+    "Dried.Vegetables.Sugarcane.description": "Mmmmm, crunchy.",
+
+    // ========== CROPS ==========
+    "Crops.Chamomile.name": "Chamomile",
+    "Crops.Chamomile.description": "A small white flower with a big yellow center. Used for brewing tea.",
+    "Seeds.Chamomile.name": "",
+    "Seeds.Chamomile.description": "",
+    
+    "Crops.Chrysanthemum.name": "Chrysanthemum",
+    "Crops.Chrysanthemum.description": "A yellow flower with many small petals sticking out. Used for brewing tea.",
+    "Seeds.Chrysanthemum.name": "",
+    "Seeds.Chrysanthemum.description": "",
+    
+    "Crops.GojiBerry.name": "Goji Berry",
+    "Crops.GojiBerry.description": "A small pink berry that can be dehydrated and used for various dishes and put into teas.",
+    "Seeds.GojiBerry.name": "",
+    "Seeds.GojiBerry.description": "",
+    
+    "Crops.Lavender.name": "Lavender",
+    "Crops.Lavender.description": "A large stem of pungent tiny purple flowers.",
+    "Seeds.Lavender.name": "",
+    "Seeds.Lavender.description": "",
+    
+    "Crops.Lily.name": "Lily",
+    "Crops.Lily.description": "A tall flower with bright petals.",
+    "Seeds.Lily.name": "",
+    "Seeds.Lily.description": "",
+    
+    "Crops.Lotus.name": "Lotus",
+    "Crops.Lotus.description": "An ornamental water-based flower with many spreading petals.",
+    "Seeds.Lotus.name": "",
+    "Seeds.Lotus.description": "",
+    
+    "Crops.Sugarcane.name": "Sugarcane",
+    "Crops.Sugarcane.description": "A tall and fibrous stalk of sugar.",
+    "Seeds.Sugarcane.name": "",
+    "Seeds.Sugarcane.description": "",
+    
+    "Crops.Jasmine.name": "Jasmine",
+    "Crops.Jasmine.description": "A small white flower with a delightful floral scent.",
+    "Seeds.Jasmine.name": "",
+    "Seeds.Jasmine.description": "",
+    
+    "Crops.Osmanthus.name": "Osmanthus",
+    "Crops.Osmanthus.description": "A tiny bright yellow flower with an overpowering floral scent.",
+    "Seeds.Osmanthus.name": "",
+    "Seeds.Osmanthus.description": "",
+
+    // ========== TEA ==========
+    "Tea.Barley.name": "Barley Tea",
+    "Tea.Barley.description": "An energizing earthy tea made from Barley poured over ice.",
+
+    "Tea.BrownRice.name": "Brown Rice Tea",
+    "Tea.BrownRice.description": "An earthy roasted rice tea with a deep flavor.",
+    
+    "Tea.Cassia.name": "Cassia Tea",
+    "Tea.Cassia.description": "A bittersweet tea made from steeping the salty seeds of a cassia flower.",
+
+    "Tea.Chamomile.name": "Chamomile Tea",
+    "Tea.Chamomile.description": "A relaxing tea made from chamomile flowers.",
+
+    "Tea.Chrysanthemum.name": "Chrysanthemum Tea",
+    "Tea.Chrysanthemum.description": "A sweet and floral tea made from chrysanthemum flowers that warms you right up.",
+    
+    "Tea.HealthBlend.name": "Health Blend Tea",
+    "Tea.HealthBlend.description": "A delicious blend of chrysanthemum tea and cassia tea with some dried goji berries added in.",
+    
+    "Tea.Lavender.name": "Lavender Tea",
+    "Tea.Lavender.description": "A piney floral tea made from lavender flowers.",
+    
+    "Tea.Jasmine.name": "Jasmine Tea",
+    "Tea.Jasmine.description": "A classic tea with a light floral aroma.",
+    
+    "Tea.Osmanthus.name": "Osmanthus Tea",
+    "Tea.Osmanthus.description": "A classic eastern tea with a recognizable floral aroma."
 }
