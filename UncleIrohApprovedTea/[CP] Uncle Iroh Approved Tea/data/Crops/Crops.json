@@ -31,7 +31,7 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Chrysanthemum_Seeds": { 
-                    "Seasons": [ "spring", "summer" ],
+                    "Seasons": [ "spring", "summer", "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -51,7 +51,7 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Goji_Berry_Seeds": { 
-                    "Seasons": [ "spring" ],
+                    "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 2, 3, 3, 2 ],
                     "RegrowDays": 4,
                     "IsRaised": false,
@@ -71,7 +71,7 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Lavender_Seeds": { 
-                    "Seasons": [ "spring", "summer" ],
+                    "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 1, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -91,7 +91,7 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Lily_Bulb": { 
-                    "Seasons": [ "spring", "summer" ],
+                    "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -111,7 +111,7 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Lotus_Seeds": { 
-                    "Seasons": [ "spring" ],
+                    "Seasons": [ "spring", "summer", "fall" ],
                     "DaysInPhase": [ 1, 2, 2, 1 ],
                     "RegrowDays": -1,
                     "IsRaised": false,
@@ -131,8 +131,8 @@
                     "CustomFields": {}
                 },
                 "{{ModId}}_Sugarcane_Seeds": { 
-                    "Seasons": [ "spring" ],
-                    "DaysInPhase": [ 1, 2, 2, 1 ],
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
                     "RegrowDays": 3,
                     "IsRaised": false,
                     "IsPaddyCrop": false,

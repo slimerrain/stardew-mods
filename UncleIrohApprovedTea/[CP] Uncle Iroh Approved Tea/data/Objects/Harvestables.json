@@ -34,7 +34,7 @@
                     "Name": "{{ModId}}_Chrysanthemum",
                     "DisplayName": "{{i18n:Crops.Chrysanthemum.name}}",
                     "Description": "{{i18n:Crops.Chrysanthemum.description}}",
-                    "Price": 20,
+                    "Price": 23,
                     "Type": "Flower",
                     "Category": -80,
                     "Texture": "{{ModId}}/CropHarvests",
