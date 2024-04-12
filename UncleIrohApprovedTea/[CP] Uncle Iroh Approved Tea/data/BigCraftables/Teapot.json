@@ -57,7 +57,7 @@
                                     ]
                                 }
                             ],
-                            "MinutesUntilReady": 20
+                            "MinutesUntilReady": 30
                         },
                         {
                             "Id": "{{ModId}}_Chamomile",
@@ -187,7 +187,7 @@
                                     ]
                                 }
                             ],
-                            "MinutesUntilReady": 20
+                            "MinutesUntilReady": 15
                         }
                     ],
                     "InvalidItemMessage": "Can't Brew This",

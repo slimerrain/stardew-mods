@@ -33,7 +33,7 @@
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 40
                 },
                 "{{ModId}}_Lotus_Seeds": {
                     "Id": "{{ModId}}_Lotus_Seeds",
@@ -59,7 +59,7 @@
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 30
                 },
                 "{{ModId}}_Cassia_Flower": {
                     "Id": "{{ModId}}_Cassia_Flower",
@@ -85,7 +85,7 @@
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 15
                 },
                 "{{ModId}}_Orange_Peel": {
                     "Id": "{{ModId}}_Orange_Peel",
@@ -137,7 +137,7 @@
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 50
                 }
             }
         },
@@ -177,11 +177,12 @@
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 60
                 }
             },
             "MoveEntries": [
                 { "ID": "{{ModId}}_Strawberry", "BeforeID": "DriedFruit" }
+                { "ID": "{{ModId}}_Goji_Berry", "BeforeID": "DriedFruit" }
             ]
         }
     ]
