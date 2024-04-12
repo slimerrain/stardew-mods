@@ -9,19 +9,44 @@
             ],
             "Entries": {
                 "{{ModId}}_Cassia_Tea": {
-                    "Id": "{{ModId}}_Cassia_Tea",
                     "ItemId": "{{ModId}}_Cassia_Tea",
                     "Price": 400
                 },
                 "{{ModId}}_Chrysanthemum_Tea": {
-                    "Id": "{{ModId}}_Chrysanthemum_Tea",
                     "ItemId": "{{ModId}}_Chrysanthemum_Tea",
                     "Price": 400
                 },
                 "{{ModId}}_Health_Blend_Tea": {
-                    "Id": "{{ModId}}_Health_Blend_Tea",
                     "ItemId": "{{ModId}}_Health_Blend_Tea",
                     "Price": 600
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Hospital",
+                "Items"
+            ],
+            "When": {
+                "TeaRecipes": true
+            },
+            "Entries": {
+                "{{ModId}}_Cassia_Tea": {
+                    "ItemId": "{{ModId}}_Cassia_Tea",
+                    "Price": 2000,
+                    "isRecipe": true
+                },
+                "{{ModId}}_Chrysanthemum_Tea": {
+                    "ItemId": "{{ModId}}_Chrysanthemum_Tea",
+                    "Price": 2500,
+                    "isRecipe": true
+                },
+                "{{ModId}}_Health_Blend_Tea": {
+                    "ItemId": "{{ModId}}_Health_Blend_Tea",
+                    "Price": 4000,
+                    "isRecipe": true
                 }
             }
         }

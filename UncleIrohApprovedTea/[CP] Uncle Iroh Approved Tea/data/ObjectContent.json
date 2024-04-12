@@ -6,6 +6,11 @@
             "FromFile": "data/Objects/DriedGoods.json"
         },
         {
+            "LogName": "Consumable Objects",
+            "Action": "Include",
+            "FromFile": "data/Objects/Consumables.json"
+        },
+        {
             "LogName": "Drink Objects",
             "Action": "Include",
             "FromFile": "data/Objects/Drinks.json"

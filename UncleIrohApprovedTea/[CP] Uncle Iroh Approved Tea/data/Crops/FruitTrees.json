@@ -19,8 +19,8 @@
             "Entries": {
                 "{{ModId}}_Cassia_Flower": {
                     "Name": "{{ModId}}_Cassia_Flower",
-                    "DisplayName": "Cassia Flower",
-                    "Description": "A hanging flower with many small seeds growing in it.",
+                    "DisplayName": "{{i18n:Tree.Cassia.Harvest.name}}",
+                    "Description": "{{i18n:Tree.Cassia.description}}",
                     "Price": 80,
                     "Type": "Basic",
                     "Category": -80,
@@ -31,8 +31,8 @@
                 },
                 "{{ModId}}_Cassia_Sapling": {
                     "Name": "{{ModId}}_Cassia_Sapling",
-                    "DisplayName": "Cassia Sapling",
-                    "Description": "Takes 28 days to produce a mature Cassia tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+                    "DisplayName": "{{i18n:Tree.Cassia.Sapling.name}}",
+                    "Description": "{{i18n:Tree.Cassia.Sapling.description}}",
                     "Price": 450,
                     "Type": "Basic",
                     "Category": -74,
@@ -49,8 +49,8 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "{{ModId}}_Cassia_Sapling": {
-                    "DisplayName": "Cassia Tree",
-                    "Seasons": ["Summer" ],
+                    "DisplayName": "{{i18n:Tree.Cassia.name}}",
+                    "Seasons": [ "Summer" ],
                     "Fruit": [
                         {
                             "Id": "Default",

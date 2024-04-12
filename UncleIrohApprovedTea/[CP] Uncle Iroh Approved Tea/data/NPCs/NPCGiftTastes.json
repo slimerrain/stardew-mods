@@ -12,6 +12,13 @@
                     "Value": "{{ModId}}_Barley_Tea {{ModId}}_Brown_Rice_Tea {{ModId}}_Cassia_Tea {{ModId}}_Chamomile_Tea {{ModId}}_Chrysanthemum_Tea {{ModId}}_Health_Blend_Tea {{ModId}}_Jasmine_Tea {{ModId}}_Lavender_Tea {{ModId}}_Osmanthus_Tea",
                     "Delimiter": " "
                 },
+                // dishes
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "{{ModId}}_Mooncake {{ModId}}_Candied_Orange_peel {{ModId}}_Rice_Porridge {{ModId}}_Tea_Eggs",
+                    "Delimiter": " "
+                },
                 // crops
                 {
                     "Operation": "Append",

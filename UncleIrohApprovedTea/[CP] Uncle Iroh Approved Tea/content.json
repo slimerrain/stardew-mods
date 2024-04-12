@@ -38,21 +38,19 @@
             "FromFile": "data/Recipes/CraftingRecipes.json"
         },
         {
+            "LogName": "Cooking Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/CookingRecipes.json"
+        },
+        {
+            "LogName": "NPCs",
+            "Action": "Include",
+            "FromFile": "data/NPCs.json"
+        },
+        {
             "LogName": "Tea Recipes",
             "Action": "Include",
-            "FromFile": "data/Recipes/CookingRecipes.json",
-            "When": {"TeaRecipes": true }
-        },
-
-        {
-            "LogName": "Seed Shop",
-            "Action": "Include",
-            "FromFile": "data/Shops/SeedShop.json"
-        },
-        {
-            "LogName": "Sandy Shop",
-            "Action": "Include",
-            "FromFile": "data/Shops/Sandy.json"
+            "FromFile": "data/Recipes/TeaRecipes.json"
         }
     ]
 }

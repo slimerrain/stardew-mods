@@ -110,8 +110,8 @@
                 
                 "{{ModId}}_Jasmine": {
                     "Name": "{{ModId}}_Jasmine",
-                    "DisplayName": "{{i18n:Crops.Jasmine.name}}",
-                    "Description": "{{i18n:Crops.Jasmine.description}}",
+                    "DisplayName": "{{i18n:Bush.Jasmine.name}}",
+                    "Description": "{{i18n:Bush.Jasmine.description}}",
                     "Price": 20,
                     "Type": "Flower",
                     "Category": -80,
@@ -123,8 +123,8 @@
                 
                 "{{ModId}}_Osmanthus": {
                     "Name": "{{ModId}}_Osmanthus",
-                    "DisplayName": "{{i18n:Crops.Osmanthus.name}}",
-                    "Description": "{{i18n:Crops.Osmanthus.description}}",
+                    "DisplayName": "{{i18n:Bush.Osmanthus.name}}",
+                    "Description": "{{i18n:Bush.Osmanthus.description}}",
                     "Price": 5,
                     "Type": "Flower",
                     "Category": -80,
