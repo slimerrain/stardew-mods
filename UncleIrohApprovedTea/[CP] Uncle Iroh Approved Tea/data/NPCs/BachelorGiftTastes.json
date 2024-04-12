@@ -50,15 +50,8 @@
                 {
                     "Operation": "Append",
                     "Target": ["Fields", "Sebastian", "1"],
-                    "Value": "{{ModId}}_Brown_Rice_Tea {{ModId}}_Jasmine_Tea {{ModId}}_Barley_Tea",
+                    "Value": "{{ModId}}_Brown_Rice_Tea {{ModId}}_Jasmine_Tea",
                     "Delimiter": " "
-                },
-
-                {
-                    "Operation": "Append",
-                    "Target": ["Fields", "Shane", "1"],
-                    "Value": "",
-                    "Delimiter": " "
-                },
+                }
     ]
 }
