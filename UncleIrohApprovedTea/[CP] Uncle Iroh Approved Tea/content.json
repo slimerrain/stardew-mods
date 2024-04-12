@@ -17,7 +17,7 @@
             "AllowMultiple": false
         },
         "CustomDehydratorRules": {
-            "Description": "Some modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries, Goji Berries)",
+            "Description": "Some modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries)",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
@@ -38,6 +38,11 @@
             "FromFile": "data/Recipes/CraftingRecipes.json"
         },
         {
+            "LogName": "Tea Recipes",
+            "Action": "Include",
+            "FromFile": "data/Recipes/TeaRecipes.json"
+        },
+        {
             "LogName": "Cooking Recipes",
             "Action": "Include",
             "FromFile": "data/Recipes/CookingRecipes.json"
@@ -46,11 +51,6 @@
             "LogName": "NPCs",
             "Action": "Include",
             "FromFile": "data/NPCs.json"
-        },
-        {
-            "LogName": "Tea Recipes",
-            "Action": "Include",
-            "FromFile": "data/Recipes/TeaRecipes.json"
         }
     ]
 }

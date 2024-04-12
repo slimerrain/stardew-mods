@@ -83,7 +83,7 @@
                     "Category": -26,
                     "Texture": "{{ModId}}/Ingredients",
                     "SpriteIndex": "4",
-                    "Edibility": 13,
+                    "Edibility": 100,
                     "ContextTags": [
                         "color_dark_red",
                         "seed_item"
