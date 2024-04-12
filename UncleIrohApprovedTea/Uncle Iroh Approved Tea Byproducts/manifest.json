@@ -2,7 +2,7 @@
   "Name": "Byproducts",
   "Author": "slimerrain",
   "Description": "Byproducts for items.",
-  "Version": "1.1.0",
+  "Version": "1.0.0",
   "UniqueID": "slimerrain.byproducts",
   "EntryDll": "Byproducts.dll",
   "Dependencies": [

@@ -2,7 +2,7 @@
     "Name": "[MYC] Uncle Iroh Approved Tea Extra Harvest Rules",
     "Author": "slimerrain",
     "Description": "Allows multiple items to be harvested from a crop.",
-    "Version": "1.1.0",
+    "Version": "1.0.0",
     "MinimumApiVersion": "3.7.0",
     "UniqueID": "slimerrain.uncleirohapprovedteamyc",
     "ContentPackFor": { "UniqueID": "Cherry.MultiYieldCrops" },
