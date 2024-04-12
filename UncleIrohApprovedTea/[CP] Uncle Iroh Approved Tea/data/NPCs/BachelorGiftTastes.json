@@ -1,5 +1,11 @@
 {
     "Changes": [
+        {
+            "Log": "Gift Taste for NPCs Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+            [
                 {
                     "Operation": "Append",
                     "Target": ["Fields", "Alex", "1"],
@@ -53,5 +59,7 @@
                     "Value": "{{ModId}}_Brown_Rice_Tea {{ModId}}_Jasmine_Tea",
                     "Delimiter": " "
                 }
+            ]
+        }
     ]
 }

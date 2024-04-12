@@ -181,7 +181,7 @@
                 }
             },
             "MoveEntries": [
-                { "ID": "{{ModId}}_Strawberry", "BeforeID": "DriedFruit" }
+                { "ID": "{{ModId}}_Strawberry", "BeforeID": "DriedFruit" },
                 { "ID": "{{ModId}}_Goji_Berry", "BeforeID": "DriedFruit" }
             ]
         }

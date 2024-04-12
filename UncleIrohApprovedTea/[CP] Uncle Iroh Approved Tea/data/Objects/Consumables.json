@@ -20,7 +20,7 @@
                 "Category": -7,
                 "Texture": "{{ModId}}/Consumables",
                 "SpriteIndex": "0",
-                "Edibility": 7,
+                "Edibility": 27,
                 "Buffs": [
                   {
                     "Id": "Eat",

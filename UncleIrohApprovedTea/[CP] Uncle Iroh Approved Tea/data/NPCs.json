@@ -24,17 +24,17 @@
         {
             "LogName": "Gift Tastes",
             "Action": "Include",
-            "FromFile": "data/Shops/NPCGiftTastes.json"
+            "FromFile": "data/NPCs/NPCGiftTastes.json"
         },
         {
             "LogName": "Bachelor Gift Tastes",
             "Action": "Include",
-            "FromFile": "data/Shops/BachelorGiftTastes.json"
+            "FromFile": "data/NPCs/BachelorGiftTastes.json"
         },
         {
             "LogName": "Bachelorette Gift Tastes",
             "Action": "Include",
-            "FromFile": "data/Shops/BacheloretteGiftTastes.json"
+            "FromFile": "data/NPCs/BacheloretteGiftTastes.json"
         }
     ]
 }
