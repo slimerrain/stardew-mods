@@ -101,7 +101,7 @@
                     "Description": "{{i18n:Crops.Sugarcane.description}}",
                     "Price": 45,
                     "Type": "Vegetable",
-                    "Category": -80,
+                    "Category": -75,
                     "Texture": "{{ModId}}/CropHarvests",
                     "SpriteIndex": "6",
                     "Edibility": 6,
