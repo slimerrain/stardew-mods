@@ -114,10 +114,18 @@
     "Tea.Osmanthus.name": "桂花茶",
     "Tea.Osmanthus.description": "一种经典的东方茶，具有可识别的花香。",
 
+    "Teapot.name": "茶壶",
+    "Teapot.description": "一个可爱的容器，用于泡茶和倒茶。",
+
     // ========== TREES ==========
     "Tree.Cassia.name": "决明子树",
     "Tree.Cassia.description": "一种挂着的花，里面长着许多小种子。",
     "Tree.Cassia.Harvest.name": "决明子花",
     "Tree.Cassia.Sapling.name": "决明子树",
-    "Tree.Cassia.Sapling.description": "一棵成熟的决明树需要28天。熊在夏天开花。只有当周围的8个“瓦片”为空时才会生长。"
+    "Tree.Cassia.Sapling.description": "一棵成熟的决明树需要28天。熊在夏天开花。只有当周围的8个“瓦片”为空时才会生长。",
+
+    // ========== CONFIG ==========
+    "Config.Tea.Recipe.description": "如果您想在厨房泡茶，请打开此设置。",
+    "Config.Tea.Brew.description": "如果您想用茶壶泡茶，请打开此设置。",
+    "Config.DehydratorRules.description": "如果您想关闭定制草莓干，请关闭此设置。"
 }

@@ -3,21 +3,21 @@
 
     "ConfigSchema": {
         "TeaRecipes": {
-            "Description": "If you want all teas to be cookable in the kitchen.",
+            "Description": "{{i18n:Config.Tea.Recipe.description}}",
             "AllowValues": "true, false",
             "Default": "false",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "TeaBrewing": {
-            "Description": "If you want all teas to be brewable in the Teapot.",
+            "Description": "{{i18n:Config.Tea.Brew.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "CustomDehydratorRules": {
-            "Description": "Some modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries)",
+            "Description": "{{i18n:Config.DehydratorRules.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,

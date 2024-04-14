@@ -1,4 +1,5 @@
 # Uncle Iroh Approved Tea 
+
 Tea Mod for Stardew Valley!  
 
 [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/22376)  
@@ -35,8 +36,11 @@ Byproducts for Uncle Iroh Approved Tea
 [To Uninstall, remove any of the crops from the field, trash any of the items and seeds in your inventory, and then delete the three mod folders extracted into the Mods folder.]  
   
 # Mod Content!  
+
 Where to find specific parts of the mod!  
+
 ## Crops
+
 How to use each crop with this mod:
 - Chamomile -> Chamomile Tea 
 - Chrysanthemum -> Chrysanthemum Tea -> tea is also used for kitchen recipe for health blend tea
@@ -48,13 +52,22 @@ How to use each crop with this mod:
 - Jasmine -> Jasmine Tea
 - Osmanthus -> Osmanthus Tea
 - Cassia Flower -> Cassia Seeds (dehydrator) and used for Cassia Tea -> tea is also used for kitchen recipe for health blend tea
+
 ## Other Items
+
 - Orange -> eat for Orange Peel -> dehydrator for dried orange peel used for kitchen recipe
-- Strawberry -> Dried Strawberries (into dehydrator) -> used as a gift or snack (this one can be turned of in config menu if you prefer vanilla dehydrated fruit)
+- Strawberry -> Dried Strawberries (into dehydrator) -> used as a gift or snack (this one can be turned of in config menu if you prefer vanilla dehydrated fruit)  
+
 ## Seeds
+
 Most of the seeds and bush saplings are at Pierre's Seed Shop, but you will find the Cassia Flower tree at Sandy's Shop.  
+
 ## Tea
+
 Most tea is brewed using the Teapot (by default,) except health blend tea requires a kitchen to make. You can find the recipe for Health Blend Tea at the Hospital (Harvey's shop.)  
+
 If you would rather be able to use a kitchen for all tea (recipes available at Gus' and Sandy's), then you can choose the Tea Recipes option in the Mod Config Menu under (CP) Uncle Iroh Approved Tea. You can uncheck Brewable Tea to make the teapot purely decorative as well.  
+
 ## Teapot
+
 The Teapot recipe is unlocked at farming level 2! It takes Stone and Clay to craft one.  

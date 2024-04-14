@@ -113,10 +113,18 @@
     "Tea.Osmanthus.name": "Osmanthus Tea",
     "Tea.Osmanthus.description": "A classic eastern tea with a recognizable floral aroma.",
 
+    "Teapot.name": "Teapot",
+    "Teapot.description": "A cute little pot for brewing tea.",
+
     // ========== TREES ==========
     "Tree.Cassia.name": "Cassia Tree",
     "Tree.Cassia.description": "A hanging flower with many small seeds growing in it.",
     "Tree.Cassia.Harvest.name": "Cassia Flower",
     "Tree.Cassia.Sapling.name": "Cassia Sapling",
-    "Tree.Cassia.Sapling.description": "Takes 28 days to produce a mature Cassia tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty."
+    "Tree.Cassia.Sapling.description": "Takes 28 days to produce a mature Cassia tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+    // ========== CONFIG ==========
+    "Config.Tea.Recipe.description": "If you want all teas to be cookable in the kitchen.",
+    "Config.Tea.Brew.description": "If you want all teas to be brewable in the Teapot.",
+    "Config.DehydratorRules.description": "If you're okay with modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries)"
 }
