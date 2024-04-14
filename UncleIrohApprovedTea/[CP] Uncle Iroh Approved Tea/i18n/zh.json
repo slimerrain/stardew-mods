@@ -125,7 +125,8 @@
     "Tree.Cassia.Sapling.description": "一棵成熟的决明树需要28天。熊在夏天开花。只有当周围的8个“瓦片”为空时才会生长。",
 
     // ========== CONFIG ==========
-    "Config.Tea.Recipe.description": "如果您想在厨房泡茶，请打开此设置。",
-    "Config.Tea.Brew.description": "如果您想用茶壶泡茶，请打开此设置。",
-    "Config.DehydratorRules.description": "如果您想关闭定制草莓干，请关闭此设置。"
+    "Config.TeaRecipes.description": "如果您想在厨房泡茶，请打开此设置。",
+    "Config.TeaBrewing.description": "如果您想用茶壶泡茶，请打开此设置。",
+    "Config.CustomDehydratorRules.description": "如果您想关闭定制草莓干，请关闭此设置。",
+    "Config.QuaintLivingFlowerGarden2Compatability.description": "如果您想关闭重复项目，请打开此设置。"
 }

@@ -1,4 +1,5 @@
 {
+
     // ========== BYPRODUCTS ==========
     "Byproduct.Fruit.Orange.name": "Orange Peel",
     "Byproduct.Fruit.Orange.description": "The peel from an orange.",
@@ -124,7 +125,8 @@
     "Tree.Cassia.Sapling.description": "Takes 28 days to produce a mature Cassia tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
 
     // ========== CONFIG ==========
-    "Config.Tea.Recipe.description": "If you want all teas to be cookable in the kitchen.",
-    "Config.Tea.Brew.description": "If you want all teas to be brewable in the Teapot.",
-    "Config.DehydratorRules.description": "If you're okay with modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries)"
+    "Config.TeaRecipes.description": "If you want all teas to be cookable in the kitchen.",
+    "Config.TeaBrewing.description": "If you want all teas to be brewable in the Teapot.",
+    "Config.CustomDehydratorRules.description": "If you're okay with modifications to existing vanilla dehydrator rules based on the mod's dried items. (Strawberries)",
+    "Config.QuaintLivingFlowerGarden2Compatability.description": "If you want to enable removing any duplicate crops that my mod adds."
 }

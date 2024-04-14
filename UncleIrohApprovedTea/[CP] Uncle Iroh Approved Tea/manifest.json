@@ -7,10 +7,8 @@
     "UniqueID": "slimerrain.uncleirohapprovedteacp",
     "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
     "Dependencies": [
-        {
-            "UniqueID": "furyx639.CustomBush",
-            "IsRequired": true
-        }
+        { "UniqueID": "furyx639.CustomBush", "IsRequired": true },
+        { "UniqueID": "PC.CP.QL.FlowerGarden2", "IsRequired": false }
     ],
     "UpdateKeys": [ "Nexus:22376" ]
 }

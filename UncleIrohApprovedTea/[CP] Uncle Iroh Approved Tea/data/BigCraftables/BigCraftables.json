@@ -13,8 +13,8 @@
             "Entries": {
                 "{{ModId}}_Teapot": {
                     "Name": "{{ModId}}_Teapot",
-                    "DisplayName": "{{i18n::Teapot.name}}",
-                    "Description": "{{i18n::Teapot.description}}",
+                    "DisplayName": "{{i18n:Teapot.name}}",
+                    "Description": "{{i18n:Teapot.description}}",
                     "Price": 1000,
                     "Fragility": 0,
                     "CanBePlacedOutdoors": true,

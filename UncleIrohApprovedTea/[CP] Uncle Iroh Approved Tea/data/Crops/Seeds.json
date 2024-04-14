@@ -83,17 +83,7 @@
                     "Edibility": -300,
                     "ContextTags": [ "bush_item" ],
                     "CustomFields": null
-                }
-            }
-        },
-        {
-            "LogName": "Objects Data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "When": {
-                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
-            },
-            "Entries": {
+                },
                 "{{ModId}}_Lavender_Seeds": {
                     "Name": "{{ModId}}_Lavender_Seeds",
                     "DisplayName": "{{i18n:Seeds.Lavender.name}}",

@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Add Tea Rules Teapot",
+            "LogName": "Add Rules for Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
@@ -219,218 +219,144 @@
             }
         },
         {
-            "LogName": "Add Tea Rules Teapot",
+            "LogName": "Add Lavender & Jasmine Tea Rules for Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Teapot",
+                "OutputRules"
+            ],
             "When": {
                 "HasMod |contains=PC.CP.QL.FlowerGarden2": false
             },
             "Entries": {
-                "(BC){{ModId}}_Teapot": {
-                    "OutputRules": [
+                "{{ModId}}_Jasmine": {
+                    "Id": "{{ModId}}_Jasmine",
+                    "Triggers": [
                         {
-                            "Id": "{{ModId}}_Jasmine",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
-                                    "RequiredCount": 3
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Jasmine_Tea",
-                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
-                                    "MinStack": 1,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 20
-                        },
-                        {
-                            "Id": "{{ModId}}_Lavender",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Lavender",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Lavender_Tea",
-                                    "ItemId": "(O){{ModId}}_Lavender_Tea",
-                                    "MinStack": 3,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 15
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Jasmine",
+                            "RequiredCount": 3
                         }
                     ],
-                    "InvalidItemMessage": "Can't Brew This",
-                    "InvalidCountMessage": "Requires More Input",
-                    "ShowNextIndexWhileWorking": true,
-                    "ShowNextIndexWhenReady": true,
-                    "WobbleWhileWorking": false,
-                    "LoadEffects": [
+                    "OutputItem": [
                         {
-                            "Id": "Default",
-                            "Condition": null,
-                            "Sounds": [
+                            "Id": "{{ModId}}_Jasmine_Tea",
+                            "ItemId": "(O){{ModId}}_Jasmine_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
                                 {
-                                    "Id": "bubbles",
-                                    "Delay": 0
-                                },
-                                {
-                                    "Id": "sipTea",
-                                    "Delay": 0
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
                                 }
-                            ],
-                            "Frames": [
-                                1,
-                                2,
-                                3
-                            ],
-                            "Interval": 200
+                            ]
                         }
                     ],
-                    "WorkingEffects": [
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Lavender": {
+                    "Id": "{{ModId}}_Lavender",
+                    "Triggers": [
                         {
-                            "Frames": [
-                                1,
-                                2,
-                                3
-                            ],
-                            "Interval": 200
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Lavender",
+                            "RequiredCount": 1
                         }
-                    ]
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Lavender_Tea",
+                            "ItemId": "(O){{ModId}}_Lavender_Tea",
+                            "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 15
                 }
             }
         },
         {
-            "LogName": "Add Tea Rules Teapot",
+            "LogName": "Add QL Compatible Lavender & Jasmine Tea Rules for Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Teapot",
+                "OutputRules"
+            ],
             "When": {
                 "HasMod |contains=PC.CP.QL.FlowerGarden2": true
             },
             "Entries": {
-                "(BC){{ModId}}_Teapot": {
-                    "OutputRules": [
+                "{{ModId}}_Jasmine": {
+                    "Id": "{{ModId}}_Jasmine",
+                    "Triggers": [
                         {
-                            "Id": "{{ModId}}_Jasmine",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
-                                    "RequiredCount": 3
-                                },
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O)QL_Jasmine",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Jasmine_Tea",
-                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
-                                    "MinStack": 1,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 20
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Jasmine",
+                            "RequiredCount": 3
                         },
                         {
-                            "Id": "{{ModId}}_Lavender",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Lavender",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Lavender",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Lavender_Tea",
-                                    "ItemId": "(O)QL_Jasmine",
-                                    "MinStack": 3,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 15
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Jasmine",
+                            "RequiredCount": 1
                         }
                     ],
-                    "InvalidItemMessage": "Can't Brew This",
-                    "InvalidCountMessage": "Requires More Input",
-                    "ShowNextIndexWhileWorking": true,
-                    "ShowNextIndexWhenReady": true,
-                    "WobbleWhileWorking": false,
-                    "LoadEffects": [
+                    "OutputItem": [
                         {
-                            "Id": "Default",
-                            "Condition": null,
-                            "Sounds": [
+                            "Id": "{{ModId}}_Jasmine_Tea",
+                            "ItemId": "(O){{ModId}}_Jasmine_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
                                 {
-                                    "Id": "bubbles",
-                                    "Delay": 0
-                                },
-                                {
-                                    "Id": "sipTea",
-                                    "Delay": 0
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
                                 }
-                            ],
-                            "Frames": [
-                                1,
-                                2,
-                                3
-                            ],
-                            "Interval": 200
+                            ]
                         }
                     ],
-                    "WorkingEffects": [
+                    "MinutesUntilReady": 20
+                },
+                "{{ModId}}_Lavender": {
+                    "Id": "{{ModId}}_Lavender",
+                    "Triggers": [
                         {
-                            "Frames": [
-                                1,
-                                2,
-                                3
-                            ],
-                            "Interval": 200
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Lavender",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Lavender",
+                            "RequiredCount": 1
                         }
-                    ]
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Lavender_Tea",
+                            "ItemId": "(O){{ModId}}_Lavender_Tea",
+                            "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 15
                 }
             }
         }

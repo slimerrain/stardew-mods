@@ -43,16 +43,6 @@
                     "ItemId": "{{ModId}}_Goji_Berry_Seeds",
                     "Price": 80
                 },
-                "{{ModId}}_Lavender_Seeds": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Lavender_Seeds",
-                    "Price": 120
-                },
-                "{{ModId}}_Lily_Bulb":{
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Lily_Bulb",
-                    "Price": 120
-                },
                 "{{ModId}}_Lotus_Seeds_Spring": {
                     "Condition": "SEASON spring",
                     "ItemId": "{{ModId}}_Lotus_Seeds",
@@ -73,13 +63,64 @@
                     "ItemId": "{{ModId}}_Sugarcane_Seeds",
                     "Price": 175
                 },
-                "{{ModId}}_Jasmine_Sapling": {
-                    "ItemId": "{{ModId}}_Jasmine_Sapling",
-                    "Price": 1250
-                },
                 "{{ModId}}_Osmanthus_Sapling": {
                     "ItemId": "{{ModId}}_Osmanthus_Sapling",
                     "Price": 1200
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
+            },
+            "Entries": {
+                "{{ModId}}_Lavender_Seeds": {
+                    "Condition": "SEASON spring",
+                    "ItemId": "{{ModId}}_Lavender_Seeds",
+                    "Price": 120
+                },
+                "{{ModId}}_Lily_Bulb":{
+                    "Condition": "SEASON spring",
+                    "ItemId": "{{ModId}}_Lily_Bulb",
+                    "Price": 120
+                },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "ItemId": "{{ModId}}_Jasmine_Sapling",
+                    "Price": 1250
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": true,
+                "QuaintLivingFlowerGarden2Compatability": true
+            },
+            "Entries": {
+                "{{ModId}}_Lavender_Seeds": {
+                    "Condition": "SEASON spring",
+                    "ItemId": "{{ModId}}_Lavender_Seeds",
+                    "Price": 120
+                },
+                "{{ModId}}_Lily_Bulb":{
+                    "Condition": "SEASON spring",
+                    "ItemId": "{{ModId}}_Lily_Bulb",
+                    "Price": 120
+                },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "ItemId": "{{ModId}}_Jasmine_Sapling",
+                    "Price": 1250
                 }
             }
         }

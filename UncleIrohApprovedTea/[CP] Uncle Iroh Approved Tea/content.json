@@ -3,21 +3,28 @@
 
     "ConfigSchema": {
         "TeaRecipes": {
-            "Description": "{{i18n:Config.Tea.Recipe.description}}",
+            "Description": "{{i18n:Config.TeaRecipes.description}}",
             "AllowValues": "true, false",
             "Default": "false",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "TeaBrewing": {
-            "Description": "{{i18n:Config.Tea.Brew.description}}",
+            "Description": "{{i18n:Config.TeaBrewing.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "CustomDehydratorRules": {
-            "Description": "{{i18n:Config.DehydratorRules.description}}",
+            "Description": "{{i18n:Config.CustomDehydratorRules.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "QuaintLivingFlowerGarden2Compatability": {
+            "Description": "{{i18n:Config.QuaintLivingFlowerGarden2Compatability.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
