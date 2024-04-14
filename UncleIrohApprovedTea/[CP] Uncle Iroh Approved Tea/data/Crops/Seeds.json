@@ -47,30 +47,6 @@
                     "Edibility": -300,
                     "ContextTags": [ "seed_item" ]
                 },
-                "{{ModId}}_Lavender_Seeds": {
-                    "Name": "{{ModId}}_Lavender_Seeds",
-                    "DisplayName": "{{i18n:Seeds.Lavender.name}}",
-                    "Description": "{{i18n:Seeds.Lavender.description}}",
-                    "Price": 65,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "3",
-                    "Edibility": -300,
-                    "ContextTags": [ "seed_item" ]
-                },
-                "{{ModId}}_Lily_Bulb": {
-                    "Name": "{{ModId}}_Lily_Bulb",
-                    "DisplayName": "{{i18n:Seeds.Lily.name}}",
-                    "Description": "{{i18n:Seeds.Lily.description}}",
-                    "Price": 50,
-                    "Type": "Seeds",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "4",
-                    "Edibility": -300,
-                    "ContextTags": [ "bulb_item", "seed_item" ]
-                },
                 "{{ModId}}_Lotus_Seeds": {
                     "Name": "{{ModId}}_Lotus_Seeds",
                     "DisplayName": "{{i18n:Seeds.Lotus.name}}",
@@ -95,19 +71,6 @@
                     "Edibility": -300,
                     "ContextTags": [ "seed_item" ]
                 },
-                "{{ModId}}_Jasmine_Sapling": {
-                    "Name": "{{ModId}}_Jasmine_Sapling",
-                    "DisplayName": "{{i18n:Bush.Sapling.Jasmine.name}}",
-                    "Description": "{{i18n:Bush.Sapling.Jasmine.description}}",
-                    "Price": 850,
-                    "Type": "Basic",
-                    "Category": -74,
-                    "Texture": "{{ModId}}/Seeds",
-                    "SpriteIndex": "7",
-                    "Edibility": -300,
-                    "ContextTags": [ "bush_item" ],
-                    "CustomFields": null
-                },
                 "{{ModId}}_Osmanthus_Sapling": {
                     "Name": "{{ModId}}_Osmanthus_Sapling",
                     "DisplayName": "{{i18n:Bush.Sapling.Osmanthus.name}}",
@@ -117,6 +80,53 @@
                     "Category": -74,
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "8",
+                    "Edibility": -300,
+                    "ContextTags": [ "bush_item" ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
+            },
+            "Entries": {
+                "{{ModId}}_Lavender_Seeds": {
+                    "Name": "{{ModId}}_Lavender_Seeds",
+                    "DisplayName": "{{i18n:Seeds.Lavender.name}}",
+                    "Description": "{{i18n:Seeds.Lavender.description}}",
+                    "Price": 65,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "3",
+                    "Edibility": -300,
+                    "ContextTags": [ "seed_item" ]
+                },
+                "{{ModId}}_Lily_Bulb": {
+                    "Name": "{{ModId}}_Lily_Bulb",
+                    "DisplayName": "{{i18n:Seeds.Lily.name}}",
+                    "Description": "{{i18n:Seeds.Lily.description}}",
+                    "Price": 50,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "4",
+                    "Edibility": -300,
+                    "ContextTags": [ "bulb_item", "seed_item" ]
+                },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "Name": "{{ModId}}_Jasmine_Sapling",
+                    "DisplayName": "{{i18n:Bush.Sapling.Jasmine.name}}",
+                    "Description": "{{i18n:Bush.Sapling.Jasmine.description}}",
+                    "Price": 850,
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Texture": "{{ModId}}/Seeds",
+                    "SpriteIndex": "7",
                     "Edibility": -300,
                     "ContextTags": [ "bush_item" ],
                     "CustomFields": null

@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "Log": "Cooking Recipe Data",
+            "Log": "Tea Recipe Data",
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
@@ -15,7 +15,31 @@
             }
         },
         {
-            "Log": "Cooking Recipe Data",
+            "Log": "Tea Recipe Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
+            },
+            "Entries": {
+                "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/Lavender Tea",
+                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 3/6 9/{{ModId}}_Jasmine_Tea 1/null/Jasmine Tea"
+            }
+        },
+        {
+            "Log": "Tea Recipe Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": true
+            },
+            "Entries": {
+                "{{ModId}}_Lavender_Tea": "QL_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/Lavender Tea",
+                "{{ModId}}_Jasmine_Tea": "QL_Jasmine 1/6 9/{{ModId}}_Jasmine_Tea 1/null/Jasmine Tea"
+            }
+        },
+        {
+            "Log": "Barley Tea Recipe Data",
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
 			"When": { "HasMod |contains=slimerrain.grainsoverhullcp": true },

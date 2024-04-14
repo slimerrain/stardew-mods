@@ -112,32 +112,6 @@
                             "MinutesUntilReady": 20
                         },
                         {
-                            "Id": "{{ModId}}_Jasmine",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
-                                    "RequiredCount": 3
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "{{ModId}}_Jasmine_Tea",
-                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
-                                    "MinStack": 1,
-                                    "CopyQuality": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 20
-                        },
-                        {
                             "Id": "{{ModId}}_Osmanthus",
                             "Triggers": [
                                 {
@@ -150,6 +124,123 @@
                                 {
                                     "Id": "{{ModId}}_Osmanthus_Tea",
                                     "ItemId": "(O){{ModId}}_Osmanthus_Tea",
+                                    "MinStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        }
+                    ],
+                    "InvalidItemMessage": "Can't Brew This",
+                    "InvalidCountMessage": "Requires More Input",
+                    "ShowNextIndexWhileWorking": true,
+                    "ShowNextIndexWhenReady": true,
+                    "WobbleWhileWorking": false,
+                    "LoadEffects": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Sounds": [
+                                {
+                                    "Id": "bubbles",
+                                    "Delay": 0
+                                },
+                                {
+                                    "Id": "sipTea",
+                                    "Delay": 0
+                                }
+                            ],
+                            "Frames": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Frames": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "Interval": 200
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Barley Tea Rule for Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Teapot",
+                "OutputRules"
+            ],
+            "When": {
+                "HasMod |contains=slimerrain.grainsoverhullcp": true
+            },
+            "Entries": {
+                "slimerrain.grainsoverhullcp_Barley": {
+                    "Id": "slimerrain.grainsoverhullcp_Barley",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)slimerrain.grainsoverhullcp_Barley",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Barley_Tea",
+                            "ItemId": "(O){{ModId}}_Barley_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                }
+            }
+        },
+        {
+            "LogName": "Add Tea Rules Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
+            },
+            "Entries": {
+                "(BC){{ModId}}_Teapot": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModId}}_Jasmine",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Jasmine_Tea",
+                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
                                     "MinStack": 1,
                                     "CopyQuality": true,
                                     "CopyPrice": true,
@@ -231,42 +322,115 @@
             }
         },
         {
-            "LogName": "Add Tea Rules for Teapot",
+            "LogName": "Add Tea Rules Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": [
-                "(BC){{ModId}}_Teapot",
-                "OutputRules"
-            ],
             "When": {
-                "HasMod |contains=slimerrain.grainsoverhullcp": true
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": true
             },
             "Entries": {
-                "slimerrain.grainsoverhullcp_Barley": {
-                    "Id": "slimerrain.grainsoverhullcp_Barley",
-                    "Triggers": [
+                "(BC){{ModId}}_Teapot": {
+                    "OutputRules": [
                         {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)slimerrain.grainsoverhullcp_Barley",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "{{ModId}}_Barley_Tea",
-                            "ItemId": "(O){{ModId}}_Barley_Tea",
-                            "MinStack": 1,
-                            "CopyQuality": true,
-                            "CopyPrice": true,
-                            "PriceModifiers": [
+                            "Id": "{{ModId}}_Jasmine",
+                            "Triggers": [
                                 {
-                                    "Modification": "Multiply",
-                                    "Amount": 1.25
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Jasmine",
+                                    "RequiredCount": 3
+                                },
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)QL_Jasmine",
+                                    "RequiredCount": 1
                                 }
-                            ]
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Jasmine_Tea",
+                                    "ItemId": "(O){{ModId}}_Jasmine_Tea",
+                                    "MinStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 20
+                        },
+                        {
+                            "Id": "{{ModId}}_Lavender",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Lavender",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_Lavender",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Lavender_Tea",
+                                    "ItemId": "(O)QL_Jasmine",
+                                    "MinStack": 3,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.25
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 15
                         }
                     ],
-                    "MinutesUntilReady": 20
+                    "InvalidItemMessage": "Can't Brew This",
+                    "InvalidCountMessage": "Requires More Input",
+                    "ShowNextIndexWhileWorking": true,
+                    "ShowNextIndexWhenReady": true,
+                    "WobbleWhileWorking": false,
+                    "LoadEffects": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Sounds": [
+                                {
+                                    "Id": "bubbles",
+                                    "Delay": 0
+                                },
+                                {
+                                    "Id": "sipTea",
+                                    "Delay": 0
+                                }
+                            ],
+                            "Frames": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Frames": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "Interval": 200
+                        }
+                    ]
                 }
             }
         }
