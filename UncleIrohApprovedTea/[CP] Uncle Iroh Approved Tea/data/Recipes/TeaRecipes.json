@@ -5,13 +5,13 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_Brown_Rice_Tea": "271 1/6 9/{{ModId}}_Brown_Rice_Tea 3/null/Brown Rice Tea",
-                "{{ModId}}_Cassia_Tea": "{{ModId}}_Cassia_Seeds 1/6 9/{{ModId}}_Cassia_Tea 3/null/Cassia Tea",
-                "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 3/null/Chamomile Tea",
-                "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 3/null/Chrysanthemum Tea",
-                "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 3/null/Lavender Tea",
-                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 3/6 9/{{ModId}}_Jasmine_Tea 3/null/Jasmine Tea",
-                "{{ModId}}_Osmanthus_Tea": "{{ModId}}_Osmanthus 5/6 9/{{ModId}}_Osmanthus_Tea 3/null/Osmanthus Tea"
+                "{{ModId}}_Brown_Rice_Tea": "271 1/6 9/{{ModId}}_Brown_Rice_Tea 2/null/Brown Rice Tea",
+                "{{ModId}}_Cassia_Tea": "{{ModId}}_Cassia_Seeds 1/6 9/{{ModId}}_Cassia_Tea 2/null/Cassia Tea",
+                "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/Chamomile Tea",
+                "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 2/null/Chrysanthemum Tea",
+                "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/Lavender Tea",
+                "{{ModId}}_Jasmine_Tea": "{{ModId}}_Jasmine 3/6 9/{{ModId}}_Jasmine_Tea 1/null/Jasmine Tea",
+                "{{ModId}}_Osmanthus_Tea": "{{ModId}}_Osmanthus 5/6 9/{{ModId}}_Osmanthus_Tea 1/null/Osmanthus Tea"
             }
         },
         {
@@ -20,7 +20,7 @@
             "Target": "Data/CookingRecipes",
 			"When": { "HasMod |contains=slimerrain.grainsoverhullcp": true },
             "Entries": {
-                "{{ModId}}_Barley_Tea": "slimerrain.grainsoverhullcp_Barley 1/6 9/{{ModId}}_Barley_Tea 3/null/Barley Tea"
+                "{{ModId}}_Barley_Tea": "slimerrain.grainsoverhullcp_Barley 1/6 9/{{ModId}}_Barley_Tea 1/null/Barley Tea"
             }
         }
     ]
