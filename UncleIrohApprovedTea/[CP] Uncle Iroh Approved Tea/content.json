@@ -32,13 +32,33 @@
         }
     },
 
+    "DynamicTokens": [
+        {
+            "Name": "KeepQLFG2Dupes",
+            "Value": "false"
+        },
+        {
+            "Name": "KeepQLFG2Dupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
+            }
+        },
+        {
+            "Name": "KeepQLFG2Dupes",
+            "Value": "true",
+            "When": {
+                "QuaintLivingFlowerGarden2Compatability": false
+            }
+        }
+    ],
+
     "Changes": [
-        { 
+        {
             "LogName": "Objects",
             "Action": "Include",
             "FromFile": "Data/ObjectContent.json"
         },
-
         {
             "LogName": "Crafting Recipes",
             "Action": "Include",

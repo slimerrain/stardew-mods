@@ -9,52 +9,22 @@
             ],
             "Entries": {
                 "{{ModId}}_Chamomile_Seeds_Spring": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Chamomile_Seeds",
-                    "Price": 50
-                },
-                "{{ModId}}_Chamomile_Seeds_Summer": {
-                    "Condition": "SEASON summer",
+                    "Condition": "SEASON spring summer",
                     "ItemId": "{{ModId}}_Chamomile_Seeds",
                     "Price": 50
                 },
                 "{{ModId}}_Chrysanthemum_Seeds_Spring": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
-                    "Price": 65
-                },
-                "{{ModId}}_Chrysanthemum_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
-                    "Price": 65
-                },
-                "{{ModId}}_Chrysanthemum_Seeds_Fall": {
-                    "Condition": "SEASON fall",
+                    "Condition": "SEASON spring summer fall",
                     "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
                     "Price": 65
                 },
                 "{{ModId}}_Goji_Berry_Seeds_Spring": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Goji_Berry_Seeds",
-                    "Price": 80
-                },
-                "{{ModId}}_Goji_Berry_Seeds_Summer": {
-                    "Condition": "SEASON summer",
+                    "Condition": "SEASON spring summer",
                     "ItemId": "{{ModId}}_Goji_Berry_Seeds",
                     "Price": 80
                 },
                 "{{ModId}}_Lotus_Seeds_Spring": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Lotus_Seeds",
-                    "Price": 90
-                },
-                "{{ModId}}_Lotus_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "ItemId": "{{ModId}}_Lotus_Seeds",
-                    "Price": 90
-                },
-                "{{ModId}}_Lotus_Seeds_Fall": {
-                    "Condition": "SEASON fall",
+                    "Condition": "SEASON spring summer fall",
                     "ItemId": "{{ModId}}_Lotus_Seeds",
                     "Price": 90
                 },
@@ -77,35 +47,7 @@
                 "Items"
             ],
             "When": {
-                "HasMod |contains=PC.CP.QL.FlowerGarden2": false
-            },
-            "Entries": {
-                "{{ModId}}_Lavender_Seeds": {
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Lavender_Seeds",
-                    "Price": 120
-                },
-                "{{ModId}}_Lily_Bulb":{
-                    "Condition": "SEASON spring",
-                    "ItemId": "{{ModId}}_Lily_Bulb",
-                    "Price": 120
-                },
-                "{{ModId}}_Jasmine_Sapling": {
-                    "ItemId": "{{ModId}}_Jasmine_Sapling",
-                    "Price": 1250
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "SeedShop",
-                "Items"
-            ],
-            "When": {
-                "HasMod |contains=PC.CP.QL.FlowerGarden2": true,
-                "QuaintLivingFlowerGarden2Compatability": true
+                "KeepQLFG2Dupes": true
             },
             "Entries": {
                 "{{ModId}}_Lavender_Seeds": {
