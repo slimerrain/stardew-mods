@@ -33,6 +33,11 @@
             "FromFile": "data/Crops/Crops.json"
         },
         {
+            "LogName": "Crops",
+            "Action": "Include",
+            "FromFile": "data/Crops/MultiYield.json"
+        },
+        {
             "LogName": "Fruit Tree Crops",
             "Action": "Include",
             "FromFile": "data/Crops/FruitTrees.json"

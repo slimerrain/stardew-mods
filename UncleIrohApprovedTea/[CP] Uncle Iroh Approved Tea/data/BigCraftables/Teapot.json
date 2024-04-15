@@ -271,6 +271,47 @@
             }
         },
         {
+            "LogName": "Add Barley Tea Rule for Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Teapot",
+                "OutputRules"
+            ],
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": true,
+                "CornucopiaCompatability": "extended"
+            },
+            "Entries": {
+                "{{ModId}}_CC_Barley": {
+                    "Id": "{{ModId}}_CC_Barley",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Barley",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Barley_Tea",
+                            "ItemId": "(O){{ModId}}_Barley_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                }
+            }
+        },
+        {
             "LogName": "Add QLFG2 Tea Rules for Teapot",
             "Action": "EditData",
             "Target": "Data/Machines",
