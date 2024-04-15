@@ -29,6 +29,20 @@
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
+        },
+        "CornucopiaCompatability": {
+            "Description": "{{i18n:Config.CornucopiaCompatability.description}}",
+            "AllowValues": "default, extended, false",
+            "Default": "default",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "WildFlourCompatability": {
+            "Description": "{{i18n:Config.WildFlourCompatability.description}}",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
         }
     },
 
@@ -49,6 +63,63 @@
             "Value": "true",
             "When": {
                 "QuaintLivingFlowerGarden2Compatability": false
+            }
+        },
+
+        {
+            "Name": "KeepCCDupes",
+            "Value": "false"
+        },
+        {
+            "Name": "KeepCCDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": false
+            }
+        },
+        {
+            "Name": "KeepCCDupes",
+            "Value": "true",
+            "When": {
+                "CornucopiaCompatability": "default"
+            }
+        },
+
+        {
+            "Name": "KeepCFDupes",
+            "Value": "false"
+        },
+        {
+            "Name": "KeepCFDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreFlowers": false
+            }
+        },
+        {
+            "Name": "KeepCFDupes",
+            "Value": "true",
+            "When": {
+                "CornucopiaCompatability": "default"
+            }
+        },
+
+        {
+            "Name": "KeepWFCFDupes",
+            "Value": "false"
+        },
+        {
+            "Name": "KeepWFCFDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=wildflour.ateliercrops": false
+            }
+        },
+        {
+            "Name": "KeepWFCFDupes",
+            "Value": "true",
+            "When": {
+                "WildFlourCompatability": false
             }
         }
     ],

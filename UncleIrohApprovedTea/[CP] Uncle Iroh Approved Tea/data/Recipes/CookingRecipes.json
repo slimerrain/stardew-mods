@@ -26,8 +26,19 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "HasMod |contains=PC.CP.QL.FlowerGarden2": true,
-                "QuaintLivingFlowerGarden2Compatability": true
+                "KeepCFDupes": false
+            },
+            "Entries": {
+                "{{ModId}}_Rice_Porridge": "423 1 399 1 829 1 {{ModId}}_Dried_Orange_Peel 1 Cornucopia_Lily 1/6 9/{{ModId}}_Rice_Porridge 1/null/{{i18n:Dishes.RicePorridge.name}}"
+            }
+        },
+        {
+            "Log": "Cooking Recipe Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "KeepQLFG2Dupes": false,
+                "KeepCFDupes": true
             },
             "Entries": {
                 "{{ModId}}_Rice_Porridge": "423 1 399 1 829 1 {{ModId}}_Dried_Orange_Peel 1 QL_Lily 1/6 9/{{ModId}}_Rice_Porridge 1/null/{{i18n:Dishes.RicePorridge.name}}"

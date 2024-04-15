@@ -8,30 +8,10 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_Chamomile_Seeds_Spring": {
-                    "Condition": "SEASON spring summer",
-                    "ItemId": "{{ModId}}_Chamomile_Seeds",
-                    "Price": 50
-                },
-                "{{ModId}}_Chrysanthemum_Seeds_Spring": {
-                    "Condition": "SEASON spring summer fall",
-                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
-                    "Price": 65
-                },
                 "{{ModId}}_Goji_Berry_Seeds_Spring": {
                     "Condition": "SEASON spring summer",
                     "ItemId": "{{ModId}}_Goji_Berry_Seeds",
                     "Price": 80
-                },
-                "{{ModId}}_Lotus_Seeds_Spring": {
-                    "Condition": "SEASON spring summer fall",
-                    "ItemId": "{{ModId}}_Lotus_Seeds",
-                    "Price": 90
-                },
-                "{{ModId}}_Sugarcane_Seeds": {
-                    "Condition": "SEASON fall",
-                    "ItemId": "{{ModId}}_Sugarcane_Seeds",
-                    "Price": 175
                 },
                 "{{ModId}}_Osmanthus_Sapling": {
                     "ItemId": "{{ModId}}_Osmanthus_Sapling",
@@ -47,7 +27,9 @@
                 "Items"
             ],
             "When": {
-                "KeepQLFG2Dupes": true
+                "KeepQLFG2Dupes": true,
+                "CornucopiaCompatability": "extended",
+                "KeepWFCFDupes": true
             },
             "Entries": {
                 "{{ModId}}_Lavender_Seeds": {
@@ -55,14 +37,87 @@
                     "ItemId": "{{ModId}}_Lavender_Seeds",
                     "Price": 120
                 },
+                "{{ModId}}_Jasmine_Sapling": {
+                    "ItemId": "{{ModId}}_Jasmine_Sapling",
+                    "Price": 1250
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "KeepQLFG2Dupes": true,
+                "KeepCFDupes": true
+            },
+            "Entries": {
                 "{{ModId}}_Lily_Bulb":{
                     "Condition": "SEASON spring",
                     "ItemId": "{{ModId}}_Lily_Bulb",
                     "Price": 120
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "KeepCFDupes": true
+            },
+            "Entries": {
+                "{{ModId}}_Chrysanthemum_Seeds_Spring": {
+                    "Condition": "SEASON spring summer fall",
+                    "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
+                    "Price": 65
                 },
-                "{{ModId}}_Jasmine_Sapling": {
-                    "ItemId": "{{ModId}}_Jasmine_Sapling",
-                    "Price": 1250
+                "{{ModId}}_Lotus_Seeds_Spring": {
+                    "Condition": "SEASON spring summer fall",
+                    "ItemId": "{{ModId}}_Lotus_Seeds",
+                    "Price": 90
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "KeepCCDupes": true
+            },
+            "Entries": {
+                "{{ModId}}_Sugarcane_Seeds": {
+                    "Condition": "SEASON fall",
+                    "ItemId": "{{ModId}}_Sugarcane_Seeds",
+                    "Price": 175
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "When": {
+                "KeepWFCFDupes": true
+            },
+            "Entries": {
+                "{{ModId}}_Chamomile_Seeds_Spring": {
+                    "Condition": "SEASON spring summer",
+                    "ItemId": "{{ModId}}_Chamomile_Seeds",
+                    "Price": 50
                 }
             }
         }

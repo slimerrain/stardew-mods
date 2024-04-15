@@ -128,5 +128,7 @@
     "Config.TeaRecipes.description": "如果您想在厨房泡茶，请打开此设置。",
     "Config.TeaBrewing.description": "如果您想用茶壶泡茶，请打开此设置。",
     "Config.CustomDehydratorRules.description": "如果您想关闭定制草莓干，请关闭此设置。",
-    "Config.QuaintLivingFlowerGarden2Compatability.description": "如果您想关闭重复项目，请打开此设置。"
+    "Config.QuaintLivingFlowerGarden2Compatability.description": "Quaint Living Flower Garden 2: 如果您想关闭重复项目，请打开此设置。",
+    "Config.CornucopiaCompatability.description": "Cornucopia: 如果您想关闭重复项目，请打开此设置。",
+    "Config.WildFlourCompatability.description": "WildFlour Crops and Forage: 如果您想关闭重复项目，请打开此设置。"
 }
