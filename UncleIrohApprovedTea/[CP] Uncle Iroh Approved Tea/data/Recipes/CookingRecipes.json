@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_Mooncakes": "423 1 245 1 -5 1 {{ModId}}_Dried_Lotus_Seeds 1/6 9/{{ModId}}_Mooncakes 4/null/{{i18n:Dishes.Mooncake.name}}",
+                "{{ModId}}_Mooncake": "423 1 245 1 -5 1 {{ModId}}_Dried_Lotus_Seeds 1/6 9/{{ModId}}_Mooncake 4/null/{{i18n:Dishes.Mooncake.name}}",
                 "{{ModId}}_Candied_Orange_Peel": "245 1 {{ModId}}_Orange_Peel 1/6 9/{{ModId}}_Candied_Orange_Peel 4/null/{{i18n:Dishes.CandiedOrangePeel.name}}",
                 "{{ModId}}_Tea_Eggs": "815 1 -5 2 {{ModId}}_Rock_Sugar 1 260 1/6 9/{{ModId}}_Tea_Eggs 1/null/{{i18n:Dishes.TeaEggs.name}}"
             }

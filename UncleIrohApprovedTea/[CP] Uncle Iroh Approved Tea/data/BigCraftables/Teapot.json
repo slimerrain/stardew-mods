@@ -8,6 +8,32 @@
                 "(BC){{ModId}}_Teapot": {
                     "OutputRules": [
                         {
+                            "Id": "{{ModId}}_Green_Tea",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)815",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_Green_Tea",
+                                    "ItemId": "(O)614",
+                                    "MinStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        {
                             "Id": "{{ModId}}_Brown_Rice",
                             "Triggers": [
                                 {

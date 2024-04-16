@@ -357,6 +357,14 @@
           ]
         }
       }
+    },
+    {
+      "Log": "Cooking Recipe Data",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+          "{{ModId}}_Health_Blend_Tea": "{{ModId}}_Chrysanthemum_Tea 1 {{ModId}}_Cassia_Tea 1 {{ModId}}_Dried_Goji_Berries 1/6 9/{{ModId}}_Health_Blend_Tea 3/null/{{i18n:Tea.HealthBlend.name}}"
+      }
     }
   ]
 }

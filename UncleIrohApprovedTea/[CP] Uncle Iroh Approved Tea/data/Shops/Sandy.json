@@ -49,9 +49,9 @@
                     "Price": 5000,
                     "isRecipe": true
                 },
-                "{{ModId}}_Mooncakes": {
+                "{{ModId}}_Mooncake": {
                     "Condition": "SEASON fall",
-                    "ItemId": "{{ModId}}_Mooncakes",
+                    "ItemId": "{{ModId}}_Mooncake",
                     "Price": 3500,
                     "isRecipe": true
                 }
