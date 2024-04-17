@@ -3,7 +3,7 @@
 Tea Mod for Stardew Valley!  
 
 [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/22376)  
-[Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/uncle-iroh-approved-tea-1.0.1)  
+[Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/uncle-iroh-approved-tea-1.1.2)  
   
 - Adds 5 Flowers, 2 Crops, 2 Bushes, and 1 Tree.  
 - Adds 8 Items.  
@@ -24,14 +24,12 @@ Install [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400)
 Install [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)  
 Install [SpaceCore](https://www.nexusmods.com/stardewvalley/mods/1348)  
 Install [Custom Bush](https://www.nexusmods.com/stardewvalley/mods/20619)  
-Install [Multi Yield Crops](https://www.nexusmods.com/stardewvalley/mods/6069) (Optional)  
 Install [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) (Optional)  
   
 2. Download [Uncle Iroh Approved Tea](https://www.nexusmods.com/stardewvalley/mods/22376).  
   
 3. Extract the following folders from the downloaded zip file into your Mods folder:  
 [CP] Uncle Iroh Approved Tea  
-[MYC] Uncle Iroh Approved Tea Extra Crop Drops (Optional) - crops will yield additional drops as intended.  
 Byproducts for Uncle Iroh Approved Tea  
   
 [To Uninstall, remove any of the crops from the field, trash any of the items and seeds in your inventory, and then delete the three mod folders extracted into the Mods folder.]  
