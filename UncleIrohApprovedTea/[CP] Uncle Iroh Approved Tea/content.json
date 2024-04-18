@@ -9,6 +9,13 @@
             "AllowBlank": false,
             "AllowMultiple": false
         },
+        "TeapotTexture": {
+            "Description": "",
+            "AllowValues": "defaultblue, pastelpink",
+            "Default": "defaultblue",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
         "TeaBrewing": {
             "Description": "{{i18n:Config.TeaBrewing.description}}",
             "AllowValues": "true, false",
@@ -81,7 +88,7 @@
             "Name": "KeepCCDupes",
             "Value": "true",
             "When": {
-                "CornucopiaCompatability": "default"
+                "CornucopiaCompatability": false
             }
         },
 
@@ -100,7 +107,25 @@
             "Name": "KeepCFDupes",
             "Value": "true",
             "When": {
-                "CornucopiaCompatability": "default"
+                "CornucopiaCompatability": false
+            }
+        },
+        {
+            "Name": "KeepCFEDupes",
+            "Value": "true"
+        },
+        {
+            "Name": "KeepCFEDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreFlowers": false
+            }
+        },
+        {
+            "Name": "KeepCFEDupes",
+            "Value": "false",
+            "When": {
+                "CornucopiaCompatability": "extended"
             }
         },
 

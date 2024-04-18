@@ -28,7 +28,7 @@
             ],
             "When": {
                 "KeepQLFG2Dupes": true,
-                "CornucopiaCompatability": "extended",
+                "KeepCFEDupes": true,
                 "KeepWFCFDupes": true
             },
             "Entries": {

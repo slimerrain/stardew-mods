@@ -4,7 +4,19 @@
             "LogName": "Load Big Craftable Tilesheet",
             "Action": "Load",
             "Target": "{{ModId}}/BigCraftables",
-            "FromFile": "assets/BigCraftables/Craftables.png"
+            "FromFile": "assets/BigCraftables/Craftables.png",
+            "When": {
+                "TeapotTexture": "defaultblue"
+            }
+        },
+        {
+            "LogName": "Load Alt Big Craftable Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/BigCraftables",
+            "FromFile": "assets/BigCraftables/AlternateCraftables.png",
+            "When": {
+                "TeapotTexture": "pastelpink"
+            }
         },
         {
             "LogName": "BigCraftable Data",
