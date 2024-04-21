@@ -14,7 +14,14 @@
                     "ItemId": "{{ModId}}_Barley_Seeds",
                     "Price": 5
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Barley_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -36,7 +43,19 @@
                     "ItemId": "{{ModId}}_Buckwheat_Seeds",
                     "Price": 100
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Buckwheat_Seeds_Spring",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring"
+                },
+                {
+                    "ID": "{{ModId}}_Buckwheat_Seeds_Summer",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON summer"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -52,7 +71,14 @@
                     "ItemId": "{{ModId}}_Millet_Seeds",
                     "Price": 5
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Millet_Seeds_Summer",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON summer"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -68,7 +94,14 @@
                     "ItemId": "{{ModId}}_Oat_Seeds",
                     "Price": 8
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Oat_Seeds_Spring",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -90,7 +123,19 @@
                     "ItemId": "{{ModId}}_Rye_Seeds",
                     "Price": 10
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Rye_Seeds_Summer",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON summer"
+                },
+                {
+                    "ID": "{{ModId}}_Rye_Seeds_Fall",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON fall"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -112,7 +157,19 @@
                     "ItemId": "{{ModId}}_Sorghum_Seeds",
                     "Price": 5
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Sorghum_Seeds_Fall",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON fall"
+                },
+                {
+                    "ID": "{{ModId}}_Sorghum_Seeds_Summer",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON summer"
+                }
+            ]
         }
     ]
 }

@@ -8,7 +8,7 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_Goji_Berry_Seeds_Spring": {
+                "{{ModId}}_Goji_Berry_Seeds": {
                     "Condition": "SEASON spring summer",
                     "ItemId": "{{ModId}}_Goji_Berry_Seeds",
                     "Price": 80
@@ -17,7 +17,18 @@
                     "ItemId": "{{ModId}}_Osmanthus_Sapling",
                     "Price": 1200
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Goji_Berry_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring summer"
+                },
+                {
+                    "ID": "{{ModId}}_Osmanthus_Sapling",
+                    "BeforeId": "(O)628"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -41,7 +52,18 @@
                     "ItemId": "{{ModId}}_Jasmine_Sapling",
                     "Price": 1250
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Lavender_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring"
+                },
+                {
+                    "ID": "{{ModId}}_Jasmine_Sapling",
+                    "BeforeId": "(O)628"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -60,7 +82,14 @@
                     "ItemId": "{{ModId}}_Lily_Bulb",
                     "Price": 120
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Lily_Bulb",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -73,17 +102,29 @@
                 "KeepCFDupes": true
             },
             "Entries": {
-                "{{ModId}}_Chrysanthemum_Seeds_Spring": {
+                "{{ModId}}_Chrysanthemum_Seeds": {
                     "Condition": "SEASON spring summer fall",
                     "ItemId": "{{ModId}}_Chrysanthemum_Seeds",
                     "Price": 65
                 },
-                "{{ModId}}_Lotus_Seeds_Spring": {
+                "{{ModId}}_Lotus_Seeds": {
                     "Condition": "SEASON spring summer fall",
                     "ItemId": "{{ModId}}_Lotus_Seeds",
                     "Price": 90
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Chrysanthemum_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring summer fall"
+                },
+                {
+                    "ID": "{{ModId}}_Lotus_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring summer fall"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -101,7 +142,14 @@
                     "ItemId": "{{ModId}}_Sugarcane_Seeds",
                     "Price": 175
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Sugarcane_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON fall"
+                }
+            ]
         },
         {
             "Action": "EditData",
@@ -114,12 +162,19 @@
                 "KeepWFCFDupes": true
             },
             "Entries": {
-                "{{ModId}}_Chamomile_Seeds_Spring": {
+                "{{ModId}}_Chamomile_Seeds": {
                     "Condition": "SEASON spring summer",
                     "ItemId": "{{ModId}}_Chamomile_Seeds",
                     "Price": 50
                 }
-            }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModId}}_Chamomile_Seeds",
+                    "BeforeId": "GrassStarter",
+                    "Condition": "SEASON spring summer"
+                }
+            ]
         }
     ]
 }

@@ -319,7 +319,7 @@
           "Name": "{{ModId}}_Osmanthus_Tea",
           "DisplayName": "{{i18n:Tea.Osmanthus.name}}",
           "Description": "{{i18n:Tea.Osmanthus.description}}",
-          "Price": 175,
+          "Price": 70,
           "Type": "ArtisanGoods",
           "Category": -26,
           "Texture": "{{ModId}}/Drinks",

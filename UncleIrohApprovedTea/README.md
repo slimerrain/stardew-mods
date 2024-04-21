@@ -3,7 +3,7 @@
 Tea Mod for Stardew Valley!  
 
 [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/22376)  
-[Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/uncle-iroh-approved-tea-1.1.2)  
+[Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/uncle-iroh-approved-tea-1.1.3)  
   
 - Adds 5 Flowers, 2 Crops, 2 Bushes, and 1 Tree.  
 - Adds 8 Items.  
