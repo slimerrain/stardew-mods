@@ -193,8 +193,8 @@
                 "HasMod |contains=Cornucopia.MoreFlowers": true
             },
             "Entries": {
-                "{{ModId}}_Lotus_Seeds": {
-                    "Id": "{{ModId}}_Lotus_Seeds",
+                "{{ModId}}_CC_Lotus_Seeds": {
+                    "Id": "{{ModId}}_CC_Lotus_Seeds",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
