@@ -28,7 +28,7 @@
                             "PriceModifiers": [
                                 {
                                     "Modification": "Multiply",
-                                    "Amount": 1.25
+                                    "Amount": 4.25
                                 }
                             ]
                         }
@@ -252,7 +252,7 @@
                             "PriceModifiers": [
                                 {
                                     "Modification": "Multiply",
-                                    "Amount": 1.25
+                                    "Amount": 4.25
                                 }
                             ]
                         }
