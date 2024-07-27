@@ -9,3 +9,14 @@ C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\Byprodu
 C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.csproj.Up2Date
 C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.dll
 C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\Byproducts\Byproducts\bin\Debug\net6.0\SpaceCore.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.sourcelink.json
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\bin\Debug\net6.0\Byproducts.deps.json
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\bin\Debug\net6.0\Byproducts.dll
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\bin\Debug\net6.0\SpaceCore.dll
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.csproj.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Development\stardew-mods\Byproducts\Byproducts\obj\Debug\net6.0\Byproducts.dll

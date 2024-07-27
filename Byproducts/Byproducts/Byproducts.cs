@@ -37,7 +37,7 @@ namespace Byproducts
             if (Game1.player.itemToEat is not StardewValley.Object food) return;
 
             // Add byproducts from eaten oranges to the inventory, or drop it on the ground if full
-            if (food.DisplayName.Equals("Orange"))
+            if (food.QualifiedItemId.Equals("(O)635"))
             {
                 StardewValley.Object byproduct = new StardewValley.Object("slimerrain.uncleirohapprovedteacp_Orange_Peel", 1, false, 50, food.Quality);
 

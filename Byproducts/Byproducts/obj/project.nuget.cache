@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SclOfEQ3UNiR66jZx/K9mhsiRNaj6HXADEDmYC0f1qYAgzS+Vb00NzykeWGmW+icPJmUxGVTvJ1cxH+IfagIcw==",
+  "dgSpecHash": "py/bkm3lSVbLVpxAfpgyE4+vnkNeteTJ0mcB6leEtviLMsOpPPTkx0fk5Pf/Pny5fHffB6mA3/tXIFMsn4S7Tg==",
   "success": true,
   "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Development\\stardew-mods\\Byproducts\\Byproducts\\Byproducts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\manon\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+    "C:\\Users\\manon\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512",
+    "C:\\Users\\manon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\manon\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\manon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }

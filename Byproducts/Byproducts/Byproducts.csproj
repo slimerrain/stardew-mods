@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Reference Include="SpaceCore">
-      <HintPath>..\..\..\mods\SpaceCore\SpaceCore.dll</HintPath>
+      <HintPath>..\..\..\..\Mods\SpaceCore\SpaceCore.dll</HintPath>
     </Reference>
   </ItemGroup>
 
