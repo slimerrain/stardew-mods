@@ -10,9 +10,9 @@ adds various new grains, machine functionality, and recipes (WIP)
 
 - Uncle Iroh Approved Tea
 adds various tea herbs and common ingredients as well as machines and recipes
-    - requires grain overhull
     - [1.5.6] requires JsonAssets, ContentPatcher, MainFrameworkMod, ProducerFrameworkMod [Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/stardew-1.5.6)
-    - [1.6] requires ContentPatcher, MainFrameworkMod, ProducerFrameworkMod
+    - [1.6] requires ContentPatcher, CustomBush, SpaceCore [Latest Github Release](https://github.com/slimerrain/stardew-mods/releases/tag/uncle-iroh-approved-tea-1.1.8)
+    - Here is a link to the [NexusMods Page](https://www.nexusmods.com/stardewvalley/mods/22376)
 
 - Alcoholics Acknowledged
 adds various types of alcohols and machines for processing
