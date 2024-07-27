@@ -1,0 +1,122 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Tearrific Rules for Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)slimerrain.uncleirohapprovedteacp_Teapot",
+                "OutputRules"
+            ],
+            "When": {
+                "HasMod |contains=neuralwiles.Tearrific": true
+            },
+            "Entries": {
+                "{{ModId}}_Tearrific_White_Tea": {
+                    "Id": "{{ModId}}_Tearrific_White_Tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)neuralwiles.Tearrific_Loose_Leaf_White_Tea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "neuralwiles.Tearrific_White_Tea",
+                            "ItemId": "(O)neuralwiles.Tearrific_White_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 10
+                },
+                "{{ModId}}_Tearrific_Oolong_Tea": {
+                    "Id": "{{ModId}}_Tearrific_Oolong_Tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)neuralwiles.Tearrific_Loose_Leaf_Oolong_Tea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "neuralwiles.Tearrific_Oolong_Tea",
+                            "ItemId": "(O)neuralwiles.Tearrific_Oolong_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 15
+                },
+                "{{ModId}}_Tearrific_Black_Tea": {
+                    "Id": "{{ModId}}_Tearrific_Black_Tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)neuralwiles.Tearrific_Loose_Leaf_Black_Tea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "neuralwiles.Tearrific_Black_Tea",
+                            "ItemId": "(O)neuralwiles.Tearrific_Black_Tea",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 5
+                },
+                "{{ModId}}_Tearrific_Green_Tea": {
+                    "Id": "{{ModId}}_Tearrific_Green_Tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)neuralwiles.Tearrific_Loose_Leaf_Green_Tea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "neuralwiles.Tearrific_Green_Tea",
+                            "ItemId": "(O)614",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 100
+                }
+            }
+        }
+    ]
+}

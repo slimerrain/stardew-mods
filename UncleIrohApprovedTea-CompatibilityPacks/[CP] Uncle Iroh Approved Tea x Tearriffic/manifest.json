@@ -1,0 +1,20 @@
+{
+    "Name": "Uncle Iroh Approved Tea: Tearrific Compatibility",
+    "Author": "slimerrain",
+    "Description": "Allows brewing of Tearrific teas in the teapot.",
+    "Version": "1.1.8",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "slimerrain.uncleirohapprovedteaxtearrific",
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+    "Dependencies": [
+        {
+          "UniqueID": "slimerrain.uncleirohapprovedteacp",
+          "IsRequired": true
+        },
+        {
+          "UniqueID": "neuralwiles.Tearrific",
+          "IsRequired": true
+        }
+    ],
+    "UpdateKeys": [ "" ]
+  }
