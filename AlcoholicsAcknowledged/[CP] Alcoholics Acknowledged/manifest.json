@@ -8,8 +8,8 @@
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
     "Dependencies": [
         {
-            "UniqueID": "slimerrain.alcoholicsacknowledgedja",
-            "IsRequired": true
+            "UniqueID": "slimerrain.grainsoverhullcp",
+            "IsRequired": false
         }
     ],
     "UpdateKeys": [ "" ]

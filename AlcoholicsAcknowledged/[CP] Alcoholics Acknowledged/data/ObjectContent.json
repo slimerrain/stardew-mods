@@ -5,22 +5,17 @@
         {
             "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/ObjectContent.json"
+            "FromFile": "BigCraftables/Keg.json"
         },
         {
             "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/ObjectTags.json"
+            "FromFile": "BigCraftables/Distillery.json"
         },
         {
             "LogName": "Crafting Recipes",
             "Action": "Include",
-            "FromFile": "data/CraftingRecipes.json"
-        },
-        {
-            "LogName": "NPCs",
-            "Action": "Include",
-            "FromFile": "data/NPCs.json"
+            "FromFile": "BigCraftables/Cask.json"
         }
     ]
 }
