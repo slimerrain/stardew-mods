@@ -31,29 +31,18 @@
                 "Buckwheat": true
             },
             "Entries": {
-                "{{ModId}}_Buckwheat_Seeds_Spring": {
-                    "Condition": "SEASON spring",
-                    "Id": "{{ModId}}_Buckwheat_Seeds_Spring",
-                    "ItemId": "{{ModId}}_Buckwheat_Seeds",
-                    "Price": 100
-                },
-                "{{ModId}}_Buckwheat_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "Id": "{{ModId}}_Buckwheat_Seeds_Summer",
+                "{{ModId}}_Buckwheat_Seeds": {
+                    "Condition": "SEASON spring summer",
+                    "Id": "{{ModId}}_Buckwheat_Seeds",
                     "ItemId": "{{ModId}}_Buckwheat_Seeds",
                     "Price": 100
                 }
             },
             "MoveEntries": [
                 {
-                    "ID": "{{ModId}}_Buckwheat_Seeds_Spring",
+                    "ID": "{{ModId}}_Buckwheat_Seeds",
                     "BeforeId": "GrassStarter",
-                    "Condition": "SEASON spring"
-                },
-                {
-                    "ID": "{{ModId}}_Buckwheat_Seeds_Summer",
-                    "BeforeId": "GrassStarter",
-                    "Condition": "SEASON summer"
+                    "Condition": "SEASON spring summer"
                 }
             ]
         },
@@ -111,29 +100,18 @@
                 "Rye": true
             },
             "Entries": {
-                "{{ModId}}_Rye_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "Id": "{{ModId}}_Rye_Seeds_Summer",
-                    "ItemId": "{{ModId}}_Rye_Seeds",
-                    "Price": 10
-                },
-                "{{ModId}}_Rye_Seeds_Fall": {
-                    "Condition": "SEASON fall",
-                    "Id": "{{ModId}}_Rye_Seeds_Fall",
+                "{{ModId}}_Rye_Seeds": {
+                    "Condition": "SEASON summer fall",
+                    "Id": "{{ModId}}_Rye_Seeds",
                     "ItemId": "{{ModId}}_Rye_Seeds",
                     "Price": 10
                 }
             },
             "MoveEntries": [
                 {
-                    "ID": "{{ModId}}_Rye_Seeds_Summer",
+                    "ID": "{{ModId}}_Rye_Seeds",
                     "BeforeId": "GrassStarter",
-                    "Condition": "SEASON summer"
-                },
-                {
-                    "ID": "{{ModId}}_Rye_Seeds_Fall",
-                    "BeforeId": "GrassStarter",
-                    "Condition": "SEASON fall"
+                    "Condition": "SEASON summer fall"
                 }
             ]
         },
@@ -145,29 +123,18 @@
                 "Sorghum": true
             },
             "Entries": {
-                "{{ModId}}_Sorghum_Seeds_Spring": {
-                    "Condition": "SEASON fall",
-                    "Id": "{{ModId}}_Sorghum_Seeds_Fall",
-                    "ItemId": "{{ModId}}_Sorghum_Seeds",
-                    "Price": 5
-                },
-                "{{ModId}}_Sorghum_Seeds_Summer": {
-                    "Condition": "SEASON summer",
-                    "Id": "{{ModId}}_Sorghum_Seeds_Summer",
+                "{{ModId}}_Sorghum_Seeds": {
+                    "Condition": "SEASON summer fall",
+                    "Id": "{{ModId}}_Sorghum_Seeds",
                     "ItemId": "{{ModId}}_Sorghum_Seeds",
                     "Price": 5
                 }
             },
             "MoveEntries": [
                 {
-                    "ID": "{{ModId}}_Sorghum_Seeds_Fall",
+                    "ID": "{{ModId}}_Sorghum_Seeds",
                     "BeforeId": "GrassStarter",
-                    "Condition": "SEASON fall"
-                },
-                {
-                    "ID": "{{ModId}}_Sorghum_Seeds_Summer",
-                    "BeforeId": "GrassStarter",
-                    "Condition": "SEASON summer"
+                    "Condition": "SEASON summer fall"
                 }
             ]
         }
