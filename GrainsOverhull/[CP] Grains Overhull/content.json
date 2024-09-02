@@ -3,58 +3,56 @@
 
     "ConfigSchema": {
         "RenameUnmilledRice": {
-            "Description": "{{i18n:Config.RenameUnmilledRice.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "RenameMilledRice": {
-            "Description": "{{i18n:Config.RenameMilledRice.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Barley": {
-            "Description": "{{i18n:Config.Barley.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Buckwheat": {
-            "Description": "{{i18n:Config.Buckwheat.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Millet": {
-            "Description": "{{i18n:Config.Millet.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Oats": {
-            "Description": "{{i18n:Config.Oats.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Rye": {
-            "Description": "{{i18n:Config.Rye.description}}",
             "AllowValues": "true, false",
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
         },
         "Sorghum": {
-            "Description": "{{i18n:Config.Sorghum.description}}",
             "AllowValues": "true, false",
             "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+        "RegrowableCrops": {
+            "AllowValues": "true, false",
+            "Default": "false",
             "AllowBlank": false,
             "AllowMultiple": false
         }
@@ -90,6 +88,14 @@
             "LogName": "NPCs",
             "Action": "Include",
             "FromFile": "Data/Recipes.json"
+        },
+        {
+            "LogName": "Crops",
+            "Action": "Include",
+            "FromFile": "data/Crops/MultiYield.json",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": true
+            }
         }
     ]
 }

@@ -2,10 +2,10 @@
     "Format": "2.0.0",
     "Changes": [
         {
+            "LogName": "Vanilla Object Tags",
             "Action": "EditData",
             "Target": "Data/ObjectContextTags",
             "TextOperations": [
-                // ========== VANILLA ITEMS ==========
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "(O)454"],
@@ -113,8 +113,17 @@
                     "Target": [ "Entries", "(O)Yam"],
                     "Value": "soju_item",
                     "Delimiter": ","
-                },
-
+                }
+            ]
+        },
+        {
+            "LogName": "Grain Object Tags",
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "When": {
+                "HasMod |contains=slimerrain.grainsoverhullcp": true
+            },
+            "TextOperations": [
                 // ========== GRAIN OVERHULL ITEMS ==========
                 {
                     "Operation": "Append",

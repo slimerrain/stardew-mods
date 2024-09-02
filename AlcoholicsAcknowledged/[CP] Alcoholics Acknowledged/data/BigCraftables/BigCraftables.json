@@ -1,0 +1,32 @@
+{
+    "Format": "2.0.0",
+
+    "Changes": [
+        {
+            "LogName": "Load Big Craftable Tilesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/BigCraftables",
+            "FromFile": "assets/BigCraftables/BigCraftables.png"
+        },
+        {
+            "LogName": "BigCraftable Data",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Distiller": {
+                    "Name": "{{ModId}}_Distiller",
+                    "DisplayName": "{{i18n:Distiller.name}}",
+                    "Description": "{{i18n:Distiller.description}}",
+                    "Price": 8000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "{{ModId}}/BigCraftables",
+                    "SpriteIndex": 0,
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

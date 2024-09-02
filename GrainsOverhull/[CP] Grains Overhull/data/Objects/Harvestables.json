@@ -33,7 +33,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "1",
                     "Edibility": 1,
-                    "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item"]
+                    "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item", "grain_item", "buckwheat"]
                 },
                 "{{ModId}}_Millet": {
                     "Name": "{{ModId}}_Millet",

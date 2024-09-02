@@ -23,7 +23,18 @@
         {
             "LogName": "Objects",
             "Action": "Include",
-            "FromFile": "Data/Crops/Crops.json"
+            "FromFile": "Data/Crops/Crops.json",
+            "When": {
+                "RegrowableCrops": "false"
+            }
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Crops/RegrowableCrops.json",
+            "When": {
+                "RegrowableCrops": "true"
+            }
         }
     ]
 }

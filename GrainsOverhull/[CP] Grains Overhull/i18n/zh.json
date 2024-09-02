@@ -81,5 +81,7 @@
     "Config.Millet.description": "如果您想从游戏中删除此模组的小米，请取消选中此选项。",
     "Config.Oats.description": "如果您想从游戏中删除此模组的燕麦，请取消选中此选项。",
     "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。",
-    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。"
+    "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。",
+
+    "Config.RegrowableCrops.description": "如果您希望农作物重新生长，请选中此项。"
 }

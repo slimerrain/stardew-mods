@@ -3,17 +3,22 @@
 
     "Changes": [
         {
-            "LogName": "Objects",
+            "LogName": "BigCraftables",
+            "Action": "Include",
+            "FromFile": "BigCraftables/BigCraftables.json"
+        },
+        {
+            "LogName": "Keg",
             "Action": "Include",
             "FromFile": "BigCraftables/Keg.json"
         },
         {
-            "LogName": "Objects",
+            "LogName": "Distillery",
             "Action": "Include",
             "FromFile": "BigCraftables/Distillery.json"
         },
         {
-            "LogName": "Crafting Recipes",
+            "LogName": "Cask",
             "Action": "Include",
             "FromFile": "BigCraftables/Cask.json"
         }
