@@ -18,7 +18,7 @@ Simple Grain Mod for Stardew Valley!
 
 Install SMAPI  
 Install Content Patcher  
-Install Multi Yield Crops (Optional)  
+Install SpaceCore (Optional)  
 Install Generic Mod Config Menu (Optional)  
   
 2. Download Grains Overhull 
@@ -26,6 +26,5 @@ Install Generic Mod Config Menu (Optional)
 3. Extract the following folders from the downloaded zip file into your Mods folder:  
 
 [CP] Grains Overhull  
-[MYC] Grains Overhull Extra Crop Drops (Optional) - buckwheat will drop seeds on harvest along with the harvested flower, like sunflowers.  
   
 [To Uninstall, remove any of the 6 crops from the field, trash any of the items and seeds in your inventory, and then delete the two mod folders extracted into the Mods folder.]
