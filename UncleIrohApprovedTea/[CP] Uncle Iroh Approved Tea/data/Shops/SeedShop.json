@@ -40,7 +40,7 @@
             "When": {
                 "KeepQLFG2Dupes": true,
                 "KeepCFEDupes": true,
-                "KeepWFCFDupes": true
+                "KeepWFACDupes": true
             },
             "Entries": {
                 "{{ModId}}_Lavender_Seeds": {
@@ -159,7 +159,7 @@
                 "Items"
             ],
             "When": {
-                "KeepWFCFDupes": true
+                "KeepWFACDupes": true
             },
             "Entries": {
                 "{{ModId}}_Chamomile_Seeds": {

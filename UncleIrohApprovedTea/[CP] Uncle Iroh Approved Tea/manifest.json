@@ -2,7 +2,7 @@
     "Name": "[CP] Uncle Iroh Approved Tea",
     "Author": "slimerrain",
     "Description": "Content patches relating to tea.",
-    "Version": "1.1.10",
+    "Version": "1.1.11",
     "MinimumApiVersion": "4.0.0",
     "UniqueID": "slimerrain.uncleirohapprovedteacp",
     "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
@@ -11,7 +11,7 @@
         { "UniqueID": "spacechase0.SpaceCore",  "IsRequired": true  },
         { "UniqueID": "Cornucopia.MoreCrops",   "IsRequired": false },
         { "UniqueID": "Cornucopia.MoreFlowers", "IsRequired": false },
-        { "UniqueID": "wildflour.ateliercrops", "IsRequired": false },
+        { "UniqueID": "Wildflour.AtelierGoods", "IsRequired": false },
         { "UniqueID": "PC.CP.QL.FlowerGarden2", "IsRequired": false }
     ],
     "UpdateKeys": [ "Nexus:22376" ]

@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepWFCFDupes": true,
+                "KeepWFACDupes": true,
                 "KeepCFDupes": true
             },
             "Entries": {
@@ -27,11 +27,13 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepWFCFDupes": false,
+                "KeepWFACDupes": false,
                 "KeepCFDupes": true
             },
             "Entries": {
-                "{{ModId}}_Chamomile_Tea": "wildflour.ateliercrops_chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}"
+                "{{ModId}}_Chamomile_Tea": "Wildflour.AtelierGoods_chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}",
+                "{{ModId}}_Lavender_Tea": "Wildflour.AtelierGoods_lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
+                "{{ModId}}_Jasmine_Tea": "Wildflour.AtelierGoods_jasmine 1/6 9/{{ModId}}_Jasmine_Tea 1/null/{{i18n:Tea.Jasmine.name}}"
             }
         },
         {
@@ -52,7 +54,7 @@
             "When": {
                 "KeepQLFG2Dupes": true,
                 "KeepCFDupes": true,
-                "KeepWFCFDupes": true
+                "KeepWFACDupes": true
             },
             "Entries": {
                 "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
@@ -90,20 +92,7 @@
             "Target": "Data/CookingRecipes",
             "When": {
                 "KeepCFDupes": true,
-                "KeepWFCFDupes": false
-            },
-            "Entries": {
-                "{{ModId}}_Lavender_Tea": "wildflour.ateliercrops_lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
-                "{{ModId}}_Jasmine_Tea": "wildflour.ateliercrops_jasmine 1/6 9/{{ModId}}_Jasmine_Tea 1/null/{{i18n:Tea.Jasmine.name}}"
-            }
-        },
-        {
-            "Log": "Tea Recipe Data",
-            "Action": "EditData",
-            "Target": "Data/CookingRecipes",
-            "When": {
-                "KeepCFDupes": true,
-                "KeepWFCFDupes": true,
+                "KeepWFACDupes": true,
                 "KeepQLFG2Dupes": false
             },
             "Entries": {

@@ -135,7 +135,7 @@
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "RegrowDays": 3,
                     "IsRaised": false,
-                    "IsPaddyCrop": false,
+                    "IsPaddyCrop": true,
                     "PlantableLocationRules": null,
                     "HarvestItemId": "{{ModId}}_Sugarcane",
                     "HarvestMinStack": 1,

@@ -130,18 +130,18 @@
         },
 
         {
-            "Name": "KeepWFCFDupes",
+            "Name": "KeepWFACDupes",
             "Value": "false"
         },
         {
-            "Name": "KeepWFCFDupes",
+            "Name": "KeepWFACDupes",
             "Value": "true",
             "When": {
-                "HasMod |contains=wildflour.ateliercrops": false
+                "HasMod |contains=Wildflour.AtelierGoods": false
             }
         },
         {
-            "Name": "KeepWFCFDupes",
+            "Name": "KeepWFACDupes",
             "Value": "true",
             "When": {
                 "WildFlourCompatability": false

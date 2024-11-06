@@ -545,7 +545,7 @@
                 "OutputRules"
             ],
             "When": {
-                "HasMod |contains=wildflour.ateliercrops": true
+                "HasMod |contains=Wildflour.AtelierGoods": true
             },
             "Entries": {
                 "{{ModId}}_WF_Chamomile": {
@@ -553,7 +553,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_chamomile",
                             "RequiredCount": 1
                         }
                     ],
@@ -579,7 +579,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_jasmine",
                             "RequiredCount": 1
                         }
                     ],
@@ -605,7 +605,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_lavender",
                             "RequiredCount": 1
                         }
                     ],
