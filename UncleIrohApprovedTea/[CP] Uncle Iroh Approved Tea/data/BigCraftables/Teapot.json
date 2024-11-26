@@ -553,7 +553,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Wildflour.AtelierGoods_chamomile",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Chamomile",
                             "RequiredCount": 1
                         }
                     ],
@@ -579,7 +579,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Wildflour.AtelierGoods_jasmine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Jasmine",
                             "RequiredCount": 1
                         }
                     ],
@@ -605,7 +605,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Wildflour.AtelierGoods_lavender",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Lavender",
                             "RequiredCount": 1
                         }
                     ],

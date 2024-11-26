@@ -31,9 +31,9 @@
                 "KeepCFDupes": true
             },
             "Entries": {
-                "{{ModId}}_Chamomile_Tea": "Wildflour.AtelierGoods_chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}",
-                "{{ModId}}_Lavender_Tea": "Wildflour.AtelierGoods_lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
-                "{{ModId}}_Jasmine_Tea": "Wildflour.AtelierGoods_jasmine 1/6 9/{{ModId}}_Jasmine_Tea 1/null/{{i18n:Tea.Jasmine.name}}"
+                "{{ModId}}_Chamomile_Tea": "Wildflour.AtelierGoods_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}",
+                "{{ModId}}_Lavender_Tea": "Wildflour.AtelierGoods_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
+                "{{ModId}}_Jasmine_Tea": "Wildflour.AtelierGoods_Jasmine 1/6 9/{{ModId}}_Jasmine_Tea 1/null/{{i18n:Tea.Jasmine.name}}"
             }
         },
         {
