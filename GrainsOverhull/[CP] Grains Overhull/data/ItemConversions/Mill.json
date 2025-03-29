@@ -8,40 +8,12 @@
                 "ItemConversions"
             ],
             "Entries": {
-                "{{ModId}}_Pearl_Barley": {
-                    "Id": "{{ModId}}_Pearl_Barley",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "barley"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Pearl_Barley"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
-                },
-                "{{ModId}}_Buckwheat_Flour": {
-                    "Id": "{{ModId}}_Buckwheat_Flour",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "buckwheat"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Buckwheat_Flour"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
-                },
                 "{{ModId}}_Hulled_Millet": {
                     "Id": "{{ModId}}_Hulled_Millet",
                     "SourceChest": "Input",
                     "DestinationChest": "Output",
                     "RequiredTags": [
-                        "millet"
+                        "millet_item"
                     ],
                     "ProducedItems": [
                         {
@@ -55,7 +27,7 @@
                     "SourceChest": "Input",
                     "DestinationChest": "Output",
                     "RequiredTags": [
-                        "oat"
+                        "oat_item"
                     ],
                     "ProducedItems": [
                         {
@@ -74,6 +46,88 @@
                     "ProducedItems": [
                         {
                             "ItemId": "(O){{ModId}}_Rye_Flour"
+                        }
+                    ],
+                    "MaxDailyConversions": -1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": false
+            },
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "Entries": {
+                "{{ModId}}_Pearl_Barley": {
+                    "Id": "{{ModId}}_Pearl_Barley",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "barley_item"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Pearl_Barley"
+                        }
+                    ],
+                    "MaxDailyConversions": -1
+                },
+                "{{ModId}}_Buckwheat_Flour": {
+                    "Id": "{{ModId}}_Buckwheat_Flour",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "buckwheat_item"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Buckwheat_Flour"
+                        }
+                    ],
+                    "MaxDailyConversions": -1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": true
+            },
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "Entries": {
+                "{{ModId}}_Pearl_Barley": {
+                    "Id": "{{ModId}}_Pearl_Barley",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "grainsoverhull_barley"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Pearl_Barley"
+                        }
+                    ],
+                    "MaxDailyConversions": -1
+                },
+                "{{ModId}}_Buckwheat_Flour": {
+                    "Id": "{{ModId}}_Buckwheat_Flour",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "grainsoverhull_buckwheat"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Buckwheat_Flour"
                         }
                     ],
                     "MaxDailyConversions": -1

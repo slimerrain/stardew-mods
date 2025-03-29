@@ -39,7 +39,7 @@
                     "Texture": "{{ModId}}/Seeds",
                     "SpriteIndex": "1",
                     "Edibility": -300,
-                    "ContextTags": ["grain_item", "buckwheat"]
+                    "ContextTags": ["grain_item", "buckwheat_item"]
                 }
             }
         },
