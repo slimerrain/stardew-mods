@@ -25,7 +25,8 @@
             "Action": "Include",
             "FromFile": "Data/Crops/Crops.json",
             "When": {
-                "RegrowableCrops": "false"
+                "RegrowableCrops": "false",
+                "PaddyCrops": "false"
             }
         },
         {
@@ -33,7 +34,26 @@
             "Action": "Include",
             "FromFile": "Data/Crops/RegrowableCrops.json",
             "When": {
-                "RegrowableCrops": "true"
+                "RegrowableCrops": "true",
+                "PaddyCrops": "false"
+            }
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Crops/PaddyCrops.json",
+            "When": {
+                "RegrowableCrops": "false",
+                "PaddyCrops": "true"
+            }
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Crops/RegrowablePaddyCrops.json",
+            "When": {
+                "RegrowableCrops": "true",
+                "PaddyCrops": "true"
             }
         }
     ]

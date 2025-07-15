@@ -81,7 +81,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "5",
                     "Edibility": 1,
-                    "ContextTags": ["color_orange", "season_spring", "season_summer", "grain_item", "sorghum_item"]
+                    "ContextTags": ["color_orange", "season_summer", "season_fall", "grain_item", "sorghum_item"]
                 }
             }
         },

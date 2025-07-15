@@ -88,5 +88,6 @@
     "Config.Rye.description": "Uncheck this if you want to remove this mod's Rye from the game.",
     "Config.Sorghum.description": "Uncheck this if you want to remove this mod's Sorghum from the game.",
 
-    "Config.RegrowableCrops.description": "Check this if you want the crops to regrow."
+    "Config.RegrowableCrops.description": "Check this if you want the crops to regrow.",
+    "Config.PaddyCrops.description": "Check this if you want the crops to be Paddy crops."
 }

@@ -141,7 +141,7 @@
             "Target": "Data/Crops",
             "Entries": {
                 "{{ModId}}_Sorghum_Seeds": { 
-                    "Seasons": [ "spring", "summer" ],
+                    "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 1, 1, 2, 1 ],
                     "RegrowDays": 4,
                     "IsRaised": false,

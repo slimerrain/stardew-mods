@@ -55,6 +55,12 @@
             "Default": "false",
             "AllowBlank": false,
             "AllowMultiple": false
+        },
+        "PaddyCrops": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false,
+            "AllowMultiple": false
         }
     },
 
