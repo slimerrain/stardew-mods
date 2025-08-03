@@ -11,6 +11,8 @@ Simple Grain Mod for Stardew Valley!
 - Adds 8 new Cooking recipes and 1 more Food item.
 - NPCs will react to these new items according to their own tastes when gifted.
 - Config allows disabling of any of the crops incase another mod adds the exact same one.
+- Config allows making crops regrowable.
+- Config allows making crops paddy crops.
   
 * 1.5.6 version only adds the crops- If enough people say they would like updates for it I will add the rest of the content.
   
