@@ -21,7 +21,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "0",
                     "Edibility": 1,
-                    "ContextTags": ["color_yellow", "season_spring", "grain_item", "barley_item", "grainsoverhull_barley"]
+                    "ContextTags": ["color_yellow", "season_spring", "grain_item", "barley_item", "grainsoverhull_barley", "barley"]
                 },
                 "{{ModId}}_Buckwheat": {
                     "Name": "{{ModId}}_Buckwheat",
@@ -33,7 +33,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "1",
                     "Edibility": 1,
-                    "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item", "grain_item", "buckwheat_item", "grainsoverhull_buckwheat"]
+                    "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item", "grain_item", "buckwheat_item", "grainsoverhull_buckwheat", "buckwheat"]
                 },
                 "{{ModId}}_Millet": {
                     "Name": "{{ModId}}_Millet",
@@ -45,7 +45,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "2",
                     "Edibility": 1,
-                    "ContextTags": ["color_brown", "season_summer", "grain_item", "millet_item"]
+                    "ContextTags": ["color_brown", "season_summer", "grain_item", "millet_item", "millet"]
                 },
                 "{{ModId}}_Oat": {
                     "Name": "{{ModId}}_Oat",
@@ -57,7 +57,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "3",
                     "Edibility": 2,
-                    "ContextTags": ["color_white", "season_spring", "grain_item", "oat_item"]
+                    "ContextTags": ["color_white", "season_spring", "grain_item", "oat_item", "oat"]
                 },
                 "{{ModId}}_Rye": {
                     "Name": "{{ModId}}_Rye",
@@ -69,7 +69,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "4",
                     "Edibility": 1,
-                    "ContextTags": ["color_dark_green", "season_summer", "season_fall", "grain_item", "rye"]
+                    "ContextTags": ["color_dark_green", "season_summer", "season_fall", "grain_item", "rye_item", "rye"]
                 },
                 "{{ModId}}_Sorghum": {
                     "Name": "{{ModId}}_Sorghum",
@@ -81,7 +81,7 @@
                     "Texture": "{{ModId}}/Harvestables",
                     "SpriteIndex": "5",
                     "Edibility": 1,
-                    "ContextTags": ["color_orange", "season_summer", "season_fall", "grain_item", "sorghum_item"]
+                    "ContextTags": ["color_orange", "season_summer", "season_fall", "grain_item", "sorghum_item", "sorghum"]
                 }
             }
         },
