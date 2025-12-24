@@ -1,0 +1,10 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "LogName": "Teapot",
+            "Action": "Include",
+            "FromFile": "Data/Teapot.json"
+        }
+    ]
+}

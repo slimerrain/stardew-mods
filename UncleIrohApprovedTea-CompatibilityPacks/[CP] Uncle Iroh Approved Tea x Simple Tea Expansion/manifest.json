@@ -1,0 +1,20 @@
+{
+    "Name": "Uncle Iroh Approved Tea: Simple Tea Compatibility",
+    "Author": "slimerrain",
+    "Description": "Allows brewing of Simple Tea teas in the teapot.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "slimerrain.uncleirohapprovedteaxsimpletea",
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+    "Dependencies": [
+        {
+          "UniqueID": "slimerrain.uncleirohapprovedteacp",
+          "IsRequired": true
+        },
+        {
+          "UniqueID": "bb.moreTea",
+          "IsRequired": true
+        }
+    ],
+    "UpdateKeys": [ "" ]
+  }

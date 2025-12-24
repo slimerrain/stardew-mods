@@ -50,13 +50,6 @@
             "Default": "true",
             "AllowBlank": false,
             "AllowMultiple": false
-        },
-        "SimpleTeaCompatibility": {
-            "Description": "{{i18n:Config.SimpleTeaCompatibility.description}}",
-            "AllowValues": "true, false",
-            "Default": "true",
-            "AllowBlank": false,
-            "AllowMultiple": false
         }
     },
 

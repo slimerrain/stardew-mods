@@ -12,8 +12,7 @@
         { "UniqueID": "Cornucopia.MoreCrops",   "IsRequired": false },
         { "UniqueID": "Cornucopia.MoreFlowers", "IsRequired": false },
         { "UniqueID": "Wildflour.AtelierGoods", "IsRequired": false },
-        { "UniqueID": "PC.CP.QL.FlowerGarden2", "IsRequired": false },
-        { "UniqueID": "bb.moreTea", "IsRequired": false }
+        { "UniqueID": "PC.CP.QL.FlowerGarden2", "IsRequired": false }
     ],
     "UpdateKeys": [ "Nexus:22376" ]
 }
