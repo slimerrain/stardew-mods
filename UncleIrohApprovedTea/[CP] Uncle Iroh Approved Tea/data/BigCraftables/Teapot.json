@@ -627,6 +627,98 @@
                     "MinutesUntilReady": 15
                 }
             }
+        },
+        {
+            "LogName": "Add Simple Tea Rules for Teapot",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Teapot",
+                "OutputRules"
+            ],
+            "When": {
+                "HasMod |contains=bb.moreTea": true
+            },
+            "Entries": {
+                "{{ModId}}_bb.moreTea_Black": {
+                    "Id": "{{ModId}}_bb.moreTea_Black",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)bb.moreTea_BlackTea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "",
+                            "ItemId": "(O)bb.moreTea_AfternoonTea",
+                            "MinStack": 3,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 30
+                },
+                "{{ModId}}_bb.moreTea_Fairy": {
+                    "Id": "{{ModId}}_bb.moreTea_Fairy",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)bb.moreTea_FloralTea",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "",
+                            "ItemId": "(O)bb.moreTea_FairyTea",
+                            "MinStack": 2,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 25
+                },
+                "{{ModId}}_bb.moreTea_Matcha": {
+                    "Id": "{{ModId}}_bb.moreTea_Matcha",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)bb.moreTea_MatchaPowder",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "",
+                            "ItemId": "(O)bb.moreTea_MatchaDrink",
+                            "MinStack": 1,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.10
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 10
+                }
+            }
         }
     ]
 }
