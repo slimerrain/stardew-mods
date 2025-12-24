@@ -9,7 +9,7 @@
                 "OutputRules"
             ],
             "When": {
-                "HasMod |contains=neuralwiles.Tearrific": true
+                "HasMod |contains=bb.moreTea": true
             },
             "Entries": {
                 "{{ModId}}_bb.moreTea_Black": {
@@ -18,7 +18,7 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)bb.moreTea_BlackTea",
-                            "RequiredCount": 1
+                            "RequiredCount": 2
                         }
                     ],
                     "OutputItem": [
@@ -31,12 +31,12 @@
                             "PriceModifiers": [
                                 {
                                     "Modification": "Multiply",
-                                    "Amount": 1
+                                    "Amount": 1.1
                                 }
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 30
+                    "MinutesUntilReady": 35
                 },
                 "{{ModId}}_bb.moreTea_Fairy": {
                     "Id": "{{ModId}}_bb.moreTea_Fairy",
@@ -77,18 +77,18 @@
                         {
                             "Id": "",
                             "ItemId": "(O)bb.moreTea_MatchaDrink",
-                            "MinStack": 1,
+                            "MinStack": 3,
                             "CopyQuality": true,
                             "CopyPrice": true,
                             "PriceModifiers": [
                                 {
                                     "Modification": "Multiply",
-                                    "Amount": 1.10
+                                    "Amount": 1.30
                                 }
                             ]
                         }
                     ],
-                    "MinutesUntilReady": 10
+                    "MinutesUntilReady": 30
                 }
             }
         }
