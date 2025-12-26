@@ -61,8 +61,36 @@
             "Default": "false",
             "AllowBlank": false,
             "AllowMultiple": false
+        },
+        "CornucopiaCompatability": {
+            "Description": "{{i18n:Config.CornucopiaCompatability.description}}",
+            "AllowValues": "default, extended, false",
+            "Default": "default",
+            "AllowBlank": false,
+            "AllowMultiple": false
         }
     },
+
+    "DynamicTokens": [
+        {
+            "Name": "KeepCCDupes",
+            "Value": "false"
+        },
+        {
+            "Name": "KeepCCDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": false
+            }
+        },
+        {
+            "Name": "KeepCCDupes",
+            "Value": "true",
+            "When": {
+                "CornucopiaCompatibility": false
+            }
+        }
+    ],
 
     "Changes": [
         { 

@@ -3,6 +3,11 @@
 		{
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"When": {
+				"Buckwheat": "true",
+				"KeepCCDupes": "true",
+				"CornucopiaCompatibility": "extended"
+			},
 			"Entries": {
 				"{{ModId}}_Buckwheat_Seeds": {
 					"YieldOverrides": {

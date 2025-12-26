@@ -38,7 +38,7 @@
             "Target": "Data/CookingRecipes",
             "When": {
                 "KeepQLFG2Dupes": false,
-                "KeepCFDupes": true
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Rice_Porridge": "423 1 399 1 829 1 {{ModId}}_Dried_Orange_Peel 1 QL_Lily 1/6 9/{{ModId}}_Rice_Porridge 1/null/{{i18n:Dishes.RicePorridge.name}}"

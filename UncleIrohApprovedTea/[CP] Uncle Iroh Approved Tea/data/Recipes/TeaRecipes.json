@@ -15,8 +15,8 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepWFACDupes": true,
-                "KeepCFDupes": true
+                "KeepWFACDupes": "true",
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Chamomile_Tea": "{{ModId}}_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}"
@@ -28,7 +28,7 @@
             "Target": "Data/CookingRecipes",
             "When": {
                 "KeepWFACDupes": false,
-                "KeepCFDupes": true
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Chamomile_Tea": "Wildflour.AtelierGoods_Chamomile 1/6 9/{{ModId}}_Chamomile_Tea 2/null/{{i18n:Tea.Chamomile.name}}",
@@ -41,7 +41,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepCFDupes": true
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Chrysanthemum_Tea": "{{ModId}}_Chrysanthemum 1/6 9/{{ModId}}_Chrysanthemum_Tea 2/null/{{i18n:Tea.Chrysanthemum.name}}"
@@ -52,9 +52,9 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepQLFG2Dupes": true,
-                "KeepCFDupes": true,
-                "KeepWFACDupes": true
+                "KeepQLFG2Dupes": "true",
+                "KeepCFDupes": "true",
+                "KeepWFACDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Lavender_Tea": "{{ModId}}_Lavender 1/6 9/{{ModId}}_Lavender_Tea 2/null/{{i18n:Tea.Lavender.name}}",
@@ -91,8 +91,8 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "When": {
-                "KeepCFDupes": true,
-                "KeepWFACDupes": true,
+                "KeepCFDupes": "true",
+                "KeepWFACDupes": "true",
                 "KeepQLFG2Dupes": false
             },
             "Entries": {
@@ -106,7 +106,7 @@
             "Target": "Data/CookingRecipes",
 			"When": { 
                 "HasMod |contains=slimerrain.grainsoverhullcp": true,
-                "KeepCCDupes": true
+                "KeepCCDupes": "true"
              },
             "Entries": {
                 "{{ModId}}_Barley_Tea": "slimerrain.grainsoverhullcp_Barley 1/6 9/{{ModId}}_Barley_Tea 1/null/{{i18n:Tea.Barley.name}}"

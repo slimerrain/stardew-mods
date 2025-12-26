@@ -16,7 +16,31 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
+            "When": {
+                "KeepCCDupes": "false"
+            },
             "Entries": {
+                "{{ModId}}_Sugarcane": {
+                    "Name": "{{ModId}}_Sugarcane",
+                    "DisplayName": "{{i18n:Crops.Sugarcane.name}}",
+                    "Description": "{{i18n:Crops.Sugarcane.description}}",
+                    "Price": 45,
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Texture": "{{ModId}}/CropHarvests",
+                    "SpriteIndex": "6",
+                    "Edibility": 6,
+                    "ContextTags": [ "color_red", "vegetable_item" ]
+                }
+
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                
                 "{{ModId}}_Chamomile": {
                     "Name": "{{ModId}}_Chamomile",
                     "DisplayName": "{{i18n:Crops.Chamomile.name}}",
@@ -94,20 +118,6 @@
                     "Edibility": 7,
                     "ContextTags": [ "color_pink", "flower_item" ]
                 },
-                
-                "{{ModId}}_Sugarcane": {
-                    "Name": "{{ModId}}_Sugarcane",
-                    "DisplayName": "{{i18n:Crops.Sugarcane.name}}",
-                    "Description": "{{i18n:Crops.Sugarcane.description}}",
-                    "Price": 45,
-                    "Type": "Vegetable",
-                    "Category": -75,
-                    "Texture": "{{ModId}}/CropHarvests",
-                    "SpriteIndex": "6",
-                    "Edibility": 6,
-                    "ContextTags": [ "color_red", "vegetable_item" ]
-                },
-                
                 "{{ModId}}_Jasmine": {
                     "Name": "{{ModId}}_Jasmine",
                     "DisplayName": "{{i18n:Bush.Jasmine.name}}",

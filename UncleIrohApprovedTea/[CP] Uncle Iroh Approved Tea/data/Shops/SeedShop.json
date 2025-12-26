@@ -38,9 +38,9 @@
                 "Items"
             ],
             "When": {
-                "KeepQLFG2Dupes": true,
-                "KeepCFEDupes": true,
-                "KeepWFACDupes": true
+                "KeepQLFG2Dupes": "true",
+                "KeepCFEDupes": "true",
+                "KeepWFACDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Lavender_Seeds": {
@@ -73,8 +73,8 @@
                 "Items"
             ],
             "When": {
-                "KeepQLFG2Dupes": true,
-                "KeepCFDupes": true
+                "KeepQLFG2Dupes": "true",
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Lily_Bulb":{
@@ -99,7 +99,7 @@
                 "Items"
             ],
             "When": {
-                "KeepCFDupes": true
+                "KeepCFDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Chrysanthemum_Seeds": {
@@ -134,7 +134,7 @@
                 "Items"
             ],
             "When": {
-                "KeepCCDupes": true
+                "KeepCCDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Sugarcane_Seeds": {
@@ -159,7 +159,7 @@
                 "Items"
             ],
             "When": {
-                "KeepWFACDupes": true
+                "KeepWFACDupes": "true"
             },
             "Entries": {
                 "{{ModId}}_Chamomile_Seeds": {

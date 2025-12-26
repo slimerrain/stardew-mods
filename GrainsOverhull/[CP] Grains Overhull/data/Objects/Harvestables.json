@@ -10,6 +10,10 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
+            "When": {
+                "KeepCCDupes": "true",
+                "CornucopiaCompatability": "extended"
+            },
             "Entries": {
                 "{{ModId}}_Barley": {
                     "Name": "{{ModId}}_Barley",
@@ -35,18 +39,6 @@
                     "Edibility": 1,
                     "ContextTags": ["color_pink", "season_spring", "season_summer", "flower_item", "grain_item", "buckwheat_item", "grainsoverhull_buckwheat", "buckwheat"]
                 },
-                "{{ModId}}_Millet": {
-                    "Name": "{{ModId}}_Millet",
-                    "DisplayName": "{{i18n:Millet.displayname}}",
-                    "Description": "{{i18n:Millet.description}}",
-                    "Price": 35,
-                    "Type": "Basic",
-                    "Category": -75,
-                    "Texture": "{{ModId}}/Harvestables",
-                    "SpriteIndex": "2",
-                    "Edibility": 1,
-                    "ContextTags": ["color_brown", "season_summer", "grain_item", "millet_item", "millet"]
-                },
                 "{{ModId}}_Oat": {
                     "Name": "{{ModId}}_Oat",
                     "DisplayName": "{{i18n:Oat.displayname}}",
@@ -58,6 +50,25 @@
                     "SpriteIndex": "3",
                     "Edibility": 2,
                     "ContextTags": ["color_white", "season_spring", "grain_item", "oat_item", "oat"]
+                }            
+            }
+        },
+        {
+            "LogName": "Objects Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Millet": {
+                    "Name": "{{ModId}}_Millet",
+                    "DisplayName": "{{i18n:Millet.displayname}}",
+                    "Description": "{{i18n:Millet.description}}",
+                    "Price": 35,
+                    "Type": "Basic",
+                    "Category": -75,
+                    "Texture": "{{ModId}}/Harvestables",
+                    "SpriteIndex": "2",
+                    "Edibility": 1,
+                    "ContextTags": ["color_brown", "season_summer", "grain_item", "millet_item", "millet"]
                 },
                 "{{ModId}}_Rye": {
                     "Name": "{{ModId}}_Rye",

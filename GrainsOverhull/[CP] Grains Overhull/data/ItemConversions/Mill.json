@@ -3,60 +3,8 @@
         {
             "Action": "EditData",
             "Target": "Data/Buildings",
-            "TargetField": [
-                "Mill",
-                "ItemConversions"
-            ],
-            "Entries": {
-                "{{ModId}}_Hulled_Millet": {
-                    "Id": "{{ModId}}_Hulled_Millet",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "millet_item"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Hulled_Millet"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
-                },
-                "{{ModId}}_Rolled_Oats": {
-                    "Id": "{{ModId}}_Rolled_Oats",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "oat_item"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Rolled_Oats"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
-                },
-                "{{ModId}}_Rye_Flour": {
-                    "Id": "{{ModId}}_Rye_Flour",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "rye"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O){{ModId}}_Rye_Flour"
-                        }
-                    ],
-                    "MaxDailyConversions": -1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buildings",
             "When": {
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "Barley": true
             },
             "TargetField": [
                 "Mill",
@@ -76,7 +24,20 @@
                         }
                     ],
                     "MaxDailyConversions": -1
-                },
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "When": {
+                "Buckwheat": true
+            },
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "Entries": {
                 "{{ModId}}_Buckwheat_Flour": {
                     "Id": "{{ModId}}_Buckwheat_Flour",
                     "SourceChest": "Input",
@@ -97,37 +58,77 @@
             "Action": "EditData",
             "Target": "Data/Buildings",
             "When": {
-                "HasMod |contains=Cornucopia.MoreCrops": true
+                "Oats": true
             },
             "TargetField": [
                 "Mill",
                 "ItemConversions"
             ],
             "Entries": {
-                "{{ModId}}_Pearl_Barley": {
-                    "Id": "{{ModId}}_Pearl_Barley",
+                "{{ModId}}_Rolled_Oats": {
+                    "Id": "{{ModId}}_Rolled_Oats",
                     "SourceChest": "Input",
                     "DestinationChest": "Output",
                     "RequiredTags": [
-                        "grainsoverhull_barley"
+                        "oat_item"
                     ],
                     "ProducedItems": [
                         {
-                            "ItemId": "(O){{ModId}}_Pearl_Barley"
+                            "ItemId": "(O){{ModId}}_Rolled_Oats"
                         }
                     ],
                     "MaxDailyConversions": -1
-                },
-                "{{ModId}}_Buckwheat_Flour": {
-                    "Id": "{{ModId}}_Buckwheat_Flour",
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "When": {
+                "Millet": true
+            },
+            "Entries": {
+                "{{ModId}}_Hulled_Millet": {
+                    "Id": "{{ModId}}_Hulled_Millet",
                     "SourceChest": "Input",
                     "DestinationChest": "Output",
                     "RequiredTags": [
-                        "grainsoverhull_buckwheat"
+                        "millet_item"
                     ],
                     "ProducedItems": [
                         {
-                            "ItemId": "(O){{ModId}}_Buckwheat_Flour"
+                            "ItemId": "(O){{ModId}}_Hulled_Millet"
+                        }
+                    ],
+                    "MaxDailyConversions": -1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "When": {
+                "Rye": true
+            },
+            "Entries": {
+                "{{ModId}}_Rye_Flour": {
+                    "Id": "{{ModId}}_Rye_Flour",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "rye"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Rye_Flour"
                         }
                     ],
                     "MaxDailyConversions": -1
