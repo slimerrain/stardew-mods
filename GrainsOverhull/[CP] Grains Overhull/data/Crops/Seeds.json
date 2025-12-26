@@ -12,7 +12,7 @@
             "Target": "Data/Objects",
             "When": {
                 "Barley": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": {
@@ -34,7 +34,7 @@
             "Target": "Data/Objects",
             "When": {
                 "Buckwheat": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": {
@@ -78,7 +78,7 @@
             "Target": "Data/Objects",
             "When": {
                 "Oats": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Oat_Seeds": {

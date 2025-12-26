@@ -71,6 +71,20 @@
         }
     },
 
+    "DynamicTokens": [
+        {
+            "Name": "KeepCCEDupes",
+            "Value": "true"
+        },
+        {
+            "Name": "KeepCCEDupes",
+            "Value": "false",
+            "When": {
+                "CornucopiaCompatability": "extended"
+            }
+        }
+    ],
+
     "Changes": [
         { 
             "LogName": "Objects",

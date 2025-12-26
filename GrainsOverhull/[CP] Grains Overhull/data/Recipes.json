@@ -58,7 +58,7 @@
             "When": {
                 "Oats": true,
                 "Barley": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": "true"
             },
             "Target": "Data/CookingRecipes",
             "Entries": {
@@ -70,7 +70,7 @@
             "Action": "EditData",
             "When": {
                 "Buckwheat": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": "true"
             },
             "Target": "Data/CookingRecipes",
             "Entries": {

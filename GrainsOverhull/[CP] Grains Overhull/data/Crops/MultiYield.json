@@ -5,7 +5,7 @@
 			"Target": "spacechase0.SpaceCore/CropExtensionData",
 			"When": {
 				"Buckwheat": "true",
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
 			},
 			"Entries": {
 				"{{ModId}}_Buckwheat_Seeds": {

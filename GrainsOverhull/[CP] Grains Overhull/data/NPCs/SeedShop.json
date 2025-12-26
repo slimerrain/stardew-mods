@@ -6,7 +6,7 @@
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
                 "Barley": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": {
@@ -30,7 +30,7 @@
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
                 "Buckwheat": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": {
@@ -77,7 +77,7 @@
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
                 "Oats": true,
-                "HasMod |contains=Cornucopia.MoreCrops": false
+                "KeepCCEDupes": true
             },
             "Entries": {
                 "{{ModId}}_Oat_Seeds_Spring": {
