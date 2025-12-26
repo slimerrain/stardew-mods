@@ -80,7 +80,7 @@
             "Name": "KeepCCEDupes",
             "Value": "false",
             "When": {
-                "CornucopiaCompatability": "extended"
+                "CornucopiaCompatibility": "extended"
             }
         }
     ],

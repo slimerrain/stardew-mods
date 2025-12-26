@@ -55,7 +55,6 @@
                 "OutputRules"
             ],
             "When": {
-                "Oats": true,
                 "CornucopiaCompatibility": "extended"
             },
             "Entries": {
