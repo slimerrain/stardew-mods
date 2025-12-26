@@ -5,7 +5,9 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
-                "Barley": true
+                "Barley": true,
+                "KeepCCDupes": "true",
+                "CornucopiaCompatibility": "extended"
             },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": {
@@ -28,7 +30,9 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
-                "Buckwheat": true
+                "Buckwheat": true,
+                "KeepCCDupes": "true",
+                "CornucopiaCompatibility": "extended"
             },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": {
@@ -74,7 +78,9 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
-                "Oats": true
+                "Oats": true,
+                "KeepCCDupes": "true",
+                "CornucopiaCompatibility": "extended"
             },
             "Entries": {
                 "{{ModId}}_Oat_Seeds_Spring": {
