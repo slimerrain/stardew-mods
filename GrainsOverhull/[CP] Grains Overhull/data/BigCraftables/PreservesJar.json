@@ -9,8 +9,7 @@
                 "OutputRules"
             ],
             "When": {
-                "Oats": true,
-                "KeepCCDupes": true
+                "Oats": true
             },
             "Entries": {
                 "{{ModId}}_Overnight_Oats": {

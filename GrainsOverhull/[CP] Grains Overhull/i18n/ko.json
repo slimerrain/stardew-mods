@@ -88,5 +88,7 @@
     "Config.Rye.description": "호밀을 제거하고 싶다면 이 선택 해제하세요.",
     "Config.Sorghum.description": "수수를 제거하고 싶다면 이 선택 해제하세요.",
 
-    "Config.RegrowableCrops.description": "작물이 재성장하게 하려면 이 항목 선택하세요."
+    "Config.RegrowableCrops.description": "작물이 재성장하게 하려면 이 항목 선택하세요.",
+    
+    "Config.CornucopiaCompatability.description": "이 모드가 추가한 중복 작물을 제거하려면 활성화기."
 }

@@ -89,4 +89,6 @@
     "Config.Sorghum.description": "Décochez ceci si vous voulez supprimer le Sorgho de ce mod du jeu.",
 
     "Config.RegrowableCrops.description": "Cochez ceci si vous voulez que les cultures repoussent.",
+    
+    "Config.CornucopiaCompatability.description": "Si vous souhaitez activer la suppression des cultures en double ajoutées par mon mod. (Cornupia)"
 }

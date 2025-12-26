@@ -11,8 +11,7 @@
             "Target": "Data/Crops",
             "When": {
                 "Barley": "true",
-                "KeepCCDupes": "true",
-                "CornucopiaCompatibility": "extended"
+                "HasMod |contains=Cornucopia.MoreCrops": false
             },
             "Entries": {
                 "{{ModId}}_Barley_Seeds": { 
@@ -42,8 +41,7 @@
             "Target": "Data/Crops",
             "When": {
                 "Buckwheat": "true",
-                "KeepCCDupes": "true",
-                "CornucopiaCompatibility": "extended"
+                "HasMod |contains=Cornucopia.MoreCrops": false
             },
             "Entries": {
                 "{{ModId}}_Buckwheat_Seeds": { 
@@ -102,8 +100,7 @@
             "Target": "Data/Crops",
             "When": {
                 "Oats": "true",
-                "KeepCCDupes": "true",
-                "CornucopiaCompatibility": "extended"
+                "HasMod |contains=Cornucopia.MoreCrops": false
             },
             "Entries": {
                 "{{ModId}}_Oat_Seeds": { 

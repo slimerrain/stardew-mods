@@ -133,9 +133,6 @@
                 "SeedShop",
                 "Items"
             ],
-            "When": {
-                "KeepCCDupes": "true"
-            },
             "Entries": {
                 "{{ModId}}_Sugarcane_Seeds": {
                     "Condition": "SEASON fall",

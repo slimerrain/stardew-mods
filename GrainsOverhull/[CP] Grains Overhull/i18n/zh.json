@@ -83,5 +83,7 @@
     "Config.Rye.description": "如果您想从游戏中删除此模组的黑麦，请取消选中此选项。",
     "Config.Sorghum.description": "如果您想从游戏中删除此模组的高粱，请取消选中此选项。",
 
-    "Config.RegrowableCrops.description": "如果您希望农作物重新生长，请选中此项。"
+    "Config.RegrowableCrops.description": "如果您希望农作物重新生长，请选中此项。",
+    
+    "Config.CornucopiaCompatability.description": "Cornucopia: 如果您想关闭重复项目，请打开此设置。"
 }

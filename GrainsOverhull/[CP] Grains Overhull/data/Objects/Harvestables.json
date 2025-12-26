@@ -10,10 +10,6 @@
             "LogName": "Objects Data",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "KeepCCDupes": "true",
-                "CornucopiaCompatability": "extended"
-            },
             "Entries": {
                 "{{ModId}}_Barley": {
                     "Name": "{{ModId}}_Barley",

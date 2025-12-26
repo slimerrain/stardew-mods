@@ -105,8 +105,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
 			"When": { 
-                "HasMod |contains=slimerrain.grainsoverhullcp": true,
-                "KeepCCDupes": "true"
+                "HasMod |contains=slimerrain.grainsoverhullcp": true
              },
             "Entries": {
                 "{{ModId}}_Barley_Tea": "slimerrain.grainsoverhullcp_Barley 1/6 9/{{ModId}}_Barley_Tea 1/null/{{i18n:Tea.Barley.name}}"

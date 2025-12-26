@@ -56,9 +56,9 @@
             "Log": "Cooking Recipe Data - Cornucopia Compatibility",
             "Action": "EditData",
             "When": {
-                "CornucopiaCompatibility": false,
                 "Oats": true,
-                "Barley": true
+                "Barley": true,
+                "HasMod |contains=Cornucopia.MoreCrops": false
             },
             "Target": "Data/CookingRecipes",
             "Entries": {
@@ -69,8 +69,31 @@
             "Log": "Cooking Recipe Data - Cornucopia Compatibility",
             "Action": "EditData",
             "When": {
-                "CornucopiaCompatibility": false,
-                "Buckwheat": true
+                "Buckwheat": true,
+                "HasMod |contains=Cornucopia.MoreCrops": false
+            },
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_Galette": "{{ModId}}_Buckwheat_Flour 1 -5 1 247 1 424 1/6 9/{{ModId}}_Galette 1/null/{{i18n:Galette.displayname}}",
+                "{{ModId}}_Buckwheat_Waffles": "{{ModId}}_Buckwheat_Flour 1 -5 1 -6 1 724 1/6 9/{{ModId}}_Buckwheat_Waffles 1/null/{{i18n:BuckwheatWaffles.displayname}}"
+            }
+        },
+        {
+            "Log": "Cooking Recipe Data - Cornucopia Compatibility",
+            "Action": "EditData",
+            "When": {
+                "CornucopiaCompatibility": "extended"
+            },
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_Trail_Mix": "262 1 Cornucopia_Oats 1 {{ModId}}_Pearl_Barley 1 DriedFruit 1/6 9/{{ModId}}_Trail_Mix 1/null/{{i18n:TrailMix.displayname}}"
+            }
+        },
+        {
+            "Log": "Cooking Recipe Data - Cornucopia Compatibility",
+            "Action": "EditData",
+            "When": {
+                "CornucopiaCompatibility": "extended"
             },
             "Target": "Data/CookingRecipes",
             "Entries": {
