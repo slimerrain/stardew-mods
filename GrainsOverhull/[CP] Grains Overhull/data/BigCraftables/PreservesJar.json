@@ -43,7 +43,7 @@
                 }
             },
             "MoveEntries": [
-                { "ID": "{{ModId}}_Overnight_Oats", "BeforeID": "Default_Pickles" }
+                { "ID": "{{ModId}}_Overnight_Oats", "BeforeID": "Default_Pickled" }
             ]
         },
         {

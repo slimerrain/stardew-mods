@@ -78,6 +78,13 @@
         },
         {
             "Name": "KeepCCEDupes",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": true
+            }
+        },
+        {
+            "Name": "KeepCCEDupes",
             "Value": "false",
             "When": {
                 "CornucopiaCompatibility": "extended"
